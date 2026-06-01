@@ -12,6 +12,7 @@
   --muted: #b9b2a4;
   --line: rgba(214, 168, 78, 0.34);
   --shadow: rgba(100, 185, 255, 0.16);
+  --hero-bg: url("../img/hero-lens-bg.jpg");
   color-scheme: dark;
 }
 

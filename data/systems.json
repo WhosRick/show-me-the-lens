@@ -1,756 +1,1600 @@
 [
   {
-    "id": "wgd2038-4008",
-    "name": "WGD 2038−4008",
+    "id": "q0957-561",
+    "name": "Q0957+561",
     "category": "Lensed QSO",
-    "subtype": "Quadruply imaged quasar",
-    "scale": "Galaxy-scale",
+    "category_zh": "透镜类星体",
+    "subtype": "Doubly imaged quasar",
+    "subtype_zh": "双重成像类星体",
+    "scale": "Galaxy/cluster environment",
+    "scale_zh": "星系/星系团环境",
     "status": "Confirmed",
-    "images": "4",
-    "lens_redshift": "z_l ≈ 0.23",
-    "source_redshift": "z_s ≈ 0.78",
-    "discovery_year": "2018",
-    "coordinates": "20:38:xx −40:08:xx",
-    "summary": "A quadruply imaged quasar used in recent time-delay cosmography and lens-environment studies. Suitable for collecting imaging, spectroscopy, time-delay, LOS, and lens-modelling references.",
+    "status_zh": "已确认",
+    "images": "2",
+    "lens_redshift": "z_l ≈ 0.36",
+    "source_redshift": "z_s ≈ 1.41",
+    "discovery_year": "1979",
+    "ra": "10:01:20.8",
+    "dec": "+55:53:56",
+    "mast_query": "10:01:20.8 +55:53:56",
+    "summary": "Q0957+561 is a doubly imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "Q0957+561 是双重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
     "tags": [
       "QSO",
-      "quad",
+      "double",
       "time-delay",
-      "TDCOSMO/STRIDES",
-      "environment"
+      "cluster",
+      "classic"
     ],
-    "thumbnail": "assets/img/thumbs/wgd2038-4008.svg",
-    "data_links": [
-      {
-        "label": "Cambridge Lensed Quasar Database",
-        "url": "https://research.ast.cam.ac.uk/lensedquasars/",
-        "note": "known-lens database and literature hub"
-      },
-      {
-        "label": "CASTLES gravitational lens database",
-        "url": "https://lweb.cfa.harvard.edu/castles/",
-        "note": "lens-system pages and downloadable FITS images for many lenses"
-      },
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "search HST imaging by target name/coordinates"
-      }
-    ],
-    "paper_links": [
-      {
-        "label": "ADS search: WGD 2038−4008",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22WGD%202038-4008%22",
-        "note": "literature search"
-      },
-      {
-        "label": "ADS search: DES J2038−4008 / WGD2038",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22WGD2038%22%20OR%20full%3A%22DES%20J2038-4008%22",
-        "note": "alternate names"
-      }
-    ],
-    "image_credit": "Use public survey/HST cutouts only after verifying the data-release credit line.",
-    "category_zh": "引力透镜类星体",
-    "subtype_zh": "四重成像类星体",
-    "scale_zh": "星系尺度",
-    "status_zh": "已确认",
-    "summary_zh": "四重成像类星体，常用于时间延迟宇宙学和透镜环境研究。适合作为汇总成像、光谱、时延、视线结构和透镜建模文献的数据条目。",
     "tags_zh": [
       "类星体",
-      "四重像",
+      "双重像",
       "时间延迟",
-      "TDCOSMO/STRIDES",
-      "环境"
+      "星系团环境",
+      "经典样本"
     ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
-  },
-  {
-    "id": "des-j0408-5354",
-    "name": "DES J0408−5354",
-    "category": "Lensed QSO",
-    "subtype": "Quadruply imaged quasar",
-    "scale": "Galaxy-scale",
-    "status": "Confirmed",
-    "images": "4",
-    "lens_redshift": "z_l ≈ 0.60",
-    "source_redshift": "z_s ≈ 2.38",
-    "discovery_year": "2017",
-    "coordinates": "04:08:xx −53:54:xx",
-    "summary": "A STRIDES/DES lensed quasar with time-delay and environment analyses. Useful as a data-card template for systems with both imaging and monitoring data.",
-    "tags": [
-      "QSO",
-      "quad",
-      "time-delay",
-      "STRIDES",
-      "DES"
-    ],
-    "thumbnail": "assets/img/thumbs/des-j0408-5354.svg",
-    "data_links": [
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
       {
-        "label": "DES data portal",
-        "url": "https://des.ncsa.illinois.edu/releases",
-        "note": "DES public releases"
+        "type": "first",
+        "label": "Walsh et al. 1979, Nature",
+        "note": "First reported gravitationally lensed quasar",
+        "url": "https://ui.adsabs.harvard.edu/search/q=title%3A%220957%2B561%22%20Walsh%20Carswell%20Weymann%201979"
       },
       {
-        "label": "Cambridge Lensed Quasar Database",
-        "url": "https://research.ast.cam.ac.uk/lensedquasars/",
-        "note": "system and literature index"
-      },
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST/JWST search"
+        "type": "modelling",
+        "label": "Q0957+561 time-delay/modelling literature",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=Q0957%2B561%20time%20delay%20lens%20modelling"
       }
     ],
-    "paper_links": [
-      {
-        "label": "ADS search: DES J0408−5354",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22DES%20J0408-5354%22",
-        "note": "literature search"
-      },
-      {
-        "label": "ADS search: STRIDES environment WGD 2038 DES J0408",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22STRIDES%22%20full%3A%22WGD%202038%22%20OR%20full%3A%22DES%20J0408%22",
-        "note": "environment/LOS papers"
-      }
-    ],
-    "image_credit": "Use DES/MAST image credits as required.",
-    "category_zh": "引力透镜类星体",
-    "subtype_zh": "四重成像类星体",
-    "scale_zh": "星系尺度",
-    "status_zh": "已确认",
-    "summary_zh": "DES/STRIDES 发现并研究的四重成像类星体，已有时延和环境分析。适合展示同时具有成像、监测和视线环境信息的系统。",
-    "tags_zh": [
-      "类星体",
-      "四重像",
-      "时间延迟",
-      "STRIDES",
-      "DES"
-    ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
-  },
-  {
-    "id": "he0435-1223",
-    "name": "HE 0435−1223",
-    "category": "Lensed QSO",
-    "subtype": "Quadruply imaged quasar",
-    "scale": "Galaxy-scale",
-    "status": "Confirmed",
-    "images": "4",
-    "lens_redshift": "z_l ≈ 0.45",
-    "source_redshift": "z_s ≈ 1.69",
-    "discovery_year": "2002",
-    "coordinates": "04:38:14 −12:17:14",
-    "summary": "A classic H0LiCOW/TDCOSMO system with extensive imaging, time-delay, lens-modelling, kinematics, and LOS analyses.",
-    "tags": [
-      "QSO",
-      "quad",
-      "time-delay",
-      "H0LiCOW",
-      "TDCOSMO"
-    ],
-    "thumbnail": "assets/img/thumbs/he0435-1223.svg",
-    "data_links": [
-      {
-        "label": "CASTLES system data",
-        "url": "https://lweb.cfa.harvard.edu/castles/",
-        "note": "FITS/image resources when available"
-      },
-      {
-        "label": "Cambridge Lensed Quasar Database",
-        "url": "https://research.ast.cam.ac.uk/lensedquasars/indiv/HE0435-1223.html",
-        "note": "individual system page"
-      },
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST imaging search"
-      }
-    ],
-    "paper_links": [
-      {
-        "label": "ADS search: HE 0435−1223",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22HE%200435-1223%22",
-        "note": "literature search"
-      },
-      {
-        "label": "ADS search: H0LiCOW HE 0435",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22H0LiCOW%22%20full%3A%22HE%200435%22",
-        "note": "cosmography papers"
-      }
-    ],
-    "image_credit": "Check CASTLES/HST/ESO image credits before publishing real thumbnails.",
-    "category_zh": "引力透镜类星体",
-    "subtype_zh": "四重成像类星体",
-    "scale_zh": "星系尺度",
-    "status_zh": "已确认",
-    "summary_zh": "经典 H0LiCOW/TDCOSMO 系统，具有丰富的成像、时延、透镜建模、运动学和视线结构研究。",
-    "tags_zh": [
-      "类星体",
-      "四重像",
-      "时间延迟",
-      "H0LiCOW",
-      "TDCOSMO"
-    ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
-  },
-  {
-    "id": "rxj1131-1231",
-    "name": "RXJ1131−1231",
-    "category": "Lensed QSO",
-    "subtype": "Quadruply imaged quasar",
-    "scale": "Galaxy-scale",
-    "status": "Confirmed",
-    "images": "4",
-    "lens_redshift": "z_l ≈ 0.30",
-    "source_redshift": "z_s ≈ 0.65",
-    "discovery_year": "2003",
-    "coordinates": "11:31:51 −12:31:58",
-    "summary": "A widely used time-delay lens with strong lensing, stellar kinematics, and accretion-disc microlensing studies.",
-    "tags": [
-      "QSO",
-      "quad",
-      "time-delay",
-      "microlensing",
-      "H0LiCOW"
-    ],
-    "thumbnail": "assets/img/thumbs/rxj1131-1231.svg",
-    "data_links": [
-      {
-        "label": "CASTLES gravitational lens database",
-        "url": "https://lweb.cfa.harvard.edu/castles/",
-        "note": "system database and FITS resources"
-      },
-      {
-        "label": "Cambridge Lensed Quasar Database",
-        "url": "https://research.ast.cam.ac.uk/lensedquasars/indiv/RXJ1131-1231.html",
-        "note": "individual system page"
-      },
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST imaging search"
-      }
-    ],
-    "paper_links": [
-      {
-        "label": "ADS search: RXJ1131−1231",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22RXJ1131-1231%22",
-        "note": "literature search"
-      },
-      {
-        "label": "ADS search: RXJ1131 microlensing",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22RXJ1131-1231%22%20full%3A%22microlensing%22",
-        "note": "accretion-disc/microlensing studies"
-      }
-    ],
-    "image_credit": "Verify credit before replacing the placeholder.",
-    "category_zh": "引力透镜类星体",
-    "subtype_zh": "四重成像类星体",
-    "scale_zh": "星系尺度",
-    "status_zh": "已确认",
-    "summary_zh": "常用于时间延迟宇宙学的四重成像类星体，同时也是吸积盘微引力透镜研究中的重要样本。",
-    "tags_zh": [
-      "类星体",
-      "四重像",
-      "时间延迟",
-      "微透镜",
-      "H0LiCOW"
-    ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
   {
     "id": "pg1115-080",
     "name": "PG 1115+080",
     "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
     "subtype": "Quadruply imaged quasar",
-    "scale": "Galaxy-scale / group environment",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
     "status": "Confirmed",
+    "status_zh": "已确认",
     "images": "4",
     "lens_redshift": "z_l ≈ 0.31",
     "source_redshift": "z_s ≈ 1.72",
     "discovery_year": "1980",
-    "coordinates": "11:18:17 +07:45:58",
-    "summary": "One of the early classic quadruply imaged quasars; often used in lens-modelling, time-delay, and group-environment discussions.",
+    "ra": "11:18:17.0",
+    "dec": "+07:45:58",
+    "mast_query": "11:18:17.0 +07:45:58",
+    "summary": "PG 1115+080 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "PG 1115+080 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
     "tags": [
       "QSO",
       "quad",
       "time-delay",
-      "classic lens"
+      "classic"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "时间延迟",
+      "经典样本"
     ],
     "thumbnail": "assets/img/thumbs/pg1115-080.svg",
-    "data_links": [
+    "references": [
       {
-        "label": "CASTLES gravitational lens database",
-        "url": "https://lweb.cfa.harvard.edu/castles/",
-        "note": "FITS/image resources when available"
+        "type": "first",
+        "label": "PG 1115+080 discovery papers",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22PG%201115%2B080%22%20discovery%20gravitational%20lens"
       },
       {
-        "label": "Cambridge page: PG1115+080",
-        "url": "https://research.ast.cam.ac.uk/lensedquasars/indiv/PG1115%2B080.html",
-        "note": "individual system page"
-      },
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST imaging search"
+        "type": "modelling",
+        "label": "PG 1115+080 lens modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22PG%201115%2B080%22%20lens%20model%20time%20delay"
       }
     ],
-    "paper_links": [
-      {
-        "label": "ADS search: PG 1115+080",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22PG%201115%2B080%22",
-        "note": "literature search"
-      }
-    ],
-    "image_credit": "Use CASTLES/HST credits when replacing the local SVG thumbnail.",
-    "category_zh": "引力透镜类星体",
-    "subtype_zh": "四重成像类星体",
-    "scale_zh": "星系尺度 / 星系群环境",
-    "status_zh": "已确认",
-    "summary_zh": "早期发现的经典四重成像类星体，经常用于透镜建模、时间延迟和星系群环境讨论。",
-    "tags_zh": [
-      "类星体",
-      "四重像",
-      "时间延迟",
-      "经典透镜"
-    ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
-  },
-  {
-    "id": "wfi2033-4723",
-    "name": "WFI 2033−4723",
-    "category": "Lensed QSO",
-    "subtype": "Quadruply imaged quasar",
-    "scale": "Galaxy-scale",
-    "status": "Confirmed",
-    "images": "4",
-    "lens_redshift": "z_l ≈ 0.66",
-    "source_redshift": "z_s ≈ 1.66",
-    "discovery_year": "2004",
-    "coordinates": "20:33:42 −47:23:43",
-    "summary": "A time-delay cosmography system in the H0LiCOW/TDCOSMO sample with deep imaging and lens-environment constraints.",
-    "tags": [
-      "QSO",
-      "quad",
-      "time-delay",
-      "H0LiCOW",
-      "TDCOSMO"
-    ],
-    "thumbnail": "assets/img/thumbs/wfi2033-4723.svg",
-    "data_links": [
-      {
-        "label": "CASTLES gravitational lens database",
-        "url": "https://lweb.cfa.harvard.edu/castles/",
-        "note": "lens-system database"
-      },
-      {
-        "label": "Cambridge Lensed Quasar Database",
-        "url": "https://research.ast.cam.ac.uk/lensedquasars/indiv/WFI2033-4723.html",
-        "note": "individual system page"
-      },
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST imaging search"
-      }
-    ],
-    "paper_links": [
-      {
-        "label": "ADS search: WFI 2033−4723",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22WFI%202033-4723%22",
-        "note": "literature search"
-      }
-    ],
-    "image_credit": "Verify HST/ESO/survey image credits before release.",
-    "category_zh": "引力透镜类星体",
-    "subtype_zh": "四重成像类星体",
-    "scale_zh": "星系尺度",
-    "status_zh": "已确认",
-    "summary_zh": "H0LiCOW/TDCOSMO 样本中的时间延迟透镜系统，具有深度成像和透镜环境约束。",
-    "tags_zh": [
-      "类星体",
-      "四重像",
-      "时间延迟",
-      "H0LiCOW",
-      "TDCOSMO"
-    ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
   {
     "id": "b1608-656",
     "name": "B1608+656",
     "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
     "subtype": "Quadruply imaged radio source",
+    "subtype_zh": "射电透镜源",
     "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
     "status": "Confirmed",
+    "status_zh": "已确认",
     "images": "4",
     "lens_redshift": "z_l ≈ 0.63",
     "source_redshift": "z_s ≈ 1.39",
     "discovery_year": "1995",
-    "coordinates": "16:09:13 +65:32:28",
-    "summary": "A well-known radio time-delay lens used in early precision time-delay cosmography and mass-modelling work.",
-    "tags": [
-      "QSO/radio source",
-      "quad",
-      "time-delay",
-      "classic lens"
-    ],
-    "thumbnail": "assets/img/thumbs/b1608-656.svg",
-    "data_links": [
-      {
-        "label": "CASTLES gravitational lens database",
-        "url": "https://lweb.cfa.harvard.edu/castles/",
-        "note": "system data when available"
-      },
-      {
-        "label": "Cambridge Lensed Quasar Database",
-        "url": "https://research.ast.cam.ac.uk/lensedquasars/indiv/B1608%2B656.html",
-        "note": "individual system page"
-      },
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST imaging search"
-      }
-    ],
-    "paper_links": [
-      {
-        "label": "ADS search: B1608+656",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22B1608%2B656%22",
-        "note": "literature search"
-      }
-    ],
-    "image_credit": "Verify database/archive credit before replacing thumbnail.",
-    "category_zh": "引力透镜类星体",
-    "subtype_zh": "四重成像射电源",
-    "scale_zh": "星系尺度",
-    "status_zh": "已确认",
-    "summary_zh": "著名的射电时间延迟透镜系统，曾用于早期高精度时间延迟宇宙学和质量建模研究。",
-    "tags_zh": [
-      "类星体/射电源",
-      "四重像",
-      "时间延迟",
-      "经典透镜"
-    ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
-  },
-  {
-    "id": "q0957-561",
-    "name": "Q0957+561",
-    "category": "Lensed QSO",
-    "subtype": "Doubly imaged quasar",
-    "scale": "Galaxy/cluster environment",
-    "status": "Confirmed",
-    "images": "2",
-    "lens_redshift": "z_l ≈ 0.36",
-    "source_redshift": "z_s ≈ 1.41",
-    "discovery_year": "1979",
-    "coordinates": "10:01:20 +55:53:56",
-    "summary": "The first discovered gravitationally lensed quasar, historically important for time-delay measurements and lens-environment studies.",
+    "ra": "16:09:13.9",
+    "dec": "+65:32:28",
+    "mast_query": "16:09:13.9 +65:32:28",
+    "summary": "B1608+656 is a quadruply imaged radio source included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "B1608+656 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
     "tags": [
       "QSO",
-      "double",
+      "quad",
       "time-delay",
-      "classic lens"
+      "radio",
+      "classic"
     ],
-    "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "data_links": [
-      {
-        "label": "CASTLES gravitational lens database",
-        "url": "https://lweb.cfa.harvard.edu/castles/",
-        "note": "classic gravitational lens resources"
-      },
-      {
-        "label": "Cambridge Lensed Quasar Database",
-        "url": "https://research.ast.cam.ac.uk/lensedquasars/indiv/Q0957%2B561.html",
-        "note": "individual system page"
-      },
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST imaging search"
-      }
-    ],
-    "paper_links": [
-      {
-        "label": "ADS search: Q0957+561",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22Q0957%2B561%22",
-        "note": "literature search"
-      }
-    ],
-    "image_credit": "Verify image credit line before publication.",
-    "category_zh": "引力透镜类星体",
-    "subtype_zh": "双重成像类星体",
-    "scale_zh": "星系 / 星系团环境",
-    "status_zh": "已确认",
-    "summary_zh": "首个被发现的引力透镜类星体，在时间延迟测量和透镜环境研究中具有重要历史意义。",
     "tags_zh": [
       "类星体",
-      "双重像",
+      "四重像",
       "时间延迟",
-      "经典透镜"
+      "射电",
+      "经典样本"
     ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
+    "thumbnail": "assets/img/thumbs/b1608-656.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "B1608+656 discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22B1608%2B656%22%20discovery%20radio%20lens"
+      },
+      {
+        "type": "modelling",
+        "label": "B1608+656 time-delay cosmography",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22B1608%2B656%22%20time%20delay%20H0%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "he0435-1223",
+    "name": "HE 0435-1223",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.45",
+    "source_redshift": "z_s ≈ 1.69",
+    "discovery_year": "2002",
+    "ra": "04:38:14.9",
+    "dec": "-12:17:14",
+    "mast_query": "04:38:14.9 -12:17:14",
+    "summary": "HE 0435-1223 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "HE 0435-1223 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "time-delay",
+      "H0LiCOW"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "时间延迟",
+      "H0LiCOW"
+    ],
+    "thumbnail": "assets/img/thumbs/he0435-1223.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "HE 0435-1223 discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20discovery%20lens"
+      },
+      {
+        "type": "modelling",
+        "label": "H0LiCOW/TDCOSMO modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20H0LiCOW%20lens%20model"
+      },
+      {
+        "type": "followup",
+        "label": "Microlensing and follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20microlensing%20follow-up"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "rxj1131-1231",
+    "name": "RXJ1131-1231",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.30",
+    "source_redshift": "z_s ≈ 0.65",
+    "discovery_year": "2003",
+    "ra": "11:31:51.6",
+    "dec": "-12:31:58",
+    "mast_query": "11:31:51.6 -12:31:58",
+    "summary": "RXJ1131-1231 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "RXJ1131-1231 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "time-delay",
+      "H0LiCOW"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "时间延迟",
+      "H0LiCOW"
+    ],
+    "thumbnail": "assets/img/thumbs/rxj1131-1231.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "RXJ1131-1231 discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22RXJ1131-1231%22%20discovery%20lens"
+      },
+      {
+        "type": "modelling",
+        "label": "Lens modelling and H0",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22RXJ1131-1231%22%20lens%20model%20H0LiCOW"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "wfi2033-4723",
+    "name": "WFI 2033-4723",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.66",
+    "source_redshift": "z_s ≈ 1.66",
+    "discovery_year": "2004",
+    "ra": "20:33:42.1",
+    "dec": "-47:23:43",
+    "mast_query": "20:33:42.1 -47:23:43",
+    "summary": "WFI 2033-4723 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "WFI 2033-4723 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "time-delay",
+      "H0LiCOW"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "时间延迟",
+      "H0LiCOW"
+    ],
+    "thumbnail": "assets/img/thumbs/wfi2033-4723.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "WFI 2033-4723 discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202033-4723%22%20discovery%20lens"
+      },
+      {
+        "type": "modelling",
+        "label": "H0LiCOW modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI2033-4723%22%20H0LiCOW%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "des-j0408-5354",
+    "name": "DES J0408-5354",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.60",
+    "source_redshift": "z_s ≈ 2.38",
+    "discovery_year": "2017",
+    "ra": "04:08:21.8",
+    "dec": "-53:54:35",
+    "mast_query": "04:08:21.8 -53:54:35",
+    "summary": "DES J0408-5354 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "DES J0408-5354 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "time-delay",
+      "STRIDES"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "时间延迟",
+      "STRIDES"
+    ],
+    "thumbnail": "assets/img/thumbs/des-j0408-5354.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "STRIDES/DES discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22DES%20J0408-5354%22%20STRIDES%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Time-delay and mass modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22DES%20J0408-5354%22%20time%20delay%20mass%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "wgd2038-4008",
+    "name": "WGD 2038-4008",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.23",
+    "source_redshift": "z_s ≈ 0.78",
+    "discovery_year": "2018",
+    "ra": "20:38:24.9",
+    "dec": "-40:08:13",
+    "mast_query": "20:38:24.9 -40:08:13",
+    "summary": "WGD 2038-4008 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "WGD 2038-4008 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "time-delay",
+      "STRIDES"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "时间延迟",
+      "STRIDES"
+    ],
+    "thumbnail": "assets/img/thumbs/wgd2038-4008.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "WGD/STRIDES discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22WGD%202038-4008%22%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Environment and modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22WGD%202038-4008%22%20lens%20environment%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "sdss-j1004-4112",
+    "name": "SDSS J1004+4112",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Cluster-scale lensed quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy/cluster environment",
+    "scale_zh": "星系/星系团环境",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "5",
+    "lens_redshift": "z_l ≈ 0.68",
+    "source_redshift": "z_s ≈ 1.73",
+    "discovery_year": "2003",
+    "ra": "10:04:34.9",
+    "dec": "+41:12:42",
+    "mast_query": "10:04:34.9 +41:12:42",
+    "summary": "SDSS J1004+4112 is a cluster-scale lensed quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "SDSS J1004+4112 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "time-delay",
+      "cluster",
+      "classic"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "时间延迟",
+      "星系团环境",
+      "经典样本"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Cluster-lens discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1004%2B4112%22%20discovery%20cluster%20lens%20quasar"
+      },
+      {
+        "type": "modelling",
+        "label": "Cluster lens modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1004%2B4112%22%20lens%20model%20time%20delays"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "sdss-j0924-0219",
+    "name": "SDSS J0924+0219",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.39",
+    "source_redshift": "z_s ≈ 1.52",
+    "discovery_year": "2003",
+    "ra": "09:24:55.8",
+    "dec": "+02:19:24",
+    "mast_query": "09:24:55.8 +02:19:24",
+    "summary": "SDSS J0924+0219 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "SDSS J0924+0219 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "classic"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "经典样本"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "SDSS discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J0924%2B0219%22%20gravitational%20lens%20discovery"
+      },
+      {
+        "type": "followup",
+        "label": "Flux-anomaly follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J0924%2B0219%22%20flux%20anomaly%20microlensing"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "sdss-j1029-2623",
+    "name": "SDSS J1029+2623",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Cluster-scale lensed quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy/cluster environment",
+    "scale_zh": "星系/星系团环境",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "3",
+    "lens_redshift": "z_l ≈ 0.58",
+    "source_redshift": "z_s ≈ 2.20",
+    "discovery_year": "2006",
+    "ra": "10:29:13.9",
+    "dec": "+26:23:17",
+    "mast_query": "10:29:13.9 +26:23:17",
+    "summary": "SDSS J1029+2623 is a cluster-scale lensed quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "SDSS J1029+2623 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "cluster",
+      "time-delay"
+    ],
+    "tags_zh": [
+      "类星体",
+      "星系团环境",
+      "时间延迟"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Wide-separation discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1029%2B2623%22%20lensed%20quasar%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Cluster modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1029%2B2623%22%20cluster%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "sdss-j2222-2745",
+    "name": "SDSS J2222+2745",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Cluster-scale lensed quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy/cluster environment",
+    "scale_zh": "星系/星系团环境",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "6",
+    "lens_redshift": "z_l ≈ 0.49",
+    "source_redshift": "z_s ≈ 2.80",
+    "discovery_year": "2012",
+    "ra": "22:22:08.6",
+    "dec": "+27:45:35",
+    "mast_query": "22:22:08.6 +27:45:35",
+    "summary": "SDSS J2222+2745 is a cluster-scale lensed quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "SDSS J2222+2745 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "cluster",
+      "time-delay"
+    ],
+    "tags_zh": [
+      "类星体",
+      "星系团环境",
+      "时间延迟"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Cluster lens discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J2222%2B2745%22%20lensed%20quasar%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Time-delay cluster modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J2222%2B2745%22%20time%20delays%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "ps-j0147-4630",
+    "name": "PS J0147-4630",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.57",
+    "source_redshift": "z_s ≈ 2.38",
+    "discovery_year": "2017",
+    "ra": "01:47:20.0",
+    "dec": "-46:30:00",
+    "mast_query": "01:47:20.0 -46:30:00",
+    "summary": "PS J0147-4630 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "PS J0147-4630 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "GraL"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "GraL"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Pan-STARRS/Gaia discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22PS%20J0147-4630%22%20gravitational%20lens"
+      },
+      {
+        "type": "modelling",
+        "label": "Lens modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22PS%20J0147-4630%22%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "graL-j0248-1845",
+    "name": "GraL J0248-1845",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.40",
+    "source_redshift": "z_s ≈ 2.24",
+    "discovery_year": "2018",
+    "ra": "02:48:48.7",
+    "dec": "-18:45:10",
+    "mast_query": "02:48:48.7 -18:45:10",
+    "summary": "GraL J0248-1845 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "GraL J0248-1845 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "GraL"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "GraL"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Gaia GraL discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0248-1845%22%20lensed%20quasar"
+      },
+      {
+        "type": "modelling",
+        "label": "Modelling/follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0248-1845%22%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "graL-j0607-2152",
+    "name": "GraL J0607-2152",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.66",
+    "source_redshift": "z_s ≈ 3.13",
+    "discovery_year": "2019",
+    "ra": "06:07:10.8",
+    "dec": "-21:52:17",
+    "mast_query": "06:07:10.8 -21:52:17",
+    "summary": "GraL J0607-2152 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "GraL J0607-2152 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "GraL"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "GraL"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Gaia GraL discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0607-2152%22%20lensed%20quasar"
+      },
+      {
+        "type": "followup",
+        "label": "Follow-up observations",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0607-2152%22%20follow-up"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "graL-j0818-2613",
+    "name": "GraL J0818-2613",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.87",
+    "source_redshift": "z_s ≈ 2.16",
+    "discovery_year": "2019",
+    "ra": "08:18:28.3",
+    "dec": "-26:13:25",
+    "mast_query": "08:18:28.3 -26:13:25",
+    "summary": "GraL J0818-2613 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "GraL J0818-2613 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "GraL"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "GraL"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Gaia GraL discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0818-2613%22%20lensed%20quasar"
+      },
+      {
+        "type": "modelling",
+        "label": "Modelling/follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0818-2613%22%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "graL-j1651-0417",
+    "name": "GraL J1651-0417",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.44",
+    "source_redshift": "z_s ≈ 3.69",
+    "discovery_year": "2019",
+    "ra": "16:51:05.9",
+    "dec": "-04:17:24",
+    "mast_query": "16:51:05.9 -04:17:24",
+    "summary": "GraL J1651-0417 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "GraL J1651-0417 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "GraL"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "GraL"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Gaia GraL discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J1651-0417%22%20lensed%20quasar"
+      },
+      {
+        "type": "followup",
+        "label": "Follow-up observations",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J1651-0417%22%20follow-up"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "w2m-j1042-1251",
+    "name": "W2M J1042+1251",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.60",
+    "source_redshift": "z_s ≈ 2.52",
+    "discovery_year": "2012",
+    "ra": "10:42:22.0",
+    "dec": "+12:51:22",
+    "mast_query": "10:42:22.0 +12:51:22",
+    "summary": "W2M J1042+1251 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "W2M J1042+1251 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Discovery paper",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22W2M%20J1042%2B1251%22%20lensed%20quasar%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Lens modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22W2M%20J1042%2B1251%22%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "hs0810-2554",
+    "name": "HS 0810+2554",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.89",
+    "source_redshift": "z_s ≈ 1.51",
+    "discovery_year": "2002",
+    "ra": "08:12:37.0",
+    "dec": "+25:45:18",
+    "mast_query": "08:12:37.0 +25:45:18",
+    "summary": "HS 0810+2554 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "HS 0810+2554 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Discovery paper",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22HS%200810%2B2554%22%20gravitational%20lens%20discovery"
+      },
+      {
+        "type": "followup",
+        "label": "Microlensing follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22HS%200810%2B2554%22%20microlensing"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "h1413-117",
+    "name": "H1413+117 / Cloverleaf",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 1.88",
+    "source_redshift": "z_s ≈ 2.56",
+    "discovery_year": "1988",
+    "ra": "14:15:46.2",
+    "dec": "+11:29:44",
+    "mast_query": "14:15:46.2 +11:29:44",
+    "summary": "H1413+117 / Cloverleaf is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "H1413+117 / Cloverleaf 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "classic"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "经典样本"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Cloverleaf discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22H1413%2B117%22%20Cloverleaf%20gravitational%20lens%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Modelling and follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22H1413%2B117%22%20lens%20model%20molecular%20gas"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "apm08279-5255",
+    "name": "APM 08279+5255",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Lensed quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "3",
+    "lens_redshift": "z_l ≈ 1.06",
+    "source_redshift": "z_s ≈ 3.91",
+    "discovery_year": "1998",
+    "ra": "08:31:41.6",
+    "dec": "+52:45:17",
+    "mast_query": "08:31:41.6 +52:45:17",
+    "summary": "APM 08279+5255 is a lensed quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "APM 08279+5255 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "classic"
+    ],
+    "tags_zh": [
+      "类星体",
+      "经典样本"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Discovery paper",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22APM%2008279%2B5255%22%20gravitationally%20lensed%20quasar%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Lens model and follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22APM%2008279%2B5255%22%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "mg0414-0534",
+    "name": "MG 0414+0534",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged radio quasar",
+    "subtype_zh": "射电透镜源",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.96",
+    "source_redshift": "z_s ≈ 2.64",
+    "discovery_year": "1990",
+    "ra": "04:14:37.7",
+    "dec": "+05:34:43",
+    "mast_query": "04:14:37.7 +05:34:43",
+    "summary": "MG 0414+0534 is a quadruply imaged radio quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "MG 0414+0534 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "radio",
+      "classic"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "射电",
+      "经典样本"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Discovery paper",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22MG%200414%2B0534%22%20gravitational%20lens%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Substructure modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22MG%200414%2B0534%22%20substructure%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "b1422-231",
+    "name": "B1422+231",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged radio quasar",
+    "subtype_zh": "射电透镜源",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.34",
+    "source_redshift": "z_s ≈ 3.62",
+    "discovery_year": "1992",
+    "ra": "14:24:38.1",
+    "dec": "+22:56:00",
+    "mast_query": "14:24:38.1 +22:56:00",
+    "summary": "B1422+231 is a quadruply imaged radio quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "B1422+231 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad",
+      "radio",
+      "classic"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像",
+      "射电",
+      "经典样本"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Discovery paper",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22B1422%2B231%22%20gravitational%20lens%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Flux-anomaly modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22B1422%2B231%22%20flux%20ratio%20anomaly%20lens%20model"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+  },
+  {
+    "id": "wfi2026-4536",
+    "name": "WFI 2026-4536",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Quadruply imaged quasar",
+    "subtype_zh": "多重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 1.04",
+    "source_redshift": "z_s ≈ 2.23",
+    "discovery_year": "2002",
+    "ra": "20:26:10.4",
+    "dec": "-45:36:27",
+    "mast_query": "20:26:10.4 -45:36:27",
+    "summary": "WFI 2026-4536 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "WFI 2026-4536 是多重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "quad"
+    ],
+    "tags_zh": [
+      "类星体",
+      "四重像"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Discovery paper",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202026-4536%22%20lensed%20quasar%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Lens modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202026-4536%22%20lens%20modelling"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
   {
     "id": "sn-refsdal",
     "name": "SN Refsdal",
     "category": "Lensed SN",
+    "category_zh": "透镜超新星",
     "subtype": "Core-collapse supernova",
+    "subtype_zh": "核心坍缩超新星",
     "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
     "status": "Confirmed",
-    "images": "multiple resolved images",
-    "lens_redshift": "MACS J1149.5+2223 cluster",
+    "status_zh": "已确认",
+    "images": "multiple",
+    "lens_redshift": "z_l ≈ 0.54",
     "source_redshift": "z_s ≈ 1.49",
     "discovery_year": "2014",
-    "coordinates": "MACS J1149 field",
-    "summary": "The first spatially resolved multiply imaged supernova. It is a reference case for cluster lens modelling, time-delay prediction, and cosmographic inference with lensed SNe.",
+    "ra": "11:49:35.7",
+    "dec": "+22:23:55",
+    "mast_query": "11:49:35.7 +22:23:55",
+    "summary": "SN Refsdal is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
+    "summary_zh": "SN Refsdal 已加入 lensed SN 样本，用于汇总图像、时间延迟、放大率和透镜建模后续研究。",
     "tags": [
       "SN",
-      "cluster lens",
-      "time-delay",
+      "cluster",
       "HST",
-      "Refsdal"
+      "time-delay"
     ],
-    "thumbnail": "assets/img/thumbs/sn-refsdal.svg",
-    "data_links": [
-      {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST Frontier Fields / MACS J1149 search"
-      },
-      {
-        "label": "Hubble Frontier Fields archive",
-        "url": "https://archive.stsci.edu/prepds/frontier/",
-        "note": "cluster imaging data products"
-      },
-      {
-        "label": "Open Supernova Catalog",
-        "url": "https://sne.space/",
-        "note": "searchable SN metadata and photometry when available"
-      }
-    ],
-    "paper_links": [
-      {
-        "label": "ADS search: SN Refsdal",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%20Refsdal%22",
-        "note": "literature search"
-      },
-      {
-        "label": "arXiv: predicted properties of SN Refsdal",
-        "url": "https://arxiv.org/abs/1411.6443",
-        "note": "early lens-model prediction paper"
-      }
-    ],
-    "image_credit": "Use HST/MAST/HFF image credit lines for real thumbnails.",
-    "category_zh": "引力透镜超新星",
-    "subtype_zh": "核心坍缩型超新星",
-    "scale_zh": "星系团尺度",
-    "status_zh": "已确认",
-    "summary_zh": "首个空间分辨的多重成像超新星，是星系团透镜建模、时延预测和透镜超新星宇宙学研究的代表性系统。",
     "tags_zh": [
       "超新星",
       "星系团透镜",
-      "时间延迟",
       "HST",
-      "Refsdal"
+      "时间延迟"
     ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
+    "thumbnail": "assets/img/thumbs/sn-refsdal.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Kelly et al. 2015, multiply imaged SN Refsdal",
+        "note": "arXiv preprint",
+        "url": "https://arxiv.org/abs/1411.6009"
+      },
+      {
+        "type": "modelling",
+        "label": "Oguri 2015, predicted properties",
+        "note": "arXiv preprint",
+        "url": "https://arxiv.org/abs/1411.6443"
+      },
+      {
+        "type": "followup",
+        "label": "SN Refsdal follow-up and time delays",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Refsdal%22%20time%20delay%20lens%20model"
+      }
+    ],
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
   {
     "id": "iptf16geu",
     "name": "iPTF16geu / SN 2016geu",
     "category": "Lensed SN",
+    "category_zh": "透镜超新星",
     "subtype": "Type Ia supernova",
+    "subtype_zh": "Ia 型超新星",
     "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
     "status": "Confirmed",
+    "status_zh": "已确认",
     "images": "4",
     "lens_redshift": "z_l ≈ 0.216",
     "source_redshift": "z_s ≈ 0.409",
     "discovery_year": "2016",
-    "coordinates": "iPTF field",
-    "summary": "A resolved, strongly lensed Type Ia supernova. It is a compact galaxy-scale system useful for collecting light curves, spectroscopy, lens modelling, microlensing, and dust-extinction studies.",
+    "ra": "21:16:27.4",
+    "dec": "+40:55:03",
+    "mast_query": "21:16:27.4 +40:55:03",
+    "summary": "iPTF16geu / SN 2016geu is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
+    "summary_zh": "iPTF16geu / SN 2016geu 已加入 lensed SN 样本，用于汇总图像、时间延迟、放大率和透镜建模后续研究。",
     "tags": [
-      "SN Ia",
-      "galaxy lens",
-      "quad",
-      "microlensing",
-      "standard candle"
+      "SN",
+      "galaxy",
+      "quad"
+    ],
+    "tags_zh": [
+      "超新星",
+      "星系透镜",
+      "四重像"
     ],
     "thumbnail": "assets/img/thumbs/iptf16geu.svg",
-    "data_links": [
+    "references": [
       {
-        "label": "Open Supernova Catalog",
-        "url": "https://sne.space/",
-        "note": "search SN 2016geu / iPTF16geu"
+        "type": "first",
+        "label": "Goobar et al. 2017, iPTF16geu discovery",
+        "note": "arXiv preprint",
+        "url": "https://arxiv.org/abs/1611.00014"
       },
       {
-        "label": "TNS object page",
-        "url": "https://www.wis-tns.org/object/2016geu",
-        "note": "Transient Name Server metadata"
+        "type": "modelling",
+        "label": "Lens modelling and microlensing",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22iPTF16geu%22%20lens%20model%20microlensing"
       },
       {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST imaging/spectroscopy search"
+        "type": "followup",
+        "label": "Resolved follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%202016geu%22%20HST%20Keck%20follow-up"
       }
     ],
-    "paper_links": [
-      {
-        "label": "arXiv: iPTF16geu discovery",
-        "url": "https://arxiv.org/abs/1611.00014",
-        "note": "discovery paper"
-      },
-      {
-        "label": "ADS search: iPTF16geu",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22iPTF16geu%22%20OR%20full%3A%22SN%202016geu%22",
-        "note": "literature search"
-      }
-    ],
-    "image_credit": "Use HST/Keck/iPTF image credits only after verification.",
-    "category_zh": "引力透镜超新星",
-    "subtype_zh": "Ia 型超新星",
-    "scale_zh": "星系尺度",
-    "status_zh": "已确认",
-    "summary_zh": "空间分辨的强透镜 Ia 型超新星，适合汇总光变曲线、光谱、透镜建模、微透镜和尘埃消光研究。",
-    "tags_zh": [
-      "Ia 型超新星",
-      "星系尺度透镜",
-      "四重像",
-      "微透镜",
-      "标准烛光"
-    ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
   {
     "id": "sn-zwicky",
     "name": "SN Zwicky / SN 2022qmx",
     "category": "Lensed SN",
+    "category_zh": "透镜超新星",
     "subtype": "Type Ia supernova",
+    "subtype_zh": "Ia 型超新星",
     "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
     "status": "Confirmed",
+    "status_zh": "已确认",
     "images": "4",
     "lens_redshift": "z_l ≈ 0.23",
     "source_redshift": "z_s ≈ 0.35",
     "discovery_year": "2022",
-    "coordinates": "ZTF field",
-    "summary": "A galaxy-scale strongly lensed Type Ia supernova discovered in unresolved ZTF data and later resolved with high-resolution imaging.",
+    "ra": "17:14:48.5",
+    "dec": "+34:49:23",
+    "mast_query": "17:14:48.5 +34:49:23",
+    "summary": "SN Zwicky / SN 2022qmx is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
+    "summary_zh": "SN Zwicky / SN 2022qmx 已加入 lensed SN 样本，用于汇总图像、时间延迟、放大率和透镜建模后续研究。",
     "tags": [
-      "SN Ia",
-      "ZTF",
+      "SN",
+      "galaxy",
       "quad",
-      "galaxy lens",
-      "LensWatch"
+      "HST"
+    ],
+    "tags_zh": [
+      "超新星",
+      "星系透镜",
+      "四重像",
+      "HST"
     ],
     "thumbnail": "assets/img/thumbs/sn-zwicky.svg",
-    "data_links": [
+    "references": [
       {
-        "label": "Open Supernova Catalog",
-        "url": "https://sne.space/",
-        "note": "search SN Zwicky / SN 2022qmx"
+        "type": "followup",
+        "label": "LensWatch HST observations",
+        "note": "arXiv preprint",
+        "url": "https://arxiv.org/abs/2211.03772"
       },
       {
-        "label": "TNS object page",
-        "url": "https://www.wis-tns.org/object/2022qmx",
-        "note": "Transient Name Server metadata"
+        "type": "first",
+        "label": "SN Zwicky discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Zwicky%22%20%22SN%202022qmx%22%20discovery"
       },
       {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "HST LensWatch observations"
+        "type": "modelling",
+        "label": "Lens modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Zwicky%22%20lens%20model"
       }
     ],
-    "paper_links": [
-      {
-        "label": "arXiv: LensWatch / SN Zwicky HST observations",
-        "url": "https://arxiv.org/abs/2211.03772",
-        "note": "resolved HST follow-up"
-      },
-      {
-        "label": "ADS search: SN Zwicky",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%20Zwicky%22%20OR%20full%3A%22SN%202022qmx%22",
-        "note": "literature search"
-      }
-    ],
-    "image_credit": "Use ZTF/HST/LensWatch image credits as required.",
-    "category_zh": "引力透镜超新星",
-    "subtype_zh": "Ia 型超新星",
-    "scale_zh": "星系尺度",
-    "status_zh": "已确认",
-    "summary_zh": "由 ZTF 非分辨数据发现、随后通过高分辨率成像分辨的星系尺度强透镜 Ia 型超新星。",
-    "tags_zh": [
-      "Ia 型超新星",
-      "ZTF",
-      "四重像",
-      "星系尺度透镜",
-      "LensWatch"
-    ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
   {
     "id": "sn-h0pe",
     "name": "SN H0pe",
     "category": "Lensed SN",
+    "category_zh": "透镜超新星",
     "subtype": "Type Ia supernova",
+    "subtype_zh": "Ia 型超新星",
     "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
     "status": "Confirmed",
+    "status_zh": "已确认",
     "images": "3",
-    "lens_redshift": "cluster z ≈ 0.35",
+    "lens_redshift": "z_l ≈ 0.35",
     "source_redshift": "z_s ≈ 1.78",
     "discovery_year": "2024",
-    "coordinates": "PLCK G165.7+67.0 field",
-    "summary": "A triply imaged Type Ia supernova discovered with JWST/NIRCam in a cluster field, used for time-delay, magnification, and H0 inference.",
+    "ra": "11:27:13.3",
+    "dec": "+42:28:24",
+    "mast_query": "11:27:13.3 +42:28:24",
+    "summary": "SN H0pe is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
+    "summary_zh": "SN H0pe 已加入 lensed SN 样本，用于汇总图像、时间延迟、放大率和透镜建模后续研究。",
     "tags": [
-      "SN Ia",
+      "SN",
+      "cluster",
       "JWST",
-      "cluster lens",
-      "time-delay",
-      "H0"
+      "triple",
+      "time-delay"
+    ],
+    "tags_zh": [
+      "超新星",
+      "星系团透镜",
+      "JWST",
+      "三重像",
+      "时间延迟"
     ],
     "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
-    "data_links": [
+    "references": [
       {
-        "label": "MAST Portal",
-        "url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
-        "note": "JWST/NIRCam public data search"
+        "type": "first",
+        "label": "SN H0pe first reports",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20lensed%20supernova%20JWST"
       },
       {
-        "label": "ESA/Webb image release",
-        "url": "https://esawebb.org/images/H0pe/",
-        "note": "image release and public outreach page"
+        "type": "modelling",
+        "label": "Time-delay and H0 modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20lens%20model%20H0"
       },
       {
-        "label": "Open Supernova Catalog",
-        "url": "https://sne.space/",
-        "note": "search SN H0pe if available"
+        "type": "followup",
+        "label": "JWST follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20JWST%20follow-up"
       }
     ],
-    "paper_links": [
-      {
-        "label": "ADS search: SN H0pe",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%20H0pe%22",
-        "note": "literature search"
-      },
-      {
-        "label": "NASA Webb blog: SN H0pe science links",
-        "url": "https://science.nasa.gov/blogs/webb/2024/10/01/webb-researchers-discover-lensed-supernova-confirm-hubble-tension/",
-        "note": "links to published papers"
-      }
-    ],
-    "image_credit": "Use JWST/ESA/Webb/NASA/CSA/STScI credit line for real thumbnails.",
-    "category_zh": "引力透镜超新星",
-    "subtype_zh": "Ia 型超新星",
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
+  },
+  {
+    "id": "at2016jka",
+    "name": "AT 2016jka / SN Requiem",
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "subtype": "Core-collapse supernova",
+    "subtype_zh": "核心坍缩超新星",
+    "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
+    "status": "Confirmed",
     "status_zh": "已确认",
-    "summary_zh": "JWST/NIRCam 在星系团场中发现的三重成像 Ia 型超新星，可用于时延、放大率和 H0 推断研究。",
-    "tags_zh": [
-      "Ia 型超新星",
-      "JWST",
-      "星系团透镜",
-      "时间延迟",
-      "H0"
+    "images": "3+ predicted",
+    "lens_redshift": "z_l ≈ 0.54",
+    "source_redshift": "z_s ≈ 1.95",
+    "discovery_year": "2016",
+    "ra": "03:32:38.6",
+    "dec": "-27:46:59",
+    "mast_query": "03:32:38.6 -27:46:59",
+    "summary": "AT 2016jka / SN Requiem is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
+    "summary_zh": "AT 2016jka / SN Requiem 已加入 lensed SN 样本，用于汇总图像、时间延迟、放大率和透镜建模后续研究。",
+    "tags": [
+      "SN",
+      "cluster",
+      "HST",
+      "time-delay"
     ],
-    "image_credit_zh": "正式替换为真实缩略图前，请核查对应数据档案或图像发布页面的版权和引用说明。"
+    "tags_zh": [
+      "超新星",
+      "星系团透镜",
+      "HST",
+      "时间延迟"
+    ],
+    "thumbnail": "assets/img/thumbs/sn-refsdal.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "SN Requiem report",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Requiem%22%20AT%202016jka%20lensed%20supernova"
+      },
+      {
+        "type": "modelling",
+        "label": "Return-image prediction",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202016jka%22%20lens%20model%20return%20image"
+      }
+    ],
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
+  },
+  {
+    "id": "ps1-10afx",
+    "name": "PS1-10afx",
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "subtype": "Type Ia supernova",
+    "subtype_zh": "Ia 型超新星",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Candidate/high-confidence",
+    "status_zh": "候选/高可信",
+    "images": "unresolved magnified",
+    "lens_redshift": "z_l ≈ 1.12",
+    "source_redshift": "z_s ≈ 1.39",
+    "discovery_year": "2010",
+    "ra": "22:11:24.6",
+    "dec": "+00:09:44",
+    "mast_query": "22:11:24.6 +00:09:44",
+    "summary": "PS1-10afx is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
+    "summary_zh": "PS1-10afx 已加入 lensed SN 样本，用于汇总图像、时间延迟、放大率和透镜建模后续研究。",
+    "tags": [
+      "SN",
+      "galaxy"
+    ],
+    "tags_zh": [
+      "超新星",
+      "星系透镜"
+    ],
+    "thumbnail": "assets/img/thumbs/sn-zwicky.svg",
+    "references": [
+      {
+        "type": "first",
+        "label": "Lens interpretation",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22PS1-10afx%22%20gravitationally%20lensed%20supernova"
+      },
+      {
+        "type": "followup",
+        "label": "Lens confirmation follow-up",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22PS1-10afx%22%20lens%20galaxy%20spectroscopy"
+      }
+    ],
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
+  },
+  {
+    "id": "at2022riv",
+    "name": "AT 2022riv",
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "subtype": "Lensed supernova candidate",
+    "subtype_zh": "候选透镜超新星",
+    "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
+    "status": "Candidate/high-confidence",
+    "status_zh": "候选/高可信",
+    "images": "candidate",
+    "lens_redshift": "z_l ≈ 0.49",
+    "source_redshift": "z_s ≈ 1.78",
+    "discovery_year": "2022",
+    "ra": "00:14:21.2",
+    "dec": "-30:23:50",
+    "mast_query": "00:14:21.2 -30:23:50",
+    "summary": "AT 2022riv is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
+    "summary_zh": "AT 2022riv 已加入 lensed SN 样本，用于汇总图像、时间延迟、放大率和透镜建模后续研究。",
+    "tags": [
+      "SN",
+      "cluster",
+      "JWST",
+      "candidate"
+    ],
+    "tags_zh": [
+      "超新星",
+      "星系团透镜",
+      "JWST",
+      "候选"
+    ],
+    "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
+    "references": [
+      {
+        "type": "candidate",
+        "label": "Candidate report",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202022riv%22%20lensed%20supernova%20candidate"
+      },
+      {
+        "type": "modelling",
+        "label": "Lens model discussion",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202022riv%22%20lens%20model"
+      }
+    ],
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
+  },
+  {
+    "id": "at2023adsy",
+    "name": "AT 2023adsy",
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "subtype": "Lensed supernova candidate",
+    "subtype_zh": "候选透镜超新星",
+    "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
+    "status": "Candidate/high-confidence",
+    "status_zh": "候选/高可信",
+    "images": "candidate",
+    "lens_redshift": "z_l ≈ 0.39",
+    "source_redshift": "z_s ≈ 2.90",
+    "discovery_year": "2023",
+    "ra": "03:32:38.0",
+    "dec": "-27:47:00",
+    "mast_query": "03:32:38.0 -27:47:00",
+    "summary": "AT 2023adsy is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
+    "summary_zh": "AT 2023adsy 已加入 lensed SN 样本，用于汇总图像、时间延迟、放大率和透镜建模后续研究。",
+    "tags": [
+      "SN",
+      "cluster",
+      "JWST",
+      "candidate"
+    ],
+    "tags_zh": [
+      "超新星",
+      "星系团透镜",
+      "JWST",
+      "候选"
+    ],
+    "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
+    "references": [
+      {
+        "type": "candidate",
+        "label": "Candidate report",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202023adsy%22%20lensed%20supernova"
+      },
+      {
+        "type": "followup",
+        "label": "JWST follow-up/modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202023adsy%22%20JWST%20lens%20model"
+      }
+    ],
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   }
 ]

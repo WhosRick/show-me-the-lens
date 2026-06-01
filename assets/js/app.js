@@ -6,100 +6,108 @@ const dialog = document.querySelector("#detailDialog");
 const dialogBody = document.querySelector("#dialogBody");
 const closeDialog = document.querySelector(".dialog-close");
 const langButtons = Array.from(document.querySelectorAll(".lang-btn"));
+const pageSizeSelect = document.querySelector("#pageSize");
+const pagerTop = document.querySelector("#pagerTop");
+const pagerBottom = document.querySelector("#pagerBottom");
+const referenceStats = document.querySelector("#referenceStats");
 
 let activeFilter = "All";
 let lang = localStorage.getItem("smtl-lang") || "zh";
+let page = 1;
+let pageSize = Number(localStorage.getItem("smtl-page-size") || 24);
+pageSizeSelect.value = String(pageSize);
 
 const i18n = {
   zh: {
-    nav_catalogue: "数据目录", nav_sources: "数据来源", nav_contribute: "新增条目",
-    hero_eyebrow: "数据汇总 / Data Catalogue",
-    hero_text: "汇总已确认或具有代表性的引力透镜类星体与引力透镜超新星，集中展示缩略图、基本参数、数据下载入口、ADS/arXiv 文献链接、观测档案入口与图像引用说明。当前版本是可直接部署到 GitHub Pages 的静态网站原型。",
-    browse_systems: "浏览系统", download_json: "下载 JSON 数据",
-    metric_systems: "系统条目", metric_qso: "引力透镜类星体", metric_sn: "引力透镜超新星", metric_version: "双语原型",
-    catalogue_eyebrow: "数据目录 / Catalogue", catalogue_title: "透镜系统目录",
-    catalogue_desc: "先以代表性小样本搭建结构；后续只需要继续扩展 <code>assets/js/data.js</code> 或 <code>data/systems.json</code>。",
-    search_label: "搜索", search_placeholder: "输入系统名、标签、类型，例如 WGD、SN Ia、quad...",
-    filter_all: "全部", filter_qso: "透镜类星体", filter_sn: "透镜超新星", filter_timedelay: "时间延迟", filter_quad: "四重像", filter_cluster: "星系团尺度",
-    sources_eyebrow: "数据来源 / Data sources", sources_title: "推荐的数据来源组织方式",
-    sources_desc: "缩略图建议优先从公开 survey cutout 或 FITS 数据自行生成，避免直接复制论文插图。论文插图只作为外链和引用入口。每个系统页面都应保留 image credit 字段。",
-    submit_eyebrow: "新增条目 / Add entries", submit_title: "新增系统时建议填写的字段",
-    submit_note: "对外发布前，建议把红移、像数、发现年份、时延数值和 H0 结果逐条回查原论文，不要只依赖二级数据库。",
-    footer_title: "引力透镜类星体与引力透镜超新星数据汇总", footer_note: "静态网站原型。正式替换真实缩略图前，请先核查图像版权和引用说明。",
-    no_results: "没有匹配结果。可以减少关键词或切换筛选条件。",
-    detail: "详情", papers: "ADS/arXiv", configuration: "成像构型", scale: "尺度", lens_redshift: "透镜红移", source_redshift: "源红移",
-    subtype: "子类型", discovery: "发现年份", coordinates: "坐标", image_credit: "图像说明", data_links: "数据下载 / 观测档案入口", paper_links: "相关文章 / ADS / arXiv", images: "个像"
+    nav_catalogue: "数据目录", nav_references: "文献统计", nav_sources: "数据源", nav_submit: "投送",
+    hero_eyebrow: "引力透镜数据汇", hero_subtitle: "引力透镜类星体与引力透镜超新星数据目录",
+    hero_text: "汇总已确认和高可信候选的 lensed QSOs 与 lensed SNe，优先使用 MAST 坐标检索入口、可复用图像字段和可核查文献标签。",
+    browse_systems: "浏览源表", download_json: "下载 JSON",
+    metric_systems: "源条目", metric_qso: "透镜类星体", metric_sn: "透镜超新星", metric_refs: "文献链接",
+    catalogue_eyebrow: "Catalogue", catalogue_title: "透镜源目录",
+    catalogue_desc: "当前版本按 GraL/CASTLES/经典样本补足 QSO 数量，并加入已报道的 lensed SNe。图片可继续替换为服务器生成的面板。",
+    search_label: "搜索", search_placeholder: "输入源名、类型、标签或红移",
+    filter_all: "全部", filter_qso: "透镜类星体", filter_sn: "透镜超新星", filter_quad: "四重像", filter_cluster: "星系团尺度", filter_timedelay: "时间延迟",
+    per_page: "每页", prev: "上一页", next: "下一页", page_of: "第 {page} / {pages} 页", no_results: "没有匹配结果。",
+    references_eyebrow: "References", references_title: "文献统计与角色标注",
+    references_desc: "详情页按 first report、modelling、follow-up、review 分组列出具体 ADS/arXiv 链接；这里显示全站统计。",
+    sources_eyebrow: "Data Source", sources_title: "数据源先限定为 MAST",
+    sources_desc: "每个源的 Data 按钮指向 MAST Portal，并在链接参数中写入该源的 RA/Dec。其它数据库保留在文献和备注中，不作为本版数据入口。",
+    submit_eyebrow: "Submit", submit_title: "投送与补充意见",
+    submit_desc: "欢迎补充新源、坐标、红移、图像、首报论文、建模论文和后续观测论文。",
+    disclaimer: "免责声明：本网站为研究资料汇总与展示原型，红移、分类、文献角色和图像版权请以原始论文、MAST 元数据和数据发布页为准。",
+    detail: "详情", data: "MAST", references: "文献", configuration: "像数", scale: "尺度", lens_redshift: "透镜红移", source_redshift: "源红移",
+    subtype: "子类型", discovery: "发现年份", coordinates: "坐标", image_credit: "图像说明", status: "状态",
+    first: "首个报道", modelling: "建模", followup: "后续观测", review: "综述/样本", candidate: "候选/发现"
   },
   en: {
-    nav_catalogue: "Catalogue", nav_sources: "Data sources", nav_contribute: "Add entries",
-    hero_eyebrow: "Data Catalogue / 数据汇总",
-    hero_text: "A data catalogue of confirmed or representative gravitationally lensed quasars and gravitationally lensed supernovae, collecting thumbnails, basic parameters, data-access links, ADS/arXiv literature links, archive entries, and image-credit notes. This version is a static GitHub Pages prototype.",
-    browse_systems: "Browse systems", download_json: "Download JSON data",
-    metric_systems: "systems", metric_qso: "lensed quasars", metric_sn: "lensed supernovae", metric_version: "bilingual prototype",
-    catalogue_eyebrow: "Catalogue / 数据目录", catalogue_title: "Lens-system catalogue",
-    catalogue_desc: "The current version uses a representative seed sample. Extend <code>assets/js/data.js</code> or <code>data/systems.json</code> to add more systems.",
-    search_label: "Search", search_placeholder: "Search by name, tag, or type, e.g. WGD, SN Ia, quad...",
-    filter_all: "All", filter_qso: "Lensed QSOs", filter_sn: "Lensed SNe", filter_timedelay: "Time-delay", filter_quad: "Quad", filter_cluster: "Cluster-scale",
-    sources_eyebrow: "Data sources / 数据来源", sources_title: "Recommended data-source structure",
-    sources_desc: "For thumbnails, first consider generating cutouts from public survey images or FITS data. Avoid directly reproducing figures from papers unless the license is clear. Each system entry should keep an image-credit field.",
-    submit_eyebrow: "Add entries / 新增条目", submit_title: "Suggested fields for new systems",
-    submit_note: "Before public release, verify redshifts, image multiplicity, discovery year, time-delay values, and H0 results against the original papers rather than relying only on secondary databases.",
-    footer_title: "Data Catalogue of Gravitationally Lensed Quasars and Supernovae", footer_note: "Static website prototype. Verify image rights and credit lines before replacing placeholder thumbnails with real images.",
-    no_results: "No matching systems. Try fewer keywords or a different filter.",
-    detail: "Details", papers: "ADS/arXiv", configuration: "Configuration", scale: "Scale", lens_redshift: "Lens redshift", source_redshift: "Source redshift",
-    subtype: "Subtype", discovery: "Discovery", coordinates: "Coordinates", image_credit: "Image credit", data_links: "Data / archive links", paper_links: "Papers / ADS / arXiv", images: "images"
+    nav_catalogue: "Catalogue", nav_references: "References", nav_sources: "Data Source", nav_submit: "Submit",
+    hero_eyebrow: "Gravitational-lens catalogue", hero_subtitle: "Data catalogue of gravitationally lensed quasars and supernovae",
+    hero_text: "A bilingual catalogue of confirmed and high-confidence lensed QSOs and lensed SNe, with MAST coordinate links, reusable image fields, and reference roles.",
+    browse_systems: "Browse catalogue", download_json: "Download JSON",
+    metric_systems: "systems", metric_qso: "lensed QSOs", metric_sn: "lensed SNe", metric_refs: "reference links",
+    catalogue_eyebrow: "Catalogue", catalogue_title: "Lens-source catalogue",
+    catalogue_desc: "The QSO list is expanded with GraL/CASTLES/classic systems, and the SN list includes reported lensed supernovae. Thumbnails can be replaced by server-generated panels.",
+    search_label: "Search", search_placeholder: "Search by name, type, tag, or redshift",
+    filter_all: "All", filter_qso: "Lensed QSOs", filter_sn: "Lensed SNe", filter_quad: "Quad", filter_cluster: "Cluster-scale", filter_timedelay: "Time-delay",
+    per_page: "Per page", prev: "Previous", next: "Next", page_of: "Page {page} / {pages}", no_results: "No matching systems.",
+    references_eyebrow: "References", references_title: "Reference counts and roles",
+    references_desc: "Detail panels list concrete ADS/arXiv links by first report, modelling, follow-up, and review/sample role.",
+    sources_eyebrow: "Data Source", sources_title: "MAST-first data links",
+    sources_desc: "Each Data button opens MAST Portal with the source RA/Dec in the query. Other services are kept as literature context rather than primary data sources.",
+    submit_eyebrow: "Submit", submit_title: "Submit additions and corrections",
+    submit_desc: "Please send new systems, coordinates, redshifts, images, first-report papers, modelling papers, and follow-up papers.",
+    disclaimer: "Disclaimer: this site is a research catalogue prototype. Redshifts, classifications, reference roles, and image rights should be checked against original papers, MAST metadata, and data-release pages.",
+    detail: "Details", data: "MAST", references: "References", configuration: "Images", scale: "Scale", lens_redshift: "Lens redshift", source_redshift: "Source redshift",
+    subtype: "Subtype", discovery: "Discovery", coordinates: "Coordinates", image_credit: "Image credit", status: "Status",
+    first: "First report", modelling: "Modelling", followup: "Follow-up", review: "Review/sample", candidate: "Candidate/discovery"
   }
 };
 
-document.querySelector("#count-all").textContent = systems.length;
-document.querySelector("#count-qso").textContent = systems.filter(s => s.category === "Lensed QSO").length;
-document.querySelector("#count-sn").textContent = systems.filter(s => s.category === "Lensed SN").length;
-
-function t(key) { return (i18n[lang] && i18n[lang][key]) || i18n.zh[key] || key; }
+function t(key) { return (i18n[lang] && i18n[lang][key]) || key; }
 function pick(system, key) { return lang === "zh" ? (system[`${key}_zh`] || system[key]) : system[key]; }
-function pickTags(system) { return lang === "zh" ? (system.tags_zh || system.tags || []) : (system.tags || []); }
 function normalize(value) { return String(value || "").toLowerCase(); }
+function tags(system) { return lang === "zh" ? (system.tags_zh || system.tags || []) : (system.tags || []); }
+function refLabel(type) { return t(type) || type; }
+
+function mastUrl(system) {
+  const query = encodeURIComponent(system.mast_query || `${system.ra} ${system.dec}`);
+  return `https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html?searchQuery=${query}`;
+}
 
 function applyLanguage() {
   document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
   document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.dataset.i18n;
-    const value = t(key);
-    if (value.includes("<code>")) el.innerHTML = value;
-    else el.textContent = value;
+    el.textContent = t(el.dataset.i18n);
   });
   searchInput.placeholder = t("search_placeholder");
   langButtons.forEach(btn => btn.classList.toggle("active", btn.dataset.lang === lang));
   render();
+  renderReferenceStats();
 }
 
 function matchesFilter(system) {
   if (activeFilter === "All") return true;
   if (activeFilter === "Lensed QSO" || activeFilter === "Lensed SN") return system.category === activeFilter;
-  const haystack = [
-    system.name, system.category, system.category_zh, system.subtype, system.subtype_zh,
-    system.scale, system.scale_zh, system.status, system.status_zh,
-    system.images, system.summary, system.summary_zh, ...(system.tags || []), ...(system.tags_zh || [])
-  ].map(normalize).join(" ");
-  return haystack.includes(normalize(activeFilter));
+  return searchableText(system).includes(normalize(activeFilter));
 }
 
 function matchesSearch(system) {
   const q = normalize(searchInput.value.trim());
-  if (!q) return true;
-  const haystack = [
+  return !q || searchableText(system).includes(q);
+}
+
+function searchableText(system) {
+  return [
     system.name, system.category, system.category_zh, system.subtype, system.subtype_zh,
-    system.scale, system.scale_zh, system.status, system.status_zh,
-    system.lens_redshift, system.source_redshift, system.coordinates,
-    system.discovery_year, system.summary, system.summary_zh, ...(system.tags || []), ...(system.tags_zh || [])
+    system.scale, system.scale_zh, system.status, system.status_zh, system.images,
+    system.lens_redshift, system.source_redshift, system.discovery_year, system.ra, system.dec,
+    system.summary, system.summary_zh, ...(system.tags || []), ...(system.tags_zh || [])
   ].map(normalize).join(" ");
-  return haystack.includes(q);
 }
 
 function createCard(system) {
-  const tagHtml = pickTags(system).slice(0, 6).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
-  const imageWord = lang === "zh" ? t("images") : t("images");
-  const configurationValue = lang === "zh" ? `${escapeHtml(system.images)}${imageWord}` : `${escapeHtml(system.images)} ${imageWord}`;
+  const tagHtml = tags(system).slice(0, 6).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
   return `
     <article class="card">
       <img src="${escapeAttr(system.thumbnail)}" alt="${escapeAttr(system.name)} thumbnail" loading="lazy">
@@ -111,7 +119,7 @@ function createCard(system) {
         <h3>${escapeHtml(system.name)}</h3>
         <p>${escapeHtml(pick(system, "summary"))}</p>
         <div class="meta">
-          <div><span>${t("configuration")}</span>${configurationValue}</div>
+          <div><span>${t("configuration")}</span>${escapeHtml(system.images)}</div>
           <div><span>${t("scale")}</span>${escapeHtml(pick(system, "scale"))}</div>
           <div><span>${t("lens_redshift")}</span>${escapeHtml(system.lens_redshift)}</div>
           <div><span>${t("source_redshift")}</span>${escapeHtml(system.source_redshift)}</div>
@@ -119,7 +127,7 @@ function createCard(system) {
         <div class="tags">${tagHtml}</div>
         <div class="card-actions">
           <button type="button" data-id="${escapeAttr(system.id)}">${t("detail")}</button>
-          <a href="${escapeAttr((system.paper_links && system.paper_links[0] || {}).url || '#')}" target="_blank" rel="noreferrer">${t("papers")}</a>
+          <a href="${escapeAttr(mastUrl(system))}" target="_blank" rel="noreferrer">${t("data")}</a>
         </div>
       </div>
     </article>
@@ -128,44 +136,66 @@ function createCard(system) {
 
 function render() {
   const filtered = systems.filter(s => matchesFilter(s) && matchesSearch(s));
-  cards.innerHTML = filtered.map(createCard).join("") || `<p class="note">${t("no_results")}</p>`;
+  const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
+  page = Math.min(page, pages);
+  const start = (page - 1) * pageSize;
+  const shown = filtered.slice(start, start + pageSize);
+  cards.innerHTML = shown.map(createCard).join("") || `<p class="note">${t("no_results")}</p>`;
   cards.querySelectorAll("button[data-id]").forEach(button => {
     button.addEventListener("click", () => openDetails(button.dataset.id));
+  });
+  renderPager(filtered.length, pages);
+}
+
+function renderPager(total, pages) {
+  const label = t("page_of").replace("{page}", page).replace("{pages}", pages);
+  const html = `
+    <button type="button" data-page="prev" ${page <= 1 ? "disabled" : ""}>${t("prev")}</button>
+    <span>${label} · ${total}</span>
+    <button type="button" data-page="next" ${page >= pages ? "disabled" : ""}>${t("next")}</button>
+  `;
+  [pagerTop, pagerBottom].forEach(pager => {
+    pager.innerHTML = html;
+    pager.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        page += btn.dataset.page === "next" ? 1 : -1;
+        render();
+        document.querySelector("#catalogue").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
   });
 }
 
 function openDetails(id) {
   const system = systems.find(s => s.id === id);
   if (!system) return;
-  const dataLinks = createLinks(system.data_links);
-  const paperLinks = createLinks(system.paper_links);
-  const tags = pickTags(system).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
-  const imageCredit = lang === "zh" ? (system.image_credit_zh || system.image_credit) : system.image_credit;
+  const tagsHtml = tags(system).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
   dialogBody.innerHTML = `
     <div class="dialog-layout">
       <img src="${escapeAttr(system.thumbnail)}" alt="${escapeAttr(system.name)} thumbnail">
       <div class="dialog-content">
-        <p class="eyebrow">${escapeHtml(pick(system, "category"))} · ${escapeHtml(pick(system, "status"))}</p>
+        <p class="eyebrow">${escapeHtml(pick(system, "category"))}</p>
         <h3>${escapeHtml(system.name)}</h3>
         <p>${escapeHtml(pick(system, "summary"))}</p>
         <div class="meta">
           <div><span>${t("subtype")}</span>${escapeHtml(pick(system, "subtype"))}</div>
+          <div><span>${t("status")}</span>${escapeHtml(pick(system, "status"))}</div>
           <div><span>${t("configuration")}</span>${escapeHtml(system.images)}</div>
           <div><span>${t("scale")}</span>${escapeHtml(pick(system, "scale"))}</div>
           <div><span>${t("discovery")}</span>${escapeHtml(system.discovery_year)}</div>
           <div><span>${t("lens_redshift")}</span>${escapeHtml(system.lens_redshift)}</div>
           <div><span>${t("source_redshift")}</span>${escapeHtml(system.source_redshift)}</div>
-          <div><span>${t("coordinates")}</span>${escapeHtml(system.coordinates)}</div>
-          <div><span>${t("image_credit")}</span>${escapeHtml(imageCredit)}</div>
+          <div><span>${t("coordinates")}</span>${escapeHtml(`${system.ra}, ${system.dec}`)}</div>
+          <div><span>${t("image_credit")}</span>${escapeHtml(pick(system, "image_credit"))}</div>
         </div>
-        <div class="tags" style="margin-top: 14px">${tags}</div>
+        <div class="tags dialog-tags">${tagsHtml}</div>
         <div class="link-group">
-          <h4>${t("data_links")}</h4>
-          ${dataLinks}
+          <h4>${t("data")}</h4>
+          <a href="${escapeAttr(mastUrl(system))}" target="_blank" rel="noreferrer">MAST Portal <small>${escapeHtml(system.mast_query || `${system.ra} ${system.dec}`)}</small></a>
         </div>
         <div class="link-group">
-          <h4>${t("paper_links")}</h4>
-          ${paperLinks}
+          <h4>${t("references")}</h4>
+          ${createReferences(system.references)}
         </div>
       </div>
     </div>
@@ -173,12 +203,25 @@ function openDetails(id) {
   dialog.showModal();
 }
 
-function createLinks(links = []) {
-  return links.map(link => `
-    <a href="${escapeAttr(link.url)}" target="_blank" rel="noreferrer">
-      ${escapeHtml(link.label)}
-      <small>${escapeHtml(link.note || "")}</small>
+function createReferences(refs = []) {
+  return refs.map(ref => `
+    <a href="${escapeAttr(ref.url)}" target="_blank" rel="noreferrer">
+      <strong>${escapeHtml(refLabel(ref.type))}</strong> · ${escapeHtml(ref.label)}
+      <small>${escapeHtml(ref.note || "")}</small>
     </a>
+  `).join("");
+}
+
+function renderReferenceStats() {
+  const counts = systems.flatMap(s => s.references || []).reduce((acc, ref) => {
+    acc[ref.type] = (acc[ref.type] || 0) + 1;
+    return acc;
+  }, {});
+  referenceStats.innerHTML = Object.entries(counts).map(([type, count]) => `
+    <article>
+      <span>${count}</span>
+      <p>${escapeHtml(refLabel(type))}</p>
+    </article>
   `).join("");
 }
 
@@ -190,14 +233,19 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
-
 function escapeAttr(value) { return escapeHtml(value).replaceAll("`", "&#096;"); }
+
+document.querySelector("#count-all").textContent = systems.length;
+document.querySelector("#count-qso").textContent = systems.filter(s => s.category === "Lensed QSO").length;
+document.querySelector("#count-sn").textContent = systems.filter(s => s.category === "Lensed SN").length;
+document.querySelector("#count-ref").textContent = systems.reduce((sum, s) => sum + (s.references || []).length, 0);
 
 chips.forEach(chip => {
   chip.addEventListener("click", () => {
     chips.forEach(c => c.classList.remove("active"));
     chip.classList.add("active");
     activeFilter = chip.dataset.filter;
+    page = 1;
     render();
   });
 });
@@ -210,7 +258,14 @@ langButtons.forEach(button => {
   });
 });
 
-searchInput.addEventListener("input", render);
+pageSizeSelect.addEventListener("change", () => {
+  pageSize = Number(pageSizeSelect.value);
+  localStorage.setItem("smtl-page-size", String(pageSize));
+  page = 1;
+  render();
+});
+
+searchInput.addEventListener("input", () => { page = 1; render(); });
 closeDialog.addEventListener("click", () => dialog.close());
 dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
 

@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Show Me the Lens | 引力透镜类星体与引力透镜超新星数据汇总</title>
-  <meta name="description" content="引力透镜类星体与引力透镜超新星数据汇总 | Data Catalogue of Gravitationally Lensed Quasars and Supernovae" />
+  <title>Show Me the Lens</title>
+  <meta name="description" content="Data catalogue of gravitationally lensed quasars and supernovae." />
   <meta property="og:title" content="Show Me the Lens" />
-  <meta property="og:description" content="引力透镜类星体与引力透镜超新星数据汇总 | Data Catalogue of Gravitationally Lensed Quasars and Supernovae" />
+  <meta property="og:description" content="Data catalogue of gravitationally lensed quasars and supernovae." />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
@@ -15,14 +15,15 @@
   <header class="site-header">
     <nav class="nav">
       <a class="brand" href="#">
-        <span class="brand-mark">◎</span>
+        <span class="brand-mark">L</span>
         <span>Show Me the Lens</span>
       </a>
       <div class="nav-right">
         <div class="nav-links">
           <a href="#catalogue" data-i18n="nav_catalogue">数据目录</a>
-          <a href="#sources" data-i18n="nav_sources">数据来源</a>
-          <a href="#submit" data-i18n="nav_contribute">新增条目</a>
+          <a href="#references" data-i18n="nav_references">文献统计</a>
+          <a href="#sources" data-i18n="nav_sources">数据源</a>
+          <a href="#submit" data-i18n="nav_submit">投送</a>
         </div>
         <div class="lang-switch" aria-label="language switch">
           <button type="button" class="lang-btn active" data-lang="zh">中文</button>
@@ -32,107 +33,101 @@
     </nav>
 
     <section class="hero">
-      <p class="eyebrow" data-i18n="hero_eyebrow">数据汇总 / Data Catalogue</p>
+      <p class="eyebrow" data-i18n="hero_eyebrow">引力透镜数据汇</p>
       <h1>Show Me the Lens</h1>
-      <div class="subtitle-stack">
-        <p class="subtitle zh">引力透镜类星体与引力透镜超新星数据汇总</p>
-        <p class="subtitle-en">Data Catalogue of Gravitationally Lensed Quasars and Supernovae</p>
-      </div>
+      <p class="subtitle" data-i18n="hero_subtitle">引力透镜类星体与引力透镜超新星数据目录</p>
       <p class="hero-text" data-i18n="hero_text">
-        汇总已确认或具有代表性的引力透镜类星体与引力透镜超新星，集中展示缩略图、基本参数、数据下载入口、ADS/arXiv 文献链接、观测档案入口与图像引用说明。当前版本是可直接部署到 GitHub Pages 的静态网站原型。
+        汇总已确认和高可信候选的 lensed QSOs 与 lensed SNe，优先使用 MAST 坐标检索入口、可复用图像字段和可核查文献标签。
       </p>
       <div class="hero-actions">
-        <a class="button primary" href="#catalogue" data-i18n="browse_systems">浏览系统</a>
-        <a class="button" href="data/systems.json" data-i18n="download_json">下载 JSON 数据</a>
+        <a class="button primary" href="#catalogue" data-i18n="browse_systems">浏览源表</a>
+        <a class="button" href="data/systems.json" data-i18n="download_json">下载 JSON</a>
       </div>
     </section>
   </header>
 
   <main>
     <section class="metrics" aria-label="catalogue statistics">
-      <article>
-        <span id="count-all">0</span>
-        <p data-i18n="metric_systems">系统条目</p>
-      </article>
-      <article>
-        <span id="count-qso">0</span>
-        <p data-i18n="metric_qso">引力透镜类星体</p>
-      </article>
-      <article>
-        <span id="count-sn">0</span>
-        <p data-i18n="metric_sn">引力透镜超新星</p>
-      </article>
-      <article>
-        <span>v0.2</span>
-        <p data-i18n="metric_version">双语原型</p>
-      </article>
+      <article><span id="count-all">0</span><p data-i18n="metric_systems">源条目</p></article>
+      <article><span id="count-qso">0</span><p data-i18n="metric_qso">透镜类星体</p></article>
+      <article><span id="count-sn">0</span><p data-i18n="metric_sn">透镜超新星</p></article>
+      <article><span id="count-ref">0</span><p data-i18n="metric_refs">文献链接</p></article>
     </section>
 
     <section class="panel" id="catalogue">
       <div class="section-heading">
-        <p class="eyebrow" data-i18n="catalogue_eyebrow">数据目录 / Catalogue</p>
-        <h2 data-i18n="catalogue_title">透镜系统目录</h2>
-        <p data-i18n="catalogue_desc">先以代表性小样本搭建结构；后续只需要继续扩展 <code>assets/js/data.js</code> 或 <code>data/systems.json</code>。</p>
+        <p class="eyebrow" data-i18n="catalogue_eyebrow">Catalogue</p>
+        <h2 data-i18n="catalogue_title">透镜源目录</h2>
+        <p data-i18n="catalogue_desc">当前版本按 GraL/CASTLES/经典样本补足 QSO 数量，并加入已报道的 lensed SNe。图片可继续替换为服务器生成的面板。</p>
       </div>
-
       <div class="toolbar" aria-label="filters">
         <label class="search-box">
           <span data-i18n="search_label">搜索</span>
-          <input id="search" type="search" placeholder="输入系统名、标签、类型，例如 WGD、SN Ia、quad..." />
+          <input id="search" type="search" placeholder="输入源名、类型、标签或红移" />
         </label>
         <div class="chips" id="chips">
           <button class="chip active" data-filter="All" data-i18n="filter_all">全部</button>
           <button class="chip" data-filter="Lensed QSO" data-i18n="filter_qso">透镜类星体</button>
           <button class="chip" data-filter="Lensed SN" data-i18n="filter_sn">透镜超新星</button>
-          <button class="chip" data-filter="time-delay" data-i18n="filter_timedelay">时间延迟</button>
           <button class="chip" data-filter="quad" data-i18n="filter_quad">四重像</button>
           <button class="chip" data-filter="cluster" data-i18n="filter_cluster">星系团尺度</button>
+          <button class="chip" data-filter="time-delay" data-i18n="filter_timedelay">时间延迟</button>
+        </div>
+        <div class="pager-bar">
+          <label>
+            <span data-i18n="per_page">每页</span>
+            <select id="pageSize">
+              <option value="12">12</option>
+              <option value="24" selected>24</option>
+              <option value="48">48</option>
+            </select>
+          </label>
+          <div class="pager" id="pagerTop"></div>
         </div>
       </div>
-
       <div id="cards" class="cards" aria-live="polite"></div>
+      <div class="pager bottom" id="pagerBottom"></div>
+    </section>
+
+    <section class="panel" id="references">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="references_eyebrow">References</p>
+        <h2 data-i18n="references_title">文献统计与角色标注</h2>
+        <p data-i18n="references_desc">详情页按 first report、modelling、follow-up、review 分组列出具体 ADS/arXiv 链接；这里显示全站统计。</p>
+      </div>
+      <div id="referenceStats" class="reference-stats"></div>
     </section>
 
     <section class="panel split" id="sources">
       <div>
-        <p class="eyebrow" data-i18n="sources_eyebrow">数据来源 / Data sources</p>
-        <h2 data-i18n="sources_title">推荐的数据来源组织方式</h2>
+        <p class="eyebrow" data-i18n="sources_eyebrow">Data Source</p>
+        <h2 data-i18n="sources_title">数据源先限定为 MAST</h2>
         <p data-i18n="sources_desc">
-          缩略图建议优先从公开 survey cutout 或 FITS 数据自行生成，避免直接复制论文插图。论文插图只作为外链和引用入口。每个系统页面都应保留 image credit 字段。
+          每个源的 Data 按钮指向 MAST Portal，并在链接参数中写入该源的 RA/Dec。其它数据库保留在文献和备注中，不作为本版数据入口。
         </p>
       </div>
       <div class="source-list">
-        <a href="https://research.ast.cam.ac.uk/lensedquasars/" target="_blank" rel="noreferrer">Cambridge Lensed Quasar Database</a>
-        <a href="https://lweb.cfa.harvard.edu/castles/" target="_blank" rel="noreferrer">CASTLES Gravitational Lens Data Base</a>
         <a href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html" target="_blank" rel="noreferrer">MAST Portal</a>
-        <a href="https://sne.space/" target="_blank" rel="noreferrer">Open Supernova Catalog</a>
-        <a href="https://www.wis-tns.org/" target="_blank" rel="noreferrer">Transient Name Server</a>
-        <a href="https://ui.adsabs.harvard.edu/" target="_blank" rel="noreferrer">NASA ADS</a>
+        <a href="https://mast.stsci.edu/api/" target="_blank" rel="noreferrer">MAST API</a>
       </div>
     </section>
 
     <section class="panel" id="submit">
-      <p class="eyebrow" data-i18n="submit_eyebrow">新增条目 / Add entries</p>
-      <h2 data-i18n="submit_title">新增系统时建议填写的字段</h2>
-      <div class="schema-grid">
-        <code>name</code><code>category</code><code>subtype</code><code>status</code>
-        <code>lens_redshift</code><code>source_redshift</code><code>images</code><code>scale</code>
-        <code>coordinates</code><code>thumbnail</code><code>data_links</code><code>paper_links</code>
-      </div>
-      <p class="note" data-i18n="submit_note">
-        对外发布前，建议把红移、像数、发现年份、时延数值和 H0 结果逐条回查原论文，不要只依赖二级数据库。
-      </p>
+      <p class="eyebrow" data-i18n="submit_eyebrow">Submit</p>
+      <h2 data-i18n="submit_title">投送与补充意见</h2>
+      <p data-i18n="submit_desc">欢迎补充新源、坐标、红移、图像、首报论文、建模论文和后续观测论文。</p>
+      <p class="contact"><a href="mailto:ruiguanhua@foxmail.com">ruiguanhua@foxmail.com</a></p>
     </section>
   </main>
 
   <dialog id="detailDialog" class="dialog">
-    <button class="dialog-close" aria-label="close">×</button>
+    <button class="dialog-close" aria-label="close">x</button>
     <div id="dialogBody"></div>
   </dialog>
 
   <footer class="footer">
-    <p>Show Me the Lens · <span data-i18n="footer_title">引力透镜类星体与引力透镜超新星数据汇总</span></p>
-    <p data-i18n="footer_note">静态网站原型。正式替换真实缩略图前，请先核查图像版权和引用说明。</p>
+    <p>Show Me the Lens</p>
+    <p data-i18n="disclaimer">免责声明：本网站为研究资料汇总与展示原型，红移、分类、文献角色和图像版权请以原始论文、MAST 元数据和数据发布页为准。</p>
   </footer>
 
   <script src="assets/js/data.js"></script>

@@ -1,4 +1,5 @@
 const thumb = name => `assets/img/thumbs/${name}.svg`;
+const panel = name => `panels/${name}_panel.png`;
 const ads = (q, label, type = "followup", note = "ADS record/search") => ({
   type, label, note, url: `https://ui.adsabs.harvard.edu/search/q=${encodeURIComponent(q)}`
 });
@@ -18,10 +19,10 @@ function qso(id, name, images, zl, zs, year, ra, dec, subtype, tags, refs, thumb
     summary: `${name} is a ${subtype.toLowerCase()} included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.`,
     summary_zh: `${name} 是${subtype.includes("Doubly") ? "双重" : "多重"}成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。`,
     tags: ["QSO", ...tags], tags_zh: ["类星体", ...tags.map(tag => ({quad:"四重像",double:"双重像","time-delay":"时间延迟",radio:"射电",cluster:"星系团环境",GraL:"GraL",classic:"经典样本",STRIDES:"STRIDES",H0LiCOW:"H0LiCOW"}[tag] || tag))],
-    thumbnail: thumb(thumbnail),
+    thumbnail: thumbnail.includes("/") ? `assets/img/${thumbnail}` : thumb(thumbnail),
     references: refs,
-    image_credit: "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    image_credit_zh: "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    image_credit: thumbnail.includes("/") ? "Server-generated WCS panel from raw_lens_panels_wcs." : "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
+    image_credit_zh: thumbnail.includes("/") ? "服务器 raw_lens_panels_wcs 生成的 WCS 面板。" : "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   };
 }
 
@@ -51,32 +52,36 @@ window.LENS_SYSTEMS = [
   qso("pg1115-080", "PG 1115+080", "4", "z_l ≈ 0.31", "z_s ≈ 1.72", "1980", "11:18:17.0", "+07:45:58", "Quadruply imaged quasar", ["quad","time-delay","classic"], [
     ads('"PG 1115+080" discovery gravitational lens', "PG 1115+080 discovery papers", "first"),
     ads('"PG 1115+080" lens model time delay', "PG 1115+080 lens modelling", "modelling")
-  ], "pg1115-080"),
+  ], panel("pg1115-080")),
   qso("b1608-656", "B1608+656", "4", "z_l ≈ 0.63", "z_s ≈ 1.39", "1995", "16:09:13.9", "+65:32:28", "Quadruply imaged radio source", ["quad","time-delay","radio","classic"], [
     ads('"B1608+656" discovery radio lens', "B1608+656 discovery", "first"),
     ads('"B1608+656" time delay H0 lens model', "B1608+656 time-delay cosmography", "modelling")
-  ], "b1608-656"),
+  ], panel("b1608-656")),
   qso("he0435-1223", "HE 0435-1223", "4", "z_l ≈ 0.45", "z_s ≈ 1.69", "2002", "04:38:14.9", "-12:17:14", "Quadruply imaged quasar", ["quad","time-delay","H0LiCOW"], [
     ads('"HE 0435-1223" discovery lens', "HE 0435-1223 discovery", "first"),
     ads('"HE 0435-1223" H0LiCOW lens model', "H0LiCOW/TDCOSMO modelling", "modelling"),
     ads('"HE 0435-1223" microlensing follow-up', "Microlensing and follow-up", "followup")
-  ], "he0435-1223"),
+  ], panel("he0435-1223")),
   qso("rxj1131-1231", "RXJ1131-1231", "4", "z_l ≈ 0.30", "z_s ≈ 0.65", "2003", "11:31:51.6", "-12:31:58", "Quadruply imaged quasar", ["quad","time-delay","H0LiCOW"], [
     ads('"RXJ1131-1231" discovery lens', "RXJ1131-1231 discovery", "first"),
     ads('"RXJ1131-1231" lens model H0LiCOW', "Lens modelling and H0", "modelling")
-  ], "rxj1131-1231"),
+  ], panel("rxj1131-1231")),
   qso("wfi2033-4723", "WFI 2033-4723", "4", "z_l ≈ 0.66", "z_s ≈ 1.66", "2004", "20:33:42.1", "-47:23:43", "Quadruply imaged quasar", ["quad","time-delay","H0LiCOW"], [
     ads('"WFI 2033-4723" discovery lens', "WFI 2033-4723 discovery", "first"),
     ads('"WFI2033-4723" H0LiCOW lens model', "H0LiCOW modelling", "modelling")
-  ], "wfi2033-4723"),
+  ], panel("wfi2033-4723")),
   qso("des-j0408-5354", "DES J0408-5354", "4", "z_l ≈ 0.60", "z_s ≈ 2.38", "2017", "04:08:21.8", "-53:54:35", "Quadruply imaged quasar", ["quad","time-delay","STRIDES"], [
     ads('"DES J0408-5354" STRIDES discovery', "STRIDES/DES discovery", "first"),
     ads('"DES J0408-5354" time delay mass model', "Time-delay and mass modelling", "modelling")
-  ], "des-j0408-5354"),
+  ], panel("des-j0408-5354")),
   qso("wgd2038-4008", "WGD 2038-4008", "4", "z_l ≈ 0.23", "z_s ≈ 0.78", "2018", "20:38:24.9", "-40:08:13", "Quadruply imaged quasar", ["quad","time-delay","STRIDES"], [
     ads('"WGD 2038-4008" discovery', "WGD/STRIDES discovery", "first"),
     ads('"WGD 2038-4008" lens environment model', "Environment and modelling", "modelling")
-  ], "wgd2038-4008"),
+  ], panel("wgd2038-4008")),
+  qso("sdss-j1206-4332", "SDSS J1206+4332", "2", "z_l ≈ 0.75", "z_s ≈ 1.79", "2006", "12:06:29.7", "+43:32:17", "Doubly imaged quasar", ["double","time-delay"], [
+    ads('"SDSS J1206+4332" lensed quasar discovery', "SDSS J1206+4332 discovery", "first"),
+    ads('"SDSS J1206+4332" time delay lens model', "Time-delay and lens modelling", "modelling")
+  ], panel("sdss-j1206-4332")),
   qso("sdss-j1004-4112", "SDSS J1004+4112", "5", "z_l ≈ 0.68", "z_s ≈ 1.73", "2003", "10:04:34.9", "+41:12:42", "Cluster-scale lensed quasar", ["quad","time-delay","cluster","classic"], [
     ads('"SDSS J1004+4112" discovery cluster lens quasar', "Cluster-lens discovery", "first"),
     ads('"SDSS J1004+4112" lens model time delays', "Cluster lens modelling", "modelling")

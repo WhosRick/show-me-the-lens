@@ -83,7 +83,7 @@
       "时间延迟",
       "经典样本"
     ],
-    "thumbnail": "assets/img/thumbs/pg1115-080.svg",
+    "thumbnail": "assets/img/panels/pg1115-080_panel.png",
     "references": [
       {
         "type": "first",
@@ -98,8 +98,8 @@
         "url": "https://ui.adsabs.harvard.edu/search/q=%22PG%201115%2B080%22%20lens%20model%20time%20delay"
       }
     ],
-    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
   {
     "id": "b1608-656",
@@ -135,7 +135,7 @@
       "射电",
       "经典样本"
     ],
-    "thumbnail": "assets/img/thumbs/b1608-656.svg",
+    "thumbnail": "assets/img/panels/b1608-656_panel.png",
     "references": [
       {
         "type": "first",
@@ -150,8 +150,8 @@
         "url": "https://ui.adsabs.harvard.edu/search/q=%22B1608%2B656%22%20time%20delay%20H0%20lens%20model"
       }
     ],
-    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
   {
     "id": "he0435-1223",
@@ -185,7 +185,7 @@
       "时间延迟",
       "H0LiCOW"
     ],
-    "thumbnail": "assets/img/thumbs/he0435-1223.svg",
+    "thumbnail": "assets/img/panels/he0435-1223_panel.png",
     "references": [
       {
         "type": "first",
@@ -206,8 +206,8 @@
         "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20microlensing%20follow-up"
       }
     ],
-    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
   {
     "id": "rxj1131-1231",
@@ -241,7 +241,7 @@
       "时间延迟",
       "H0LiCOW"
     ],
-    "thumbnail": "assets/img/thumbs/rxj1131-1231.svg",
+    "thumbnail": "assets/img/panels/rxj1131-1231_panel.png",
     "references": [
       {
         "type": "first",
@@ -256,8 +256,8 @@
         "url": "https://ui.adsabs.harvard.edu/search/q=%22RXJ1131-1231%22%20lens%20model%20H0LiCOW"
       }
     ],
-    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
   {
     "id": "wfi2033-4723",
@@ -291,7 +291,7 @@
       "时间延迟",
       "H0LiCOW"
     ],
-    "thumbnail": "assets/img/thumbs/wfi2033-4723.svg",
+    "thumbnail": "assets/img/panels/wfi2033-4723_panel.png",
     "references": [
       {
         "type": "first",
@@ -306,8 +306,8 @@
         "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI2033-4723%22%20H0LiCOW%20lens%20model"
       }
     ],
-    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
   {
     "id": "des-j0408-5354",
@@ -341,7 +341,7 @@
       "时间延迟",
       "STRIDES"
     ],
-    "thumbnail": "assets/img/thumbs/des-j0408-5354.svg",
+    "thumbnail": "assets/img/panels/des-j0408-5354_panel.png",
     "references": [
       {
         "type": "first",
@@ -356,8 +356,8 @@
         "url": "https://ui.adsabs.harvard.edu/search/q=%22DES%20J0408-5354%22%20time%20delay%20mass%20model"
       }
     ],
-    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
   {
     "id": "wgd2038-4008",
@@ -391,7 +391,7 @@
       "时间延迟",
       "STRIDES"
     ],
-    "thumbnail": "assets/img/thumbs/wgd2038-4008.svg",
+    "thumbnail": "assets/img/panels/wgd2038-4008_panel.png",
     "references": [
       {
         "type": "first",
@@ -406,8 +406,56 @@
         "url": "https://ui.adsabs.harvard.edu/search/q=%22WGD%202038-4008%22%20lens%20environment%20model"
       }
     ],
-    "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+  },
+  {
+    "id": "sdss-j1206-4332",
+    "name": "SDSS J1206+4332",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Doubly imaged quasar",
+    "subtype_zh": "双重成像类星体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "2",
+    "lens_redshift": "z_l ≈ 0.75",
+    "source_redshift": "z_s ≈ 1.79",
+    "discovery_year": "2006",
+    "ra": "12:06:29.7",
+    "dec": "+43:32:17",
+    "mast_query": "12:06:29.7 +43:32:17",
+    "summary": "SDSS J1206+4332 is a doubly imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
+    "summary_zh": "SDSS J1206+4332 是双重成像透镜类星体，已加入扩展后的 lensed QSO 目录，并提供 MAST 坐标入口和带角色标注的文献。",
+    "tags": [
+      "QSO",
+      "double",
+      "time-delay"
+    ],
+    "tags_zh": [
+      "类星体",
+      "双重像",
+      "时间延迟"
+    ],
+    "thumbnail": "assets/img/panels/sdss-j1206-4332_panel.png",
+    "references": [
+      {
+        "type": "first",
+        "label": "SDSS J1206+4332 discovery",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1206%2B4332%22%20lensed%20quasar%20discovery"
+      },
+      {
+        "type": "modelling",
+        "label": "Time-delay and lens modelling",
+        "note": "ADS record/search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1206%2B4332%22%20time%20delay%20lens%20model"
+      }
+    ],
+    "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
   {
     "id": "sdss-j1004-4112",

@@ -27,10 +27,10 @@ const i18n = {
     catalogue_eyebrow: "Catalogue", catalogue_title: "透镜源目录",
     catalogue_desc: "目录改为横向列表。当前批量并入 CASTLES 101 个多重成像系统，并保留服务器生成的 QSO panel 图；GraL 全量表可继续追加。",
     search_label: "搜索", search_placeholder: "输入源名、类型、标签或红移",
-    filter_all: "全部", filter_qso: "透镜类星体", filter_sn: "透镜超新星", filter_quad: "四重像", filter_cluster: "星系团尺度", filter_timedelay: "时间延迟",
+    filter_all: "全部", filter_qso: "透镜类星体", filter_sn: "透镜超新星", filter_quad: "四重像", filter_cluster: "星系团尺度", filter_timedelay: "时间延迟", filter_h0: "H0 测量样本",
     per_page: "每页", prev: "上一页", next: "下一页", page_of: "第 {page} / {pages} 页", no_results: "没有匹配结果。",
-    references_eyebrow: "References", references_title: "文献统计与角色标注",
-    references_desc: "详情页列出具体文献或目录链接，并用上标标明发现、观测、建模、综述/目录等角色。",
+    references_eyebrow: "References", references_title: "References 目录",
+    references_desc: "按多列目录列出源名、具体文章或目录记录、角色上标和链接。arXiv 链接直接指向 abstract 页面；ADS 条目后续可继续替换为具体 bibcode abstract 页面。",
     sources_eyebrow: "Data Source", sources_title: "数据源先限定为 MAST",
     sources_desc: "每个源的 Data 按钮指向 MAST Portal，并在链接参数中写入该源的 RA/Dec。其它数据库保留在文献和备注中，不作为本版数据入口。",
     submit_eyebrow: "Submit", submit_title: "投送与补充意见",
@@ -38,7 +38,8 @@ const i18n = {
     disclaimer: "免责声明：本网站为研究资料汇总与展示原型，红移、分类、文献角色和图像版权请以原始论文、MAST 元数据和数据发布页为准。",
     name: "源的名字", thumbnail: "缩略图", type: "源类型", status: "是否已认证", images: "成像数目", scale: "scale", lens_redshift: "lens redshift", source_redshift: "source redshift",
     detail: "details", data: "MAST", references: "References", subtype: "子类型", discovery: "发现年份", coordinates: "坐标", image_credit: "图像说明",
-    first: "发现", observation: "观测", modelling: "建模", followup: "后续", review: "综述", catalog: "目录", candidate: "候选"
+    first: "发现", observation: "观测", modelling: "建模", followup: "后续", review: "综述", catalog: "目录", candidate: "候选",
+    ref_source: "源", ref_title: "文章/记录", ref_roles: "标记"
   },
   en: {
     nav_catalogue: "Catalogue", nav_references: "References", nav_sources: "Data Source", nav_submit: "Submit",
@@ -49,10 +50,10 @@ const i18n = {
     catalogue_eyebrow: "Catalogue", catalogue_title: "Lens-source catalogue",
     catalogue_desc: "The catalogue now uses a horizontal list. This batch imports the CASTLES 101 multiply imaged systems and keeps server-generated QSO panels; the full GraL table can be appended later.",
     search_label: "Search", search_placeholder: "Search by name, type, tag, or redshift",
-    filter_all: "All", filter_qso: "Lensed QSOs", filter_sn: "Lensed SNe", filter_quad: "Quad", filter_cluster: "Cluster-scale", filter_timedelay: "Time-delay",
+    filter_all: "All", filter_qso: "Lensed QSOs", filter_sn: "Lensed SNe", filter_quad: "Quad", filter_cluster: "Cluster-scale", filter_timedelay: "Time-delay", filter_h0: "H0 samples",
     per_page: "Per page", prev: "Previous", next: "Next", page_of: "Page {page} / {pages}", no_results: "No matching systems.",
-    references_eyebrow: "References", references_title: "Reference counts and roles",
-    references_desc: "Detail panels list literature or catalogue links with superscript role labels for discovery, observation, modelling, review/catalogue, and candidates.",
+    references_eyebrow: "References", references_title: "References directory",
+    references_desc: "A multi-column directory of source names, article or catalogue-record titles, role superscripts, and links. arXiv links go directly to abstract pages; ADS entries can be upgraded to bibcode abstract pages as curation continues.",
     sources_eyebrow: "Data Source", sources_title: "MAST-first data links",
     sources_desc: "Each Data button opens MAST Portal with the source RA/Dec in the query. Other services are kept as literature context rather than primary data sources.",
     submit_eyebrow: "Submit", submit_title: "Submit additions and corrections",
@@ -60,7 +61,8 @@ const i18n = {
     disclaimer: "Disclaimer: this site is a research catalogue prototype. Redshifts, classifications, reference roles, and image rights should be checked against original papers, MAST metadata, and data-release pages.",
     name: "Source name", thumbnail: "Thumbnail", type: "Source type", status: "Certified", images: "Images", scale: "scale", lens_redshift: "lens redshift", source_redshift: "source redshift",
     detail: "details", data: "MAST", references: "References", subtype: "Subtype", discovery: "Discovery year", coordinates: "Coordinates", image_credit: "Image credit",
-    first: "discovery", observation: "observation", modelling: "modelling", followup: "follow-up", review: "review", catalog: "catalogue", candidate: "candidate"
+    first: "discovery", observation: "observation", modelling: "modelling", followup: "follow-up", review: "review", catalog: "catalogue", candidate: "candidate",
+    ref_source: "Source", ref_title: "Article / record", ref_roles: "Roles"
   }
 };
 
@@ -84,7 +86,7 @@ function applyLanguage() {
   searchInput.placeholder = t("search_placeholder");
   langButtons.forEach(btn => btn.classList.toggle("active", btn.dataset.lang === lang));
   render();
-  renderReferenceStats();
+  renderReferenceDirectory();
 }
 
 function matchesFilter(system) {
@@ -184,7 +186,7 @@ function openDetails(id) {
       <div class="dialog-content">
         <p class="eyebrow">${escapeHtml(pick(system, "category"))}</p>
         <h3>${escapeHtml(system.name)}</h3>
-        <p>${escapeHtml(pick(system, "summary"))}</p>
+        ${pick(system, "summary") ? `<p>${escapeHtml(pick(system, "summary"))}</p>` : ""}
         <div class="meta">
           <div><span>${t("subtype")}</span>${escapeHtml(pick(system, "subtype"))}</div>
           <div><span>${t("status")}</span>${escapeHtml(pick(system, "status"))}</div>
@@ -220,17 +222,35 @@ function createReferences(refs = []) {
   `).join("");
 }
 
-function renderReferenceStats() {
-  const counts = systems.flatMap(s => s.references || []).flatMap(refRoles).reduce((acc, role) => {
-    acc[role] = (acc[role] || 0) + 1;
-    return acc;
-  }, {});
-  referenceStats.innerHTML = Object.entries(counts).map(([role, count]) => `
-    <article>
-      <span>${count}</span>
-      <p>${escapeHtml(t(role) || role)}</p>
-    </article>
-  `).join("");
+function renderReferenceDirectory() {
+  const refs = systems.flatMap(system => (system.references || []).map(ref => ({ system, ref })));
+  referenceStats.innerHTML = `
+    <div class="references-directory">
+      <table>
+        <thead>
+          <tr>
+            <th>${t("ref_source")}</th>
+            <th>${t("ref_title")}</th>
+            <th>${t("ref_roles")}</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${refs.map(({ system, ref }) => `
+            <tr>
+              <td>${escapeHtml(system.name)}</td>
+              <td>
+                <a href="${escapeAttr(ref.url)}" target="_blank" rel="noreferrer">
+                  ${escapeHtml(ref.title || ref.label)}
+                </a>
+                <small>${escapeHtml(ref.note || "")}</small>
+              </td>
+              <td>${refRoleHtml(ref)}</td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
 }
 
 function escapeHtml(value) {

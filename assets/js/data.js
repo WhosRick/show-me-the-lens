@@ -17,8 +17,8 @@ window.LENS_SYSTEMS = [
     "ra": "08:31:41.6",
     "dec": "+52:45:17",
     "mast_query": "08:31:41.6 +52:45:17",
-    "summary": "APM 08279+5255 is a lensed quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "APM 08279+5255 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "classic"
@@ -30,21 +30,21 @@ window.LENS_SYSTEMS = [
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
     "references": [
       {
-        "title": "Discovery paper",
+        "title": "APM 08279+5255: discovery paper",
         "label": "Discovery paper",
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22APM%2008279%2B5255%22%20gravitationally%20lensed%20quasar%20discovery"
       },
       {
-        "title": "Lens model and follow-up",
+        "title": "APM 08279+5255: lens modelling and follow-up papers",
         "label": "Lens model and follow-up",
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22APM%2008279%2B5255%22%20lens%20model"
       }
     ],
@@ -69,8 +69,8 @@ window.LENS_SYSTEMS = [
     "ra": "01:31:13.405",
     "dec": "+43:58:13.14",
     "mast_query": "01:31:13.405 +43:58:13.14",
-    "summary": "B0128+437 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B0128+437 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -114,8 +114,8 @@ window.LENS_SYSTEMS = [
     "ra": "02:21:05.483",
     "dec": "+35:56:13.78",
     "mast_query": "02:21:05.483 +35:56:13.78",
-    "summary": "B0218+357 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B0218+357 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -159,8 +159,8 @@ window.LENS_SYSTEMS = [
     "ra": "04:48:21.99",
     "dec": "+12:27:55.41",
     "mast_query": "04:48:21.99 +12:27:55.41",
-    "summary": "B0445+123 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B0445+123 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -204,8 +204,8 @@ window.LENS_SYSTEMS = [
     "ra": "06:35:12.31",
     "dec": "+51:57:01.8",
     "mast_query": "06:35:12.31 +51:57:01.8",
-    "summary": "B0631+519 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B0631+519 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -249,8 +249,8 @@ window.LENS_SYSTEMS = [
     "ra": "07:16:03.58",
     "dec": "+47:08:50.0",
     "mast_query": "07:16:03.58 +47:08:50.0",
-    "summary": "B0712+472 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B0712+472 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -294,8 +294,8 @@ window.LENS_SYSTEMS = [
     "ra": "07:42:51.2",
     "dec": "+36:34:43.7",
     "mast_query": "07:42:51.2 +36:34:43.7",
-    "summary": "B0739+366 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B0739+366 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -339,8 +339,8 @@ window.LENS_SYSTEMS = [
     "ra": "08:52:53.58",
     "dec": "+05:15:15.3",
     "mast_query": "08:52:53.58 +05:15:15.3",
-    "summary": "B0850+054 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B0850+054 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -384,8 +384,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:33:34.08",
     "dec": "+07:11:25.5",
     "mast_query": "10:33:34.08 +07:11:25.5",
-    "summary": "B1030+074 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B1030+074 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -429,8 +429,8 @@ window.LENS_SYSTEMS = [
     "ra": "11:30:00.13",
     "dec": "+38:12:03.1",
     "mast_query": "11:30:00.13 +38:12:03.1",
-    "summary": "B1127+385 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B1127+385 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -474,8 +474,8 @@ window.LENS_SYSTEMS = [
     "ra": "11:55:18.3",
     "dec": "+19:39:42.2",
     "mast_query": "11:55:18.3 +19:39:42.2",
-    "summary": "B1152+200 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B1152+200 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -519,8 +519,8 @@ window.LENS_SYSTEMS = [
     "ra": "14:01:35.55",
     "dec": "+15:13:25.6",
     "mast_query": "14:01:35.55 +15:13:25.6",
-    "summary": "B1359+154 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B1359+154 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -564,8 +564,8 @@ window.LENS_SYSTEMS = [
     "ra": "14:24:38.1",
     "dec": "+22:56:00",
     "mast_query": "14:24:38.1 +22:56:00",
-    "summary": "B1422+231 is a quadruply imaged radio quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "B1422+231 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -581,12 +581,12 @@ window.LENS_SYSTEMS = [
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
     "references": [
       {
-        "title": "Discovery paper",
+        "title": "B1422+231: discovery paper",
         "label": "Discovery paper",
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22B1422%2B231%22%20gravitational%20lens%20discovery"
       },
       {
@@ -595,7 +595,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22B1422%2B231%22%20flux%20ratio%20anomaly%20lens%20model"
       }
     ],
@@ -620,8 +620,8 @@ window.LENS_SYSTEMS = [
     "ra": "15:57:11.93",
     "dec": "+37:21:35.9",
     "mast_query": "15:57:11.93 +37:21:35.9",
-    "summary": "B1555+375 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B1555+375 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -665,8 +665,8 @@ window.LENS_SYSTEMS = [
     "ra": "16:01:40.45",
     "dec": "+43:16:47.8",
     "mast_query": "16:01:40.45 +43:16:47.8",
-    "summary": "B1600+434 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B1600+434 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -710,21 +710,23 @@ window.LENS_SYSTEMS = [
     "ra": "16:09:13.9",
     "dec": "+65:32:28",
     "mast_query": "16:09:13.9 +65:32:28",
-    "summary": "B1608+656 is a quadruply imaged radio source included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "B1608+656 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Quadruply imaged radio source with measured time delays and lens modelling used in H0 inference.",
+    "summary_zh": "四重成像射电源，已有时间延迟测量和透镜建模，可用于 H0 推断。",
     "tags": [
       "QSO",
       "quad",
       "time-delay",
       "radio",
-      "classic"
+      "classic",
+      "h0-measurement"
     ],
     "tags_zh": [
       "类星体",
       "四重像",
       "时间延迟",
       "radio",
-      "classic"
+      "classic",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/panels/b1608-656_panel.png",
     "references": [
@@ -734,7 +736,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22B1608%2B656%22%20discovery%20radio%20lens"
       },
       {
@@ -743,7 +745,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22B1608%2B656%22%20time%20delay%20H0%20lens%20model"
       }
     ],
@@ -768,8 +770,8 @@ window.LENS_SYSTEMS = [
     "ra": "19:34:30.95",
     "dec": "+50:25:23.6",
     "mast_query": "19:34:30.95 +50:25:23.6",
-    "summary": "B1933+503 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B1933+503 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -813,8 +815,8 @@ window.LENS_SYSTEMS = [
     "ra": "19:38:25.19",
     "dec": "+66:48:52.2",
     "mast_query": "19:38:25.19 +66:48:52.2",
-    "summary": "B1938+666 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B1938+666 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -858,8 +860,8 @@ window.LENS_SYSTEMS = [
     "ra": "20:47:20.35",
     "dec": "+26:44:01.2",
     "mast_query": "20:47:20.35 +26:44:01.2",
-    "summary": "B2045+265 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B2045+265 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -903,8 +905,8 @@ window.LENS_SYSTEMS = [
     "ra": "21:10:54.02",
     "dec": "+21:31:00.7",
     "mast_query": "21:10:54.02 +21:31:00.7",
-    "summary": "B2108+213 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B2108+213 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -948,8 +950,8 @@ window.LENS_SYSTEMS = [
     "ra": "21:16:50.75",
     "dec": "+02:25:46.9",
     "mast_query": "21:16:50.75 +02:25:46.9",
-    "summary": "B2114+022 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B2114+022 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -993,8 +995,8 @@ window.LENS_SYSTEMS = [
     "ra": "23:21:40.8",
     "dec": "+05:27:36.4",
     "mast_query": "23:21:40.8 +05:27:36.4",
-    "summary": "B2319+052 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "B2319+052 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1038,8 +1040,8 @@ window.LENS_SYSTEMS = [
     "ra": "09:55:00.01",
     "dec": "-01:30:05.0",
     "mast_query": "09:55:00.01 -01:30:05.0",
-    "summary": "BRI0952-0115 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "BRI0952-0115 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1083,8 +1085,8 @@ window.LENS_SYSTEMS = [
     "ra": "03:02:30.9",
     "dec": "+00:06:02.1",
     "mast_query": "03:02:30.9 +00:06:02.1",
-    "summary": "CFRS03.1077 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "CFRS03.1077 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1128,8 +1130,8 @@ window.LENS_SYSTEMS = [
     "ra": "22:01:32.8",
     "dec": "-32:01:44.0",
     "mast_query": "22:01:32.8 -32:01:44.0",
-    "summary": "CY2201-3201 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "CY2201-3201 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1173,19 +1175,21 @@ window.LENS_SYSTEMS = [
     "ra": "04:08:21.8",
     "dec": "-53:54:35",
     "mast_query": "04:08:21.8 -53:54:35",
-    "summary": "DES J0408-5354 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "DES J0408-5354 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "STRIDES/DES quadruply imaged quasar with time-delay measurements and cosmographic lens modelling.",
+    "summary_zh": "STRIDES/DES 四重成像类星体，已有时间延迟测量和宇宙学透镜建模。",
     "tags": [
       "QSO",
       "quad",
       "time-delay",
-      "STRIDES"
+      "STRIDES",
+      "h0-measurement"
     ],
     "tags_zh": [
       "类星体",
       "四重像",
       "时间延迟",
-      "STRIDES"
+      "STRIDES",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/panels/des-j0408-5354_panel.png",
     "references": [
@@ -1195,7 +1199,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22DES%20J0408-5354%22%20STRIDES%20discovery"
       },
       {
@@ -1204,7 +1208,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22DES%20J0408-5354%22%20time%20delay%20mass%20model"
       }
     ],
@@ -1229,8 +1233,8 @@ window.LENS_SYSTEMS = [
     "ra": "09:51:22.57",
     "dec": "+26:35:14.1",
     "mast_query": "09:51:22.57 +26:35:14.1",
-    "summary": "FBQ0951+2635 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "FBQ0951+2635 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1274,8 +1278,8 @@ window.LENS_SYSTEMS = [
     "ra": "16:33:48.99",
     "dec": "+31:34:11.90",
     "mast_query": "16:33:48.99 +31:34:11.90",
-    "summary": "FBQ1633+3134 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "FBQ1633+3134 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1319,8 +1323,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:24:34.6",
     "dec": "+47:09:11",
     "mast_query": "10:24:34.6 +47:09:11",
-    "summary": "FSC10214+4724 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "FSC10214+4724 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1364,8 +1368,8 @@ window.LENS_SYSTEMS = [
     "ra": "02:48:48.7",
     "dec": "-18:45:10",
     "mast_query": "02:48:48.7 -18:45:10",
-    "summary": "GraL J0248-1845 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "GraL J0248-1845 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -1384,16 +1388,16 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0248-1845%22%20lensed%20quasar"
       },
       {
-        "title": "Modelling/follow-up",
+        "title": "GraL J0248-1845: lens modelling and follow-up papers",
         "label": "Modelling/follow-up",
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0248-1845%22%20lens%20model"
       }
     ],
@@ -1418,8 +1422,8 @@ window.LENS_SYSTEMS = [
     "ra": "06:07:10.8",
     "dec": "-21:52:17",
     "mast_query": "06:07:10.8 -21:52:17",
-    "summary": "GraL J0607-2152 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "GraL J0607-2152 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -1438,7 +1442,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0607-2152%22%20lensed%20quasar"
       },
       {
@@ -1447,7 +1451,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0607-2152%22%20follow-up"
       }
     ],
@@ -1472,8 +1476,8 @@ window.LENS_SYSTEMS = [
     "ra": "08:18:28.3",
     "dec": "-26:13:25",
     "mast_query": "08:18:28.3 -26:13:25",
-    "summary": "GraL J0818-2613 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "GraL J0818-2613 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -1492,16 +1496,16 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0818-2613%22%20lensed%20quasar"
       },
       {
-        "title": "Modelling/follow-up",
+        "title": "GraL J0818-2613: lens modelling and follow-up papers",
         "label": "Modelling/follow-up",
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0818-2613%22%20lens%20model"
       }
     ],
@@ -1526,8 +1530,8 @@ window.LENS_SYSTEMS = [
     "ra": "16:51:05.9",
     "dec": "-04:17:24",
     "mast_query": "16:51:05.9 -04:17:24",
-    "summary": "GraL J1651-0417 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "GraL J1651-0417 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -1546,7 +1550,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J1651-0417%22%20lensed%20quasar"
       },
       {
@@ -1555,7 +1559,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J1651-0417%22%20follow-up"
       }
     ],
@@ -1580,8 +1584,8 @@ window.LENS_SYSTEMS = [
     "ra": "14:15:46.2",
     "dec": "+11:29:44",
     "mast_query": "14:15:46.2 +11:29:44",
-    "summary": "H1413+117 / Cloverleaf is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "H1413+117 / Cloverleaf 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -1600,7 +1604,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22H1413%2B117%22%20Cloverleaf%20gravitational%20lens%20discovery"
       },
       {
@@ -1609,7 +1613,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22H1413%2B117%22%20lens%20model%20molecular%20gas"
       }
     ],
@@ -1634,8 +1638,8 @@ window.LENS_SYSTEMS = [
     "ra": "22:32:50.9",
     "dec": "-60:32:43.0",
     "mast_query": "22:32:50.9 -60:32:43.0",
-    "summary": "HDFS2232509-603243 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HDFS2232509-603243 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1679,19 +1683,21 @@ window.LENS_SYSTEMS = [
     "ra": "04:38:14.9",
     "dec": "-12:17:14",
     "mast_query": "04:38:14.9 -12:17:14",
-    "summary": "HE 0435-1223 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "HE 0435-1223 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "H0LiCOW/TDCOSMO quadruply imaged quasar with time delays, stellar kinematics, and detailed lens-environment modelling.",
+    "summary_zh": "H0LiCOW/TDCOSMO 四重成像类星体，具有时间延迟、恒星运动学和透镜环境建模。",
     "tags": [
       "QSO",
       "quad",
       "time-delay",
-      "H0LiCOW"
+      "H0LiCOW",
+      "h0-measurement"
     ],
     "tags_zh": [
       "类星体",
       "四重像",
       "时间延迟",
-      "H0LiCOW"
+      "H0LiCOW",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/panels/he0435-1223_panel.png",
     "references": [
@@ -1701,7 +1707,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20discovery%20lens"
       },
       {
@@ -1710,7 +1716,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20H0LiCOW%20lens%20model"
       },
       {
@@ -1719,7 +1725,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20microlensing%20follow-up"
       }
     ],
@@ -1744,8 +1750,8 @@ window.LENS_SYSTEMS = [
     "ra": "00:50:27.83",
     "dec": "-17:40:8.8",
     "mast_query": "00:50:27.83 -17:40:8.8",
-    "summary": "HE0047-1756 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HE0047-1756 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1789,8 +1795,8 @@ window.LENS_SYSTEMS = [
     "ra": "02:32:33.1",
     "dec": "-21:17:26",
     "mast_query": "02:32:33.1 -21:17:26",
-    "summary": "HE0230-2130 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HE0230-2130 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1834,8 +1840,8 @@ window.LENS_SYSTEMS = [
     "ra": "05:14:10.78",
     "dec": "-33:26:22.50",
     "mast_query": "05:14:10.78 -33:26:22.50",
-    "summary": "HE0512-3329 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HE0512-3329 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1879,8 +1885,8 @@ window.LENS_SYSTEMS = [
     "ra": "11:06:33.45",
     "dec": "-18:21:24.2",
     "mast_query": "11:06:33.45 -18:21:24.2",
-    "summary": "HE1104-1805 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HE1104-1805 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1924,8 +1930,8 @@ window.LENS_SYSTEMS = [
     "ra": "21:52:07.44",
     "dec": "-27:31:50.2",
     "mast_query": "21:52:07.44 -27:31:50.2",
-    "summary": "HE2149-2745 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HE2149-2745 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -1969,8 +1975,8 @@ window.LENS_SYSTEMS = [
     "ra": "08:12:37.0",
     "dec": "+25:45:18",
     "mast_query": "08:12:37.0 +25:45:18",
-    "summary": "HS 0810+2554 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "HS 0810+2554 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad"
@@ -1982,12 +1988,12 @@ window.LENS_SYSTEMS = [
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
     "references": [
       {
-        "title": "Discovery paper",
+        "title": "HS 0810+2554: discovery paper",
         "label": "Discovery paper",
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22HS%200810%2B2554%22%20gravitational%20lens%20discovery"
       },
       {
@@ -1996,7 +2002,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22HS%200810%2B2554%22%20microlensing"
       }
     ],
@@ -2021,8 +2027,8 @@ window.LENS_SYSTEMS = [
     "ra": "08:21:39.1",
     "dec": "+12:17:29",
     "mast_query": "08:21:39.1 +12:17:29",
-    "summary": "HS0818+1227 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HS0818+1227 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2066,8 +2072,8 @@ window.LENS_SYSTEMS = [
     "ra": "01:24:44.4",
     "dec": "+03:52:00",
     "mast_query": "01:24:44.4 +03:52:00",
-    "summary": "HST01247+0352 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST01247+0352 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2111,8 +2117,8 @@ window.LENS_SYSTEMS = [
     "ra": "01:24:45.6",
     "dec": "+03:51:06",
     "mast_query": "01:24:45.6 +03:51:06",
-    "summary": "HST01248+0351 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST01248+0351 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2156,8 +2162,8 @@ window.LENS_SYSTEMS = [
     "ra": "12:36:49.0",
     "dec": "+62:12:22",
     "mast_query": "12:36:49.0 +62:12:22",
-    "summary": "HST12368+6212 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST12368+6212 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2201,8 +2207,8 @@ window.LENS_SYSTEMS = [
     "ra": "12:53:06.70",
     "dec": "-29:14:30.0",
     "mast_query": "12:53:06.70 -29:14:30.0",
-    "summary": "HST12531-2914 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST12531-2914 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2246,8 +2252,8 @@ window.LENS_SYSTEMS = [
     "ra": "14:11:19.60",
     "dec": "+52:11:29.0",
     "mast_query": "14:11:19.60 +52:11:29.0",
-    "summary": "HST14113+5211 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST14113+5211 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2291,8 +2297,8 @@ window.LENS_SYSTEMS = [
     "ra": "14:16:25.2",
     "dec": "+52:14:31",
     "mast_query": "14:16:25.2 +52:14:31",
-    "summary": "HST14164+5215 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST14164+5215 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2336,8 +2342,8 @@ window.LENS_SYSTEMS = [
     "ra": "14:17:36.51",
     "dec": "+52:26:40.0",
     "mast_query": "14:17:36.51 +52:26:40.0",
-    "summary": "HST14176+5226 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST14176+5226 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2381,8 +2387,8 @@ window.LENS_SYSTEMS = [
     "ra": "15:43:20.9",
     "dec": "+53:51:52",
     "mast_query": "15:43:20.9 +53:51:52",
-    "summary": "HST15433+5352 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST15433+5352 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2426,8 +2432,8 @@ window.LENS_SYSTEMS = [
     "ra": "16:30:12.9",
     "dec": "+82:29:59",
     "mast_query": "16:30:12.9 +82:29:59",
-    "summary": "HST16302+8230 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST16302+8230 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2471,8 +2477,8 @@ window.LENS_SYSTEMS = [
     "ra": "16:30:52.7",
     "dec": "+82:30:12",
     "mast_query": "16:30:52.7 +82:30:12",
-    "summary": "HST16309+8230 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST16309+8230 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2516,8 +2522,8 @@ window.LENS_SYSTEMS = [
     "ra": "18:07:46.7",
     "dec": "+45:59:56",
     "mast_query": "18:07:46.7 +45:59:56",
-    "summary": "HST18078+4600 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "HST18078+4600 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2561,8 +2567,8 @@ window.LENS_SYSTEMS = [
     "ra": "03:32:38.22",
     "dec": "-27:56:52.9",
     "mast_query": "03:32:38.22 -27:56:52.9",
-    "summary": "J0332-2756 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "J0332-2756 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2606,8 +2612,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:04:24.9",
     "dec": "+12:29:22.3",
     "mast_query": "10:04:24.9 +12:29:22.3",
-    "summary": "J1004+1229 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "J1004+1229 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2651,8 +2657,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:12:15.71",
     "dec": "-03:07:02.0",
     "mast_query": "10:12:15.71 -03:07:02.0",
-    "summary": "LBQS1009-0252 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "LBQS1009-0252 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2696,8 +2702,8 @@ window.LENS_SYSTEMS = [
     "ra": "13:35:34.79",
     "dec": "+01:18:05.5",
     "mast_query": "13:35:34.79 +01:18:05.5",
-    "summary": "LBQS1333+0113 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "LBQS1333+0113 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2741,8 +2747,8 @@ window.LENS_SYSTEMS = [
     "ra": "04:14:37.7",
     "dec": "+05:34:43",
     "mast_query": "04:14:37.7 +05:34:43",
-    "summary": "MG 0414+0534 is a quadruply imaged radio quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "MG 0414+0534 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -2758,12 +2764,12 @@ window.LENS_SYSTEMS = [
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
     "references": [
       {
-        "title": "Discovery paper",
+        "title": "MG 0414+0534: discovery paper",
         "label": "Discovery paper",
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22MG%200414%2B0534%22%20gravitational%20lens%20discovery"
       },
       {
@@ -2772,7 +2778,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22MG%200414%2B0534%22%20substructure%20lens%20model"
       }
     ],
@@ -2797,8 +2803,8 @@ window.LENS_SYSTEMS = [
     "ra": "07:51:41.46",
     "dec": "+27:16:31.35",
     "mast_query": "07:51:41.46 +27:16:31.35",
-    "summary": "MG0751+2716 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "MG0751+2716 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2842,8 +2848,8 @@ window.LENS_SYSTEMS = [
     "ra": "11:31:56.48",
     "dec": "+04:55:49.8",
     "mast_query": "11:31:56.48 +04:55:49.8",
-    "summary": "MG1131+0456 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "MG1131+0456 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2887,8 +2893,8 @@ window.LENS_SYSTEMS = [
     "ra": "15:49:12.37",
     "dec": "+30:47:16.6",
     "mast_query": "15:49:12.37 +30:47:16.6",
-    "summary": "MG1549+3047 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "MG1549+3047 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2932,8 +2938,8 @@ window.LENS_SYSTEMS = [
     "ra": "16:54:41.83",
     "dec": "+13:46:22.0",
     "mast_query": "16:54:41.83 +13:46:22.0",
-    "summary": "MG1654+1346 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "MG1654+1346 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -2977,8 +2983,8 @@ window.LENS_SYSTEMS = [
     "ra": "20:19:18.15",
     "dec": "+11:27:08.3",
     "mast_query": "20:19:18.15 +11:27:08.3",
-    "summary": "MG2016+112 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "MG2016+112 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3022,19 +3028,21 @@ window.LENS_SYSTEMS = [
     "ra": "11:18:17.0",
     "dec": "+07:45:58",
     "mast_query": "11:18:17.0 +07:45:58",
-    "summary": "PG 1115+080 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "PG 1115+080 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Classic quadruply imaged quasar with time-delay measurements used in lens-modelling and H0 studies.",
+    "summary_zh": "经典四重成像类星体，时间延迟测量常用于透镜建模和 H0 研究。",
     "tags": [
       "QSO",
       "quad",
       "time-delay",
-      "classic"
+      "classic",
+      "h0-measurement"
     ],
     "tags_zh": [
       "类星体",
       "四重像",
       "时间延迟",
-      "classic"
+      "classic",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/panels/pg1115-080_panel.png",
     "references": [
@@ -3044,7 +3052,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22PG%201115%2B080%22%20discovery%20gravitational%20lens"
       },
       {
@@ -3053,7 +3061,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22PG%201115%2B080%22%20lens%20model%20time%20delay"
       }
     ],
@@ -3078,8 +3086,8 @@ window.LENS_SYSTEMS = [
     "ra": "18:33:39.94",
     "dec": "-21:03:39.7",
     "mast_query": "18:33:39.94 -21:03:39.7",
-    "summary": "PKS1830-211 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "PKS1830-211 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3123,8 +3131,8 @@ window.LENS_SYSTEMS = [
     "ra": "01:34:35.67",
     "dec": "-09:31:02.9",
     "mast_query": "01:34:35.67 -09:31:02.9",
-    "summary": "PMNJ0134-0931 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "PMNJ0134-0931 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3168,8 +3176,8 @@ window.LENS_SYSTEMS = [
     "ra": "16:32:57.68",
     "dec": "-00:33:21.1",
     "mast_query": "16:32:57.68 -00:33:21.1",
-    "summary": "PMNJ1632-0033 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "PMNJ1632-0033 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3213,8 +3221,8 @@ window.LENS_SYSTEMS = [
     "ra": "18:38:28.5",
     "dec": "-34:27:41.6",
     "mast_query": "18:38:28.5 -34:27:41.6",
-    "summary": "PMNJ1838-3427 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "PMNJ1838-3427 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3258,8 +3266,8 @@ window.LENS_SYSTEMS = [
     "ra": "20:04:07.07",
     "dec": "-13:49:30.7",
     "mast_query": "20:04:07.07 -13:49:30.7",
-    "summary": "PMNJ2004-1349 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "PMNJ2004-1349 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3303,8 +3311,8 @@ window.LENS_SYSTEMS = [
     "ra": "01:47:20.0",
     "dec": "-46:30:00",
     "mast_query": "01:47:20.0 -46:30:00",
-    "summary": "PS J0147-4630 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "PS J0147-4630 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -3323,16 +3331,16 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22PS%20J0147-4630%22%20gravitational%20lens"
       },
       {
-        "title": "Lens modelling",
+        "title": "PS J0147-4630: lens modelling and follow-up papers",
         "label": "Lens modelling",
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22PS%20J0147-4630%22%20lens%20model"
       }
     ],
@@ -3357,8 +3365,8 @@ window.LENS_SYSTEMS = [
     "ra": "23:22:07.2",
     "dec": "+19:44:23",
     "mast_query": "23:22:07.2 +19:44:23",
-    "summary": "PSS2322+1944 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "PSS2322+1944 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3402,8 +3410,8 @@ window.LENS_SYSTEMS = [
     "ra": "00:49:41.89",
     "dec": "-27:52:25.7",
     "mast_query": "00:49:41.89 -27:52:25.7",
-    "summary": "Q0047-2808 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "Q0047-2808 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3447,8 +3455,8 @@ window.LENS_SYSTEMS = [
     "ra": "01:45:16.5",
     "dec": "-09:45:17",
     "mast_query": "01:45:16.5 -09:45:17",
-    "summary": "Q0142-100 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "Q0142-100 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3492,8 +3500,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:01:20.8",
     "dec": "+55:53:56",
     "mast_query": "10:01:20.8 +55:53:56",
-    "summary": "Q0957+561 is a doubly imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "Q0957+561 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "double",
@@ -3517,7 +3525,7 @@ window.LENS_SYSTEMS = [
           "first"
         ],
         "note": "First reported gravitationally lensed quasar",
-        "url": "https://ui.adsabs.harvard.edu/search/q=title%3A%220957%2B561%22%20Walsh%20Carswell%20Weymann%201979"
+        "url": "https://ui.adsabs.harvard.edu/abs/1979Natur.279..381W/abstract"
       },
       {
         "title": "Q0957+561 time-delay/modelling literature",
@@ -3525,7 +3533,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=Q0957%2B561%20time%20delay%20lens%20modelling"
       }
     ],
@@ -3550,8 +3558,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:17:24.13",
     "dec": "-20:47:00.4",
     "mast_query": "10:17:24.13 -20:47:00.4",
-    "summary": "Q1017-207 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "Q1017-207 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3595,8 +3603,8 @@ window.LENS_SYSTEMS = [
     "ra": "12:10:57.16",
     "dec": "+09:54:25.6",
     "mast_query": "12:10:57.16 +09:54:25.6",
-    "summary": "Q1208+101 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "Q1208+101 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3640,8 +3648,8 @@ window.LENS_SYSTEMS = [
     "ra": "13:55:43.38",
     "dec": "-22:57:22.9",
     "mast_query": "13:55:43.38 -22:57:22.9",
-    "summary": "Q1355-2257 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "Q1355-2257 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3685,8 +3693,8 @@ window.LENS_SYSTEMS = [
     "ra": "21:41:16.28",
     "dec": "-42:57:09.6",
     "mast_query": "21:41:16.28 -42:57:09.6",
-    "summary": "Q2138-431 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "Q2138-431 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3730,8 +3738,8 @@ window.LENS_SYSTEMS = [
     "ra": "22:40:30.34",
     "dec": "+03:21:28.8",
     "mast_query": "22:40:30.34 +03:21:28.8",
-    "summary": "Q2237+030 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "Q2237+030 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3775,8 +3783,8 @@ window.LENS_SYSTEMS = [
     "ra": "01:58:41.44",
     "dec": "-43:25:04.20",
     "mast_query": "01:58:41.44 -43:25:04.20",
-    "summary": "QJ0158-4325 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "QJ0158-4325 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3820,8 +3828,8 @@ window.LENS_SYSTEMS = [
     "ra": "09:11:27.50",
     "dec": "+05:50:52.0",
     "mast_query": "09:11:27.50 +05:50:52.0",
-    "summary": "RXJ0911+0551 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "RXJ0911+0551 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3865,8 +3873,8 @@ window.LENS_SYSTEMS = [
     "ra": "09:21:12.81",
     "dec": "+45:29:04.4",
     "mast_query": "09:21:12.81 +45:29:04.4",
-    "summary": "RXJ0921+4529 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "RXJ0921+4529 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -3910,19 +3918,21 @@ window.LENS_SYSTEMS = [
     "ra": "11:31:51.6",
     "dec": "-12:31:58",
     "mast_query": "11:31:51.6 -12:31:58",
-    "summary": "RXJ1131-1231 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "RXJ1131-1231 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Quadruply imaged quasar with time delays, stellar kinematics, and H0LiCOW/TDCOSMO cosmographic modelling.",
+    "summary_zh": "四重成像类星体，具有时间延迟、恒星运动学和 H0LiCOW/TDCOSMO 宇宙学建模。",
     "tags": [
       "QSO",
       "quad",
       "time-delay",
-      "H0LiCOW"
+      "H0LiCOW",
+      "h0-measurement"
     ],
     "tags_zh": [
       "类星体",
       "四重像",
       "时间延迟",
-      "H0LiCOW"
+      "H0LiCOW",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/panels/rxj1131-1231_panel.png",
     "references": [
@@ -3932,7 +3942,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22RXJ1131-1231%22%20discovery%20lens"
       },
       {
@@ -3941,7 +3951,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22RXJ1131-1231%22%20lens%20model%20H0LiCOW"
       }
     ],
@@ -3966,8 +3976,8 @@ window.LENS_SYSTEMS = [
     "ra": "09:13:01.05",
     "dec": "+52:59:28.83",
     "mast_query": "09:13:01.05 +52:59:28.83",
-    "summary": "SBS0909+523 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SBS0909+523 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4011,8 +4021,8 @@ window.LENS_SYSTEMS = [
     "ra": "15:21:44.83",
     "dec": "+52:54:48.6",
     "mast_query": "15:21:44.83 +52:54:48.6",
-    "summary": "SBS1520+530 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SBS1520+530 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4056,8 +4066,8 @@ window.LENS_SYSTEMS = [
     "ra": "09:24:55.8",
     "dec": "+02:19:24",
     "mast_query": "09:24:55.8 +02:19:24",
-    "summary": "SDSS J0924+0219 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "SDSS J0924+0219 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -4076,7 +4086,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J0924%2B0219%22%20gravitational%20lens%20discovery"
       },
       {
@@ -4085,7 +4095,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J0924%2B0219%22%20flux%20anomaly%20microlensing"
       }
     ],
@@ -4110,8 +4120,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:04:34.9",
     "dec": "+41:12:42",
     "mast_query": "10:04:34.9 +41:12:42",
-    "summary": "SDSS J1004+4112 is a cluster-scale lensed quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "SDSS J1004+4112 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad",
@@ -4134,7 +4144,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1004%2B4112%22%20discovery%20cluster%20lens%20quasar"
       },
       {
@@ -4143,7 +4153,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1004%2B4112%22%20lens%20model%20time%20delays"
       }
     ],
@@ -4168,8 +4178,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:29:13.9",
     "dec": "+26:23:17",
     "mast_query": "10:29:13.9 +26:23:17",
-    "summary": "SDSS J1029+2623 is a cluster-scale lensed quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "SDSS J1029+2623 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "cluster",
@@ -4188,7 +4198,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1029%2B2623%22%20lensed%20quasar%20discovery"
       },
       {
@@ -4197,7 +4207,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1029%2B2623%22%20cluster%20lens%20model"
       }
     ],
@@ -4222,17 +4232,19 @@ window.LENS_SYSTEMS = [
     "ra": "12:06:29.7",
     "dec": "+43:32:17",
     "mast_query": "12:06:29.7 +43:32:17",
-    "summary": "SDSS J1206+4332 is a doubly imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "SDSS J1206+4332 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Doubly imaged quasar with measured time delay and lens modelling useful for H0 constraints.",
+    "summary_zh": "双重成像类星体，已有时间延迟测量和可用于 H0 约束的透镜建模。",
     "tags": [
       "QSO",
       "double",
-      "time-delay"
+      "time-delay",
+      "h0-measurement"
     ],
     "tags_zh": [
       "类星体",
       "双重像",
-      "时间延迟"
+      "时间延迟",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/panels/sdss-j1206-4332_panel.png",
     "references": [
@@ -4242,7 +4254,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1206%2B4332%22%20lensed%20quasar%20discovery"
       },
       {
@@ -4251,7 +4263,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1206%2B4332%22%20time%20delay%20lens%20model"
       }
     ],
@@ -4276,8 +4288,8 @@ window.LENS_SYSTEMS = [
     "ra": "22:22:08.6",
     "dec": "+27:45:35",
     "mast_query": "22:22:08.6 +27:45:35",
-    "summary": "SDSS J2222+2745 is a cluster-scale lensed quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "SDSS J2222+2745 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "cluster",
@@ -4296,7 +4308,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J2222%2B2745%22%20lensed%20quasar%20discovery"
       },
       {
@@ -4305,7 +4317,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J2222%2B2745%22%20time%20delays%20lens%20model"
       }
     ],
@@ -4330,8 +4342,8 @@ window.LENS_SYSTEMS = [
     "ra": "02:46:34.11",
     "dec": "-08:25:36.2",
     "mast_query": "02:46:34.11 -08:25:36.2",
-    "summary": "SDSS0246-0825 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS0246-0825 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4375,8 +4387,8 @@ window.LENS_SYSTEMS = [
     "ra": "07:46:53.03",
     "dec": "+44:03:51.3",
     "mast_query": "07:46:53.03 +44:03:51.3",
-    "summary": "SDSS0746+4403 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS0746+4403 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4420,8 +4432,8 @@ window.LENS_SYSTEMS = [
     "ra": "08:06:23.70",
     "dec": "+20:06:31.9",
     "mast_query": "08:06:23.70 +20:06:31.9",
-    "summary": "SDSS0806+2006 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS0806+2006 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4465,8 +4477,8 @@ window.LENS_SYSTEMS = [
     "ra": "09:03:34.92",
     "dec": "+50:28:19.2",
     "mast_query": "09:03:34.92 +50:28:19.2",
-    "summary": "SDSS0903+5028 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS0903+5028 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4510,8 +4522,8 @@ window.LENS_SYSTEMS = [
     "ra": "09:24:55.87",
     "dec": "+02:19:24.9",
     "mast_query": "09:24:55.87 +02:19:24.9",
-    "summary": "SDSS0924+0219 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS0924+0219 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4555,8 +4567,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:01:28.61",
     "dec": "+50:27:56.9",
     "mast_query": "10:01:28.61 +50:27:56.9",
-    "summary": "SDSS1001+5027 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1001+5027 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4600,8 +4612,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:04:34.91",
     "dec": "+41:12:42.8",
     "mast_query": "10:04:34.91 +41:12:42.8",
-    "summary": "SDSS1004+4112 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1004+4112 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4645,8 +4657,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:11:29.49",
     "dec": "+01:43:23.3",
     "mast_query": "10:11:29.49 +01:43:23.3",
-    "summary": "SDSS1011+0143 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1011+0143 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4690,8 +4702,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:21:11.02",
     "dec": "+49:13:30.4",
     "mast_query": "10:21:11.02 +49:13:30.4",
-    "summary": "SDSS1021+4913 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1021+4913 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4735,8 +4747,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:29:13.35",
     "dec": "+26:23:31.8",
     "mast_query": "10:29:13.35 +26:23:31.8",
-    "summary": "SDSS1029+2623 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1029+2623 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4780,8 +4792,8 @@ window.LENS_SYSTEMS = [
     "ra": "11:38:03.70",
     "dec": "+03:14:58.0",
     "mast_query": "11:38:03.70 +03:14:58.0",
-    "summary": "SDSS1138+0314 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1138+0314 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4825,8 +4837,8 @@ window.LENS_SYSTEMS = [
     "ra": "11:55:17.35",
     "dec": "+63:46:22.0",
     "mast_query": "11:55:17.35 +63:46:22.0",
-    "summary": "SDSS1155+6346 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1155+6346 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4870,8 +4882,8 @@ window.LENS_SYSTEMS = [
     "ra": "12:06:29.65",
     "dec": "+43:32:17.6",
     "mast_query": "12:06:29.65 +43:32:17.6",
-    "summary": "SDSS1206+4332 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1206+4332 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4915,8 +4927,8 @@ window.LENS_SYSTEMS = [
     "ra": "12:26:08.10",
     "dec": "-00:06:02.0",
     "mast_query": "12:26:08.10 -00:06:02.0",
-    "summary": "SDSS1226-0006 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1226-0006 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -4960,8 +4972,8 @@ window.LENS_SYSTEMS = [
     "ra": "13:32:22.62",
     "dec": "+03:47:39.9",
     "mast_query": "13:32:22.62 +03:47:39.9",
-    "summary": "SDSS1332+0347 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1332+0347 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -5005,8 +5017,8 @@ window.LENS_SYSTEMS = [
     "ra": "13:53:06.35",
     "dec": "+11:38:04.7",
     "mast_query": "13:53:06.35 +11:38:04.7",
-    "summary": "SDSS1353+1138 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1353+1138 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -5050,8 +5062,8 @@ window.LENS_SYSTEMS = [
     "ra": "14:02:28.22",
     "dec": "+63:21:33.3",
     "mast_query": "14:02:28.22 +63:21:33.3",
-    "summary": "SDSS1402+6321 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1402+6321 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -5095,8 +5107,8 @@ window.LENS_SYSTEMS = [
     "ra": "14:06:24.82",
     "dec": "+61:26:40.9",
     "mast_query": "14:06:24.82 +61:26:40.9",
-    "summary": "SDSS1406+6126 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1406+6126 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -5140,8 +5152,8 @@ window.LENS_SYSTEMS = [
     "ra": "16:50:43.44",
     "dec": "+42:51:45.0",
     "mast_query": "16:50:43.44 +42:51:45.0",
-    "summary": "SDSS1650+4251 is imported from the CASTLES Summary of Multiply Imaged Systems as a known lensed-source catalogue entry.",
-    "summary_zh": "SDSS1650+4251 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "CASTLES",
@@ -5185,8 +5197,8 @@ window.LENS_SYSTEMS = [
     "ra": "10:42:22.0",
     "dec": "+12:51:22",
     "mast_query": "10:42:22.0 +12:51:22",
-    "summary": "W2M J1042+1251 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "W2M J1042+1251 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad"
@@ -5198,21 +5210,21 @@ window.LENS_SYSTEMS = [
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
     "references": [
       {
-        "title": "Discovery paper",
+        "title": "W2M J1042+1251: discovery paper",
         "label": "Discovery paper",
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22W2M%20J1042%2B1251%22%20lensed%20quasar%20discovery"
       },
       {
-        "title": "Lens modelling",
+        "title": "W2M J1042+1251: lens modelling and follow-up papers",
         "label": "Lens modelling",
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22W2M%20J1042%2B1251%22%20lens%20model"
       }
     ],
@@ -5237,8 +5249,8 @@ window.LENS_SYSTEMS = [
     "ra": "20:26:10.4",
     "dec": "-45:36:27",
     "mast_query": "20:26:10.4 -45:36:27",
-    "summary": "WFI 2026-4536 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "WFI 2026-4536 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "",
+    "summary_zh": "",
     "tags": [
       "QSO",
       "quad"
@@ -5250,21 +5262,21 @@ window.LENS_SYSTEMS = [
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
     "references": [
       {
-        "title": "Discovery paper",
+        "title": "WFI 2026-4536: discovery paper",
         "label": "Discovery paper",
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202026-4536%22%20lensed%20quasar%20discovery"
       },
       {
-        "title": "Lens modelling",
+        "title": "WFI 2026-4536: lens modelling and follow-up papers",
         "label": "Lens modelling",
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202026-4536%22%20lens%20modelling"
       }
     ],
@@ -5289,19 +5301,21 @@ window.LENS_SYSTEMS = [
     "ra": "20:33:42.1",
     "dec": "-47:23:43",
     "mast_query": "20:33:42.1 -47:23:43",
-    "summary": "WFI 2033-4723 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "WFI 2033-4723 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Quadruply imaged quasar in the H0LiCOW/TDCOSMO time-delay cosmography sample.",
+    "summary_zh": "H0LiCOW/TDCOSMO 时间延迟宇宙学样本中的四重成像类星体。",
     "tags": [
       "QSO",
       "quad",
       "time-delay",
-      "H0LiCOW"
+      "H0LiCOW",
+      "h0-measurement"
     ],
     "tags_zh": [
       "类星体",
       "四重像",
       "时间延迟",
-      "H0LiCOW"
+      "H0LiCOW",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/panels/wfi2033-4723_panel.png",
     "references": [
@@ -5311,7 +5325,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202033-4723%22%20discovery%20lens"
       },
       {
@@ -5320,7 +5334,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI2033-4723%22%20H0LiCOW%20lens%20model"
       }
     ],
@@ -5345,19 +5359,21 @@ window.LENS_SYSTEMS = [
     "ra": "20:38:24.9",
     "dec": "-40:08:13",
     "mast_query": "20:38:24.9 -40:08:13",
-    "summary": "WGD 2038-4008 is a quadruply imaged quasar included as part of the expanded lensed-QSO catalogue, with MAST coordinate access and role-tagged references.",
-    "summary_zh": "WGD 2038-4008 已加入透镜类星体/多重成像系统目录，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Quadruply imaged quasar with time-delay cosmography and lens-environment analyses.",
+    "summary_zh": "四重成像类星体，已有时间延迟宇宙学和透镜环境分析。",
     "tags": [
       "QSO",
       "quad",
       "time-delay",
-      "STRIDES"
+      "STRIDES",
+      "h0-measurement"
     ],
     "tags_zh": [
       "类星体",
       "四重像",
       "时间延迟",
-      "STRIDES"
+      "STRIDES",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/panels/wgd2038-4008_panel.png",
     "references": [
@@ -5367,7 +5383,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22WGD%202038-4008%22%20discovery"
       },
       {
@@ -5376,7 +5392,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22WGD%202038-4008%22%20lens%20environment%20model"
       }
     ],
@@ -5388,8 +5404,8 @@ window.LENS_SYSTEMS = [
     "name": "AT 2016jka / SN Requiem",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Core-collapse supernova",
-    "subtype_zh": "透镜超新星",
+    "subtype": "Lensed core-collapse SN",
+    "subtype_zh": "透镜核心坍缩型超新星",
     "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
     "status": "Confirmed",
@@ -5401,8 +5417,8 @@ window.LENS_SYSTEMS = [
     "ra": "03:32:38.6",
     "dec": "-27:46:59",
     "mast_query": "03:32:38.6 -27:46:59",
-    "summary": "AT 2016jka / SN Requiem is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
-    "summary_zh": "AT 2016jka / SN Requiem 已加入透镜超新星样本，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Core-collapse supernova candidate in a cluster lens field with predicted reappearance constraints.",
+    "summary_zh": "星系团透镜场中的核心坍缩型超新星候选体，具有再现像预测约束。",
     "tags": [
       "SN",
       "cluster",
@@ -5423,7 +5439,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Requiem%22%20AT%202016jka%20lensed%20supernova"
       },
       {
@@ -5432,7 +5448,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202016jka%22%20lens%20model%20return%20image"
       }
     ],
@@ -5444,8 +5460,8 @@ window.LENS_SYSTEMS = [
     "name": "AT 2022riv",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Lensed supernova candidate",
-    "subtype_zh": "候选透镜超新星",
+    "subtype": "Lensed SN candidate",
+    "subtype_zh": "透镜超新星候选体",
     "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
     "status": "Candidate/high-confidence",
@@ -5457,8 +5473,8 @@ window.LENS_SYSTEMS = [
     "ra": "00:14:21.2",
     "dec": "-30:23:50",
     "mast_query": "00:14:21.2 -30:23:50",
-    "summary": "AT 2022riv is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
-    "summary_zh": "AT 2022riv 已加入透镜超新星样本，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Lensed supernova candidate in a cluster field; type classification remains to be curated.",
+    "summary_zh": "星系团场中的透镜超新星候选体，具体类型仍待整理。",
     "tags": [
       "SN",
       "cluster",
@@ -5479,7 +5495,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "candidate"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202022riv%22%20lensed%20supernova%20candidate"
       },
       {
@@ -5488,7 +5504,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202022riv%22%20lens%20model"
       }
     ],
@@ -5500,8 +5516,8 @@ window.LENS_SYSTEMS = [
     "name": "AT 2023adsy",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Lensed supernova candidate",
-    "subtype_zh": "候选透镜超新星",
+    "subtype": "Lensed SN candidate",
+    "subtype_zh": "透镜超新星候选体",
     "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
     "status": "Candidate/high-confidence",
@@ -5513,8 +5529,8 @@ window.LENS_SYSTEMS = [
     "ra": "03:32:38.0",
     "dec": "-27:47:00",
     "mast_query": "03:32:38.0 -27:47:00",
-    "summary": "AT 2023adsy is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
-    "summary_zh": "AT 2023adsy 已加入透镜超新星样本，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Lensed supernova candidate in a JWST cluster field; type classification remains to be curated.",
+    "summary_zh": "JWST 星系团场中的透镜超新星候选体，具体类型仍待整理。",
     "tags": [
       "SN",
       "cluster",
@@ -5535,7 +5551,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "candidate"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202023adsy%22%20lensed%20supernova"
       },
       {
@@ -5544,7 +5560,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202023adsy%22%20JWST%20lens%20model"
       }
     ],
@@ -5556,7 +5572,7 @@ window.LENS_SYSTEMS = [
     "name": "iPTF16geu / SN 2016geu",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Type Ia supernova",
+    "subtype": "Lensed SN Ia",
     "subtype_zh": "透镜 Ia 型超新星",
     "scale": "Galaxy-scale",
     "scale_zh": "星系尺度",
@@ -5569,8 +5585,8 @@ window.LENS_SYSTEMS = [
     "ra": "21:16:27.4",
     "dec": "+40:55:03",
     "mast_query": "21:16:27.4 +40:55:03",
-    "summary": "iPTF16geu / SN 2016geu is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
-    "summary_zh": "iPTF16geu / SN 2016geu 已加入透镜超新星样本，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Type Ia supernova resolved into four images by a galaxy-scale lens.",
+    "summary_zh": "Ia 型超新星，由星系尺度透镜分解为四个像。",
     "tags": [
       "SN",
       "galaxy",
@@ -5599,7 +5615,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22iPTF16geu%22%20lens%20model%20microlensing"
       },
       {
@@ -5608,7 +5624,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%202016geu%22%20HST%20Keck%20follow-up"
       }
     ],
@@ -5620,7 +5636,7 @@ window.LENS_SYSTEMS = [
     "name": "PS1-10afx",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Type Ia supernova",
+    "subtype": "Lensed SN Ia",
     "subtype_zh": "透镜 Ia 型超新星",
     "scale": "Galaxy-scale",
     "scale_zh": "星系尺度",
@@ -5633,8 +5649,8 @@ window.LENS_SYSTEMS = [
     "ra": "22:11:24.6",
     "dec": "+00:09:44",
     "mast_query": "22:11:24.6 +00:09:44",
-    "summary": "PS1-10afx is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
-    "summary_zh": "PS1-10afx 已加入透镜超新星样本，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Type Ia supernova interpreted as a strongly magnified, unresolved galaxy-scale lensing event.",
+    "summary_zh": "Ia 型超新星，被解释为星系尺度透镜造成的强放大非分辨事件。",
     "tags": [
       "SN",
       "galaxy"
@@ -5651,7 +5667,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22PS1-10afx%22%20gravitationally%20lensed%20supernova"
       },
       {
@@ -5660,7 +5676,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22PS1-10afx%22%20lens%20galaxy%20spectroscopy"
       }
     ],
@@ -5672,7 +5688,7 @@ window.LENS_SYSTEMS = [
     "name": "SN H0pe",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Type Ia supernova",
+    "subtype": "Lensed SN Ia",
     "subtype_zh": "透镜 Ia 型超新星",
     "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
@@ -5685,21 +5701,23 @@ window.LENS_SYSTEMS = [
     "ra": "11:27:13.3",
     "dec": "+42:28:24",
     "mast_query": "11:27:13.3 +42:28:24",
-    "summary": "SN H0pe is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
-    "summary_zh": "SN H0pe 已加入透镜超新星样本，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Type Ia supernova triply imaged in a JWST cluster field, used for time-delay and H0 inference.",
+    "summary_zh": "Ia 型超新星，在 JWST 星系团场中呈三重像，用于时间延迟和 H0 推断。",
     "tags": [
       "SN",
       "cluster",
       "JWST",
       "triple",
-      "time-delay"
+      "time-delay",
+      "h0-measurement"
     ],
     "tags_zh": [
       "超新星",
       "星系团环境",
       "JWST",
       "triple",
-      "时间延迟"
+      "时间延迟",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
     "references": [
@@ -5709,7 +5727,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20lensed%20supernova%20JWST"
       },
       {
@@ -5718,7 +5736,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20lens%20model%20H0"
       },
       {
@@ -5727,7 +5745,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20JWST%20follow-up"
       }
     ],
@@ -5739,8 +5757,8 @@ window.LENS_SYSTEMS = [
     "name": "SN Refsdal",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Core-collapse supernova",
-    "subtype_zh": "透镜超新星",
+    "subtype": "Lensed core-collapse SN",
+    "subtype_zh": "透镜核心坍缩型超新星",
     "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
     "status": "Confirmed",
@@ -5752,19 +5770,21 @@ window.LENS_SYSTEMS = [
     "ra": "11:49:35.7",
     "dec": "+22:23:55",
     "mast_query": "11:49:35.7 +22:23:55",
-    "summary": "SN Refsdal is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
-    "summary_zh": "SN Refsdal 已加入透镜超新星样本，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Core-collapse supernova multiply imaged by the cluster MACS J1149.5+2223; time delays are used for cluster-lens and H0 studies.",
+    "summary_zh": "核心坍缩型超新星，由星系团 MACS J1149.5+2223 多重成像；时间延迟用于星系团透镜和 H0 研究。",
     "tags": [
       "SN",
       "cluster",
       "HST",
-      "time-delay"
+      "time-delay",
+      "h0-measurement"
     ],
     "tags_zh": [
       "超新星",
       "星系团环境",
       "HST",
-      "时间延迟"
+      "时间延迟",
+      "H0 测量"
     ],
     "thumbnail": "assets/img/thumbs/sn-refsdal.svg",
     "references": [
@@ -5776,7 +5796,7 @@ window.LENS_SYSTEMS = [
           "observation"
         ],
         "note": "arXiv preprint",
-        "url": "https://arxiv.org/abs/1411.6009"
+        "url": "https://ui.adsabs.harvard.edu/abs/2015Sci...347.1123K/abstract"
       },
       {
         "title": "Predicted properties of multiple images of the strongly lensed supernova SN Refsdal",
@@ -5794,7 +5814,7 @@ window.LENS_SYSTEMS = [
         "roles": [
           "followup"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Refsdal%22%20time%20delay%20lens%20model"
       }
     ],
@@ -5806,7 +5826,7 @@ window.LENS_SYSTEMS = [
     "name": "SN Zwicky / SN 2022qmx",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Type Ia supernova",
+    "subtype": "Lensed SN Ia",
     "subtype_zh": "透镜 Ia 型超新星",
     "scale": "Galaxy-scale",
     "scale_zh": "星系尺度",
@@ -5819,8 +5839,8 @@ window.LENS_SYSTEMS = [
     "ra": "17:14:48.5",
     "dec": "+34:49:23",
     "mast_query": "17:14:48.5 +34:49:23",
-    "summary": "SN Zwicky / SN 2022qmx is included in the lensed-SN sample for image, time-delay, magnification, and modelling follow-up.",
-    "summary_zh": "SN Zwicky / SN 2022qmx 已加入透镜超新星样本，用于汇总图像、红移、参考文献和 MAST 坐标入口。",
+    "summary": "Type Ia supernova discovered in unresolved ZTF data and later resolved as a compact four-image lens.",
+    "summary_zh": "Ia 型超新星，最初由 ZTF 非分辨数据发现，后续被解析为紧凑四重像透镜。",
     "tags": [
       "SN",
       "galaxy",
@@ -5851,16 +5871,16 @@ window.LENS_SYSTEMS = [
         "roles": [
           "first"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Zwicky%22%20%22SN%202022qmx%22%20discovery"
       },
       {
-        "title": "Lens modelling",
+        "title": "SN Zwicky / SN 2022qmx: lens modelling and follow-up papers",
         "label": "Lens modelling",
         "roles": [
           "modelling"
         ],
-        "note": "ADS record/search",
+        "note": "ADS entry/search pending bibcode curation",
         "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Zwicky%22%20lens%20model"
       }
     ],

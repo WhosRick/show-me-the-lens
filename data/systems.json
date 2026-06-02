@@ -28,26 +28,7 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "APM 08279+5255: discovery paper",
-        "label": "Discovery paper",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22APM%2008279%2B5255%22%20gravitationally%20lensed%20quasar%20discovery"
-      },
-      {
-        "title": "APM 08279+5255: lens modelling and follow-up papers",
-        "label": "Lens model and follow-up",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22APM%2008279%2B5255%22%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -82,17 +63,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B0128+437",
-        "label": "CASTLES Gravitational Lens Data Base: B0128+437",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B0128.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -127,17 +98,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B0218+357",
-        "label": "CASTLES Gravitational Lens Data Base: B0218+357",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B0218.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -172,17 +133,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B0445+123",
-        "label": "CASTLES Gravitational Lens Data Base: B0445+123",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B0445.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -217,17 +168,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B0631+519",
-        "label": "CASTLES Gravitational Lens Data Base: B0631+519",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B0631.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -262,17 +203,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B0712+472",
-        "label": "CASTLES Gravitational Lens Data Base: B0712+472",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B0712.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -307,17 +238,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B0739+366",
-        "label": "CASTLES Gravitational Lens Data Base: B0739+366",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B0739.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -352,17 +273,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B0850+054",
-        "label": "CASTLES Gravitational Lens Data Base: B0850+054",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B0850.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -397,17 +308,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B1030+074",
-        "label": "CASTLES Gravitational Lens Data Base: B1030+074",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B1030.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -442,17 +343,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B1127+385",
-        "label": "CASTLES Gravitational Lens Data Base: B1127+385",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B1127.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -487,17 +378,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B1152+200",
-        "label": "CASTLES Gravitational Lens Data Base: B1152+200",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B1152.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -532,17 +413,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B1359+154",
-        "label": "CASTLES Gravitational Lens Data Base: B1359+154",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B1359.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -579,26 +450,7 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "B1422+231: discovery paper",
-        "label": "Discovery paper",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22B1422%2B231%22%20gravitational%20lens%20discovery"
-      },
-      {
-        "title": "Flux-anomaly modelling",
-        "label": "Flux-anomaly modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22B1422%2B231%22%20flux%20ratio%20anomaly%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -633,17 +485,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B1555+375",
-        "label": "CASTLES Gravitational Lens Data Base: B1555+375",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B1555.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -678,17 +520,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B1600+434",
-        "label": "CASTLES Gravitational Lens Data Base: B1600+434",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B1600.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -731,22 +563,21 @@
     "thumbnail": "assets/img/panels/b1608-656_panel.png",
     "references": [
       {
-        "title": "B1608+656 discovery",
-        "label": "B1608+656 discovery",
+        "title": "Dissecting the Gravitational Lens B1608+656. I. Lens Potential Reconstruction",
         "roles": [
-          "first"
+          "observation",
+          "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22B1608%2B656%22%20discovery%20radio%20lens"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/0804.2827"
       },
       {
-        "title": "B1608+656 time-delay cosmography",
-        "label": "B1608+656 time-delay cosmography",
+        "title": "Dissecting the Gravitational Lens B1608+656. II. Precision Measurements of the Hubble Constant, Spatial Curvature, and the Dark Energy Equation of State",
         "roles": [
           "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22B1608%2B656%22%20time%20delay%20H0%20lens%20model"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/0910.2773"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -783,17 +614,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B1933+503",
-        "label": "CASTLES Gravitational Lens Data Base: B1933+503",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B1933.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -828,17 +649,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B1938+666",
-        "label": "CASTLES Gravitational Lens Data Base: B1938+666",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B1938.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -873,17 +684,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B2045+265",
-        "label": "CASTLES Gravitational Lens Data Base: B2045+265",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B2045.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -918,17 +719,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B2108+213",
-        "label": "CASTLES Gravitational Lens Data Base: B2108+213",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B2108.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -963,17 +754,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B2114+022",
-        "label": "CASTLES Gravitational Lens Data Base: B2114+022",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B2114.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1008,17 +789,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: B2319+052",
-        "label": "CASTLES Gravitational Lens Data Base: B2319+052",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/B2319.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1053,17 +824,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: BRI0952-0115",
-        "label": "CASTLES Gravitational Lens Data Base: BRI0952-0115",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/BRI0952.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1098,17 +859,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: CFRS03.1077",
-        "label": "CASTLES Gravitational Lens Data Base: CFRS03.1077",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/CFRS03.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1143,17 +894,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: CY2201-3201",
-        "label": "CASTLES Gravitational Lens Data Base: CY2201-3201",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/CY2201.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1194,22 +935,13 @@
     "thumbnail": "assets/img/panels/des-j0408-5354_panel.png",
     "references": [
       {
-        "title": "STRIDES/DES discovery",
-        "label": "STRIDES/DES discovery",
+        "title": "STRIDES: a 3.9 per cent measurement of the Hubble constant from the strong lens system DES J0408-5354",
         "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22DES%20J0408-5354%22%20STRIDES%20discovery"
-      },
-      {
-        "title": "Time-delay and mass modelling",
-        "label": "Time-delay and mass modelling",
-        "roles": [
+          "observation",
           "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22DES%20J0408-5354%22%20time%20delay%20mass%20model"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1910.06306"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -1246,17 +978,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: FBQ0951+2635",
-        "label": "CASTLES Gravitational Lens Data Base: FBQ0951+2635",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/FBQ0951.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1291,17 +1013,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: FBQ1633+3134",
-        "label": "CASTLES Gravitational Lens Data Base: FBQ1633+3134",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/FBQ1633.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1336,17 +1048,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: FSC10214+4724",
-        "label": "CASTLES Gravitational Lens Data Base: FSC10214+4724",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/FSC10214.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1381,26 +1083,7 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Gaia GraL discovery",
-        "label": "Gaia GraL discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0248-1845%22%20lensed%20quasar"
-      },
-      {
-        "title": "GraL J0248-1845: lens modelling and follow-up papers",
-        "label": "Modelling/follow-up",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0248-1845%22%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1435,26 +1118,7 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Gaia GraL discovery",
-        "label": "Gaia GraL discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0607-2152%22%20lensed%20quasar"
-      },
-      {
-        "title": "Follow-up observations",
-        "label": "Follow-up observations",
-        "roles": [
-          "followup"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0607-2152%22%20follow-up"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1489,26 +1153,7 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Gaia GraL discovery",
-        "label": "Gaia GraL discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0818-2613%22%20lensed%20quasar"
-      },
-      {
-        "title": "GraL J0818-2613: lens modelling and follow-up papers",
-        "label": "Modelling/follow-up",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J0818-2613%22%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1543,26 +1188,7 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Gaia GraL discovery",
-        "label": "Gaia GraL discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J1651-0417%22%20lensed%20quasar"
-      },
-      {
-        "title": "Follow-up observations",
-        "label": "Follow-up observations",
-        "roles": [
-          "followup"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22GraL%20J1651-0417%22%20follow-up"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1597,26 +1223,7 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Cloverleaf discovery",
-        "label": "Cloverleaf discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22H1413%2B117%22%20Cloverleaf%20gravitational%20lens%20discovery"
-      },
-      {
-        "title": "Modelling and follow-up",
-        "label": "Modelling and follow-up",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22H1413%2B117%22%20lens%20model%20molecular%20gas"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1651,17 +1258,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HDFS2232509-603243",
-        "label": "CASTLES Gravitational Lens Data Base: HDFS2232509-603243",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HDFS2232509.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1702,31 +1299,30 @@
     "thumbnail": "assets/img/panels/he0435-1223_panel.png",
     "references": [
       {
-        "title": "HE 0435-1223 discovery",
-        "label": "HE 0435-1223 discovery",
+        "title": "HE 0435-1223: a wide separation quadruple QSO and gravitational lens",
         "roles": [
-          "first"
+          "first",
+          "observation"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20discovery%20lens"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0207062"
       },
       {
-        "title": "H0LiCOW/TDCOSMO modelling",
-        "label": "H0LiCOW/TDCOSMO modelling",
+        "title": "H0LiCOW IV. Lens mass model of HE 0435-1223 and blind measurement of its time-delay distance for cosmology",
         "roles": [
           "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20H0LiCOW%20lens%20model"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.01403"
       },
       {
-        "title": "Microlensing and follow-up",
-        "label": "Microlensing and follow-up",
+        "title": "A SHARP view of H0LiCOW: H0 from three time-delay gravitational lens systems with adaptive optics imaging",
         "roles": [
-          "followup"
+          "observation",
+          "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22HE%200435-1223%22%20microlensing%20follow-up"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.02533"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -1763,17 +1359,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HE0047-1756",
-        "label": "CASTLES Gravitational Lens Data Base: HE0047-1756",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0047.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1808,17 +1394,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HE0230-2130",
-        "label": "CASTLES Gravitational Lens Data Base: HE0230-2130",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0230.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1853,17 +1429,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HE0512-3329",
-        "label": "CASTLES Gravitational Lens Data Base: HE0512-3329",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0512.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1898,17 +1464,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HE1104-1805",
-        "label": "CASTLES Gravitational Lens Data Base: HE1104-1805",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HE1104.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1943,17 +1499,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HE2149-2745",
-        "label": "CASTLES Gravitational Lens Data Base: HE2149-2745",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HE2149.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1986,26 +1532,7 @@
       "四重像"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "HS 0810+2554: discovery paper",
-        "label": "Discovery paper",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22HS%200810%2B2554%22%20gravitational%20lens%20discovery"
-      },
-      {
-        "title": "Microlensing follow-up",
-        "label": "Microlensing follow-up",
-        "roles": [
-          "followup"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22HS%200810%2B2554%22%20microlensing"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -2040,17 +1567,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HS0818+1227",
-        "label": "CASTLES Gravitational Lens Data Base: HS0818+1227",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HS0818.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2085,17 +1602,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST01247+0352",
-        "label": "CASTLES Gravitational Lens Data Base: HST01247+0352",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST01247.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2130,17 +1637,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST01248+0351",
-        "label": "CASTLES Gravitational Lens Data Base: HST01248+0351",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST01248.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2175,17 +1672,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST12368+6212",
-        "label": "CASTLES Gravitational Lens Data Base: HST12368+6212",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST12368.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2220,17 +1707,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST12531-2914",
-        "label": "CASTLES Gravitational Lens Data Base: HST12531-2914",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST12531.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2265,17 +1742,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST14113+5211",
-        "label": "CASTLES Gravitational Lens Data Base: HST14113+5211",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14113.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2310,17 +1777,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST14164+5215",
-        "label": "CASTLES Gravitational Lens Data Base: HST14164+5215",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14164.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2355,17 +1812,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST14176+5226",
-        "label": "CASTLES Gravitational Lens Data Base: HST14176+5226",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14176.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2400,17 +1847,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST15433+5352",
-        "label": "CASTLES Gravitational Lens Data Base: HST15433+5352",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST15433.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2445,17 +1882,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST16302+8230",
-        "label": "CASTLES Gravitational Lens Data Base: HST16302+8230",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST16302.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2490,17 +1917,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST16309+8230",
-        "label": "CASTLES Gravitational Lens Data Base: HST16309+8230",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST16309.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2535,17 +1952,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: HST18078+4600",
-        "label": "CASTLES Gravitational Lens Data Base: HST18078+4600",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/HST18078.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2580,17 +1987,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: J0332-2756",
-        "label": "CASTLES Gravitational Lens Data Base: J0332-2756",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/J0332.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2625,17 +2022,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: J1004+1229",
-        "label": "CASTLES Gravitational Lens Data Base: J1004+1229",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/J1004.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2670,17 +2057,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: LBQS1009-0252",
-        "label": "CASTLES Gravitational Lens Data Base: LBQS1009-0252",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1009.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2715,17 +2092,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: LBQS1333+0113",
-        "label": "CASTLES Gravitational Lens Data Base: LBQS1333+0113",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/LBQS1333.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2762,26 +2129,7 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "MG 0414+0534: discovery paper",
-        "label": "Discovery paper",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22MG%200414%2B0534%22%20gravitational%20lens%20discovery"
-      },
-      {
-        "title": "Substructure modelling",
-        "label": "Substructure modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22MG%200414%2B0534%22%20substructure%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -2816,17 +2164,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: MG0751+2716",
-        "label": "CASTLES Gravitational Lens Data Base: MG0751+2716",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/MG0751.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2861,17 +2199,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: MG1131+0456",
-        "label": "CASTLES Gravitational Lens Data Base: MG1131+0456",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/MG1131.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2906,17 +2234,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: MG1549+3047",
-        "label": "CASTLES Gravitational Lens Data Base: MG1549+3047",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/MG1549.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2951,17 +2269,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: MG1654+1346",
-        "label": "CASTLES Gravitational Lens Data Base: MG1654+1346",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/MG1654.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2996,17 +2304,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: MG2016+112",
-        "label": "CASTLES Gravitational Lens Data Base: MG2016+112",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/MG2016.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3047,22 +2345,13 @@
     "thumbnail": "assets/img/panels/pg1115-080_panel.png",
     "references": [
       {
-        "title": "PG 1115+080 discovery papers",
-        "label": "PG 1115+080 discovery papers",
+        "title": "A SHARP view of H0LiCOW: H0 from three time-delay gravitational lens systems with adaptive optics imaging",
         "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22PG%201115%2B080%22%20discovery%20gravitational%20lens"
-      },
-      {
-        "title": "PG 1115+080 lens modelling",
-        "label": "PG 1115+080 lens modelling",
-        "roles": [
+          "observation",
           "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22PG%201115%2B080%22%20lens%20model%20time%20delay"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.02533"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -3099,17 +2388,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: PKS1830-211",
-        "label": "CASTLES Gravitational Lens Data Base: PKS1830-211",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/PKS1830.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3144,17 +2423,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: PMNJ0134-0931",
-        "label": "CASTLES Gravitational Lens Data Base: PMNJ0134-0931",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN0134.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3189,17 +2458,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: PMNJ1632-0033",
-        "label": "CASTLES Gravitational Lens Data Base: PMNJ1632-0033",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN1632.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3234,17 +2493,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: PMNJ1838-3427",
-        "label": "CASTLES Gravitational Lens Data Base: PMNJ1838-3427",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN1838.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3279,17 +2528,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: PMNJ2004-1349",
-        "label": "CASTLES Gravitational Lens Data Base: PMNJ2004-1349",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN2004.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3324,26 +2563,7 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Pan-STARRS/Gaia discovery",
-        "label": "Pan-STARRS/Gaia discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22PS%20J0147-4630%22%20gravitational%20lens"
-      },
-      {
-        "title": "PS J0147-4630: lens modelling and follow-up papers",
-        "label": "Lens modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22PS%20J0147-4630%22%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -3378,17 +2598,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: PSS2322+1944",
-        "label": "CASTLES Gravitational Lens Data Base: PSS2322+1944",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/PSS2322.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3423,17 +2633,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: Q0047-2808",
-        "label": "CASTLES Gravitational Lens Data Base: Q0047-2808",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/Q0047.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3468,17 +2668,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: Q0142-100",
-        "label": "CASTLES Gravitational Lens Data Base: Q0142-100",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/Q0142.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3520,21 +2710,11 @@
     "references": [
       {
         "title": "0957+561 A, B: Twin quasistellar objects or gravitational lens?",
-        "label": "Walsh et al. 1979, Nature",
         "roles": [
           "first"
         ],
-        "note": "First reported gravitationally lensed quasar",
+        "note": "Nature discovery paper; ADS abstract",
         "url": "https://ui.adsabs.harvard.edu/abs/1979Natur.279..381W/abstract"
-      },
-      {
-        "title": "Q0957+561 time-delay/modelling literature",
-        "label": "Q0957+561 time-delay/modelling literature",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=Q0957%2B561%20time%20delay%20lens%20modelling"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
@@ -3571,17 +2751,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: Q1017-207",
-        "label": "CASTLES Gravitational Lens Data Base: Q1017-207",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1017.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3616,17 +2786,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: Q1208+101",
-        "label": "CASTLES Gravitational Lens Data Base: Q1208+101",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1208.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3661,17 +2821,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: Q1355-2257",
-        "label": "CASTLES Gravitational Lens Data Base: Q1355-2257",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1355.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3706,17 +2856,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: Q2138-431",
-        "label": "CASTLES Gravitational Lens Data Base: Q2138-431",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/Q2138.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3751,17 +2891,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: Q2237+030",
-        "label": "CASTLES Gravitational Lens Data Base: Q2237+030",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/Q2237.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3796,17 +2926,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: QJ0158-4325",
-        "label": "CASTLES Gravitational Lens Data Base: QJ0158-4325",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/CTQ414.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3841,17 +2961,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: RXJ0911+0551",
-        "label": "CASTLES Gravitational Lens Data Base: RXJ0911+0551",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ0911.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3886,17 +2996,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: RXJ0921+4529",
-        "label": "CASTLES Gravitational Lens Data Base: RXJ0921+4529",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ0921.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3937,22 +3037,22 @@
     "thumbnail": "assets/img/panels/rxj1131-1231_panel.png",
     "references": [
       {
-        "title": "RXJ1131-1231 discovery",
-        "label": "RXJ1131-1231 discovery",
+        "title": "Two Accurate Time-delay Distances from Strong Lensing: Implications for Cosmology",
         "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22RXJ1131-1231%22%20discovery%20lens"
-      },
-      {
-        "title": "Lens modelling and H0",
-        "label": "Lens modelling and H0",
-        "roles": [
+          "observation",
           "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22RXJ1131-1231%22%20lens%20model%20H0LiCOW"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1208.6010"
+      },
+      {
+        "title": "A SHARP view of H0LiCOW: H0 from three time-delay gravitational lens systems with adaptive optics imaging",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.02533"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -3989,17 +3089,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SBS0909+523",
-        "label": "CASTLES Gravitational Lens Data Base: SBS0909+523",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SBS0909.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4034,17 +3124,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SBS1520+530",
-        "label": "CASTLES Gravitational Lens Data Base: SBS1520+530",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SBS1520.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4079,26 +3159,7 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "SDSS discovery",
-        "label": "SDSS discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J0924%2B0219%22%20gravitational%20lens%20discovery"
-      },
-      {
-        "title": "Flux-anomaly follow-up",
-        "label": "Flux-anomaly follow-up",
-        "roles": [
-          "followup"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J0924%2B0219%22%20flux%20anomaly%20microlensing"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -4137,26 +3198,7 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Cluster-lens discovery",
-        "label": "Cluster-lens discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1004%2B4112%22%20discovery%20cluster%20lens%20quasar"
-      },
-      {
-        "title": "Cluster lens modelling",
-        "label": "Cluster lens modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1004%2B4112%22%20lens%20model%20time%20delays"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -4191,26 +3233,7 @@
       "时间延迟"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Wide-separation discovery",
-        "label": "Wide-separation discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1029%2B2623%22%20lensed%20quasar%20discovery"
-      },
-      {
-        "title": "Cluster modelling",
-        "label": "Cluster modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1029%2B2623%22%20cluster%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -4249,22 +3272,21 @@
     "thumbnail": "assets/img/panels/sdss-j1206-4332_panel.png",
     "references": [
       {
-        "title": "SDSS J1206+4332 discovery",
-        "label": "SDSS J1206+4332 discovery",
+        "title": "High resolution imaging and spectroscopy of the gravitational lens SDSS J1206+4332: a natural coronagraph at z=1.789 and a standard ruler at z=0.745",
         "roles": [
-          "first"
+          "observation",
+          "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1206%2B4332%22%20lensed%20quasar%20discovery"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1506.02720"
       },
       {
-        "title": "Time-delay and lens modelling",
-        "label": "Time-delay and lens modelling",
+        "title": "H0LiCOW IX. Cosmographic analysis of the doubly imaged quasar SDSS 1206+4332 and a new measurement of the Hubble constant",
         "roles": [
           "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J1206%2B4332%22%20time%20delay%20lens%20model"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1809.01274"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -4301,26 +3323,7 @@
       "时间延迟"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "Cluster lens discovery",
-        "label": "Cluster lens discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J2222%2B2745%22%20lensed%20quasar%20discovery"
-      },
-      {
-        "title": "Time-delay cluster modelling",
-        "label": "Time-delay cluster modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SDSS%20J2222%2B2745%22%20time%20delays%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -4355,17 +3358,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS0246-0825",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS0246-0825",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0246.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4400,17 +3393,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS0746+4403",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS0746+4403",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0746.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4445,17 +3428,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS0806+2006",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS0806+2006",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0806.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4490,17 +3463,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS0903+5028",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS0903+5028",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0903.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4535,17 +3498,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS0924+0219",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS0924+0219",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0924.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4580,17 +3533,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1001+5027",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1001+5027",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1001.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4625,17 +3568,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1004+4112",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1004+4112",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1004.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4670,17 +3603,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1011+0143",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1011+0143",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1011.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4715,17 +3638,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1021+4913",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1021+4913",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1021.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4760,17 +3673,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1029+2623",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1029+2623",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1029.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4805,17 +3708,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1138+0314",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1138+0314",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1138.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4850,17 +3743,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1155+6346",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1155+6346",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1155.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4895,17 +3778,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1206+4332",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1206+4332",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1206.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4940,17 +3813,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1226-0006",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1226-0006",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1226.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4985,17 +3848,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1332+0347",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1332+0347",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1332.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -5030,17 +3883,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1353+1138",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1353+1138",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1353.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -5075,17 +3918,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1402+6321",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1402+6321",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1402.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -5120,17 +3953,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1406+6126",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1406+6126",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1406.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -5165,17 +3988,7 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "CASTLES Gravitational Lens Data Base: SDSS1650+4251",
-        "label": "CASTLES Gravitational Lens Data Base: SDSS1650+4251",
-        "roles": [
-          "catalog"
-        ],
-        "note": "Catalogue source for redshifts, coordinates, image number, and separation. Per-paper role curation still pending for this imported entry.",
-        "url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1650.html"
-      }
-    ],
+    "references": [],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -5208,26 +4021,7 @@
       "四重像"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "W2M J1042+1251: discovery paper",
-        "label": "Discovery paper",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22W2M%20J1042%2B1251%22%20lensed%20quasar%20discovery"
-      },
-      {
-        "title": "W2M J1042+1251: lens modelling and follow-up papers",
-        "label": "Lens modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22W2M%20J1042%2B1251%22%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -5260,26 +4054,7 @@
       "四重像"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [
-      {
-        "title": "WFI 2026-4536: discovery paper",
-        "label": "Discovery paper",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202026-4536%22%20lensed%20quasar%20discovery"
-      },
-      {
-        "title": "WFI 2026-4536: lens modelling and follow-up papers",
-        "label": "Lens modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202026-4536%22%20lens%20modelling"
-      }
-    ],
+    "references": [],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -5320,22 +4095,20 @@
     "thumbnail": "assets/img/panels/wfi2033-4723_panel.png",
     "references": [
       {
-        "title": "WFI 2033-4723 discovery",
-        "label": "WFI 2033-4723 discovery",
+        "title": "COSMOGRAIL XVIII: time delays of the quadruply lensed quasar WFI2033-4723",
         "roles": [
-          "first"
+          "observation"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI%202033-4723%22%20discovery%20lens"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1905.08260"
       },
       {
-        "title": "H0LiCOW modelling",
-        "label": "H0LiCOW modelling",
+        "title": "H0LiCOW XII. Lens mass model of WFI2033-4723 and blind measurement of its time-delay distance and H0",
         "roles": [
           "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22WFI2033-4723%22%20H0LiCOW%20lens%20model"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1905.09338"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -5376,26 +4149,7 @@
       "H0 测量"
     ],
     "thumbnail": "assets/img/panels/wgd2038-4008_panel.png",
-    "references": [
-      {
-        "title": "WGD/STRIDES discovery",
-        "label": "WGD/STRIDES discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22WGD%202038-4008%22%20discovery"
-      },
-      {
-        "title": "Environment and modelling",
-        "label": "Environment and modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22WGD%202038-4008%22%20lens%20environment%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
     "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
@@ -5432,26 +4186,7 @@
       "时间延迟"
     ],
     "thumbnail": "assets/img/thumbs/sn-refsdal.svg",
-    "references": [
-      {
-        "title": "SN Requiem report",
-        "label": "SN Requiem report",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Requiem%22%20AT%202016jka%20lensed%20supernova"
-      },
-      {
-        "title": "Return-image prediction",
-        "label": "Return-image prediction",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202016jka%22%20lens%20model%20return%20image"
-      }
-    ],
+    "references": [],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
@@ -5488,26 +4223,7 @@
       "候选"
     ],
     "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
-    "references": [
-      {
-        "title": "Candidate report",
-        "label": "Candidate report",
-        "roles": [
-          "candidate"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202022riv%22%20lensed%20supernova%20candidate"
-      },
-      {
-        "title": "Lens model discussion",
-        "label": "Lens model discussion",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202022riv%22%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
@@ -5544,26 +4260,7 @@
       "候选"
     ],
     "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
-    "references": [
-      {
-        "title": "Candidate report",
-        "label": "Candidate report",
-        "roles": [
-          "candidate"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202023adsy%22%20lensed%20supernova"
-      },
-      {
-        "title": "JWST follow-up/modelling",
-        "label": "JWST follow-up/modelling",
-        "roles": [
-          "followup"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22AT%202023adsy%22%20JWST%20lens%20model"
-      }
-    ],
+    "references": [],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
@@ -5601,31 +4298,12 @@
     "references": [
       {
         "title": "iPTF16geu: A multiply imaged, gravitationally lensed type Ia supernova",
-        "label": "Goobar et al. 2017, iPTF16geu discovery",
         "roles": [
           "first",
           "observation"
         ],
-        "note": "arXiv preprint",
+        "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1611.00014"
-      },
-      {
-        "title": "Lens modelling and microlensing",
-        "label": "Lens modelling and microlensing",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22iPTF16geu%22%20lens%20model%20microlensing"
-      },
-      {
-        "title": "Resolved follow-up",
-        "label": "Resolved follow-up",
-        "roles": [
-          "followup"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%202016geu%22%20HST%20Keck%20follow-up"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
@@ -5660,26 +4338,7 @@
       "星系透镜"
     ],
     "thumbnail": "assets/img/thumbs/sn-zwicky.svg",
-    "references": [
-      {
-        "title": "Lens interpretation",
-        "label": "Lens interpretation",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22PS1-10afx%22%20gravitationally%20lensed%20supernova"
-      },
-      {
-        "title": "Lens confirmation follow-up",
-        "label": "Lens confirmation follow-up",
-        "roles": [
-          "followup"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22PS1-10afx%22%20lens%20galaxy%20spectroscopy"
-      }
-    ],
+    "references": [],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
@@ -5722,31 +4381,23 @@
     "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
     "references": [
       {
-        "title": "SN H0pe first reports",
-        "label": "SN H0pe first reports",
+        "title": "SN H0pe: The First Measurement of H0 from a Multiply-Imaged Type Ia Supernova, Discovered by JWST",
         "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20lensed%20supernova%20JWST"
-      },
-      {
-        "title": "Time-delay and H0 modelling",
-        "label": "Time-delay and H0 modelling",
-        "roles": [
+          "first",
+          "observation",
           "modelling"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20lens%20model%20H0"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/2403.18902"
       },
       {
-        "title": "JWST follow-up",
-        "label": "JWST follow-up",
+        "title": "JWST Photometric Time-Delay and Magnification Measurements for the Triply-Imaged Type Ia Supernova H0pe at z = 1.78",
         "roles": [
+          "observation",
           "followup"
         ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20H0pe%22%20JWST%20follow-up"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/2403.18954"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
@@ -5789,33 +4440,22 @@
     "thumbnail": "assets/img/thumbs/sn-refsdal.svg",
     "references": [
       {
-        "title": "Multiple images of a highly magnified supernova formed by an early-type cluster galaxy lens",
-        "label": "Kelly et al. 2015, multiply imaged SN Refsdal",
+        "title": "Multiple Images of a Highly Magnified Supernova Formed by an Early-Type Cluster Galaxy Lens",
         "roles": [
           "first",
           "observation"
         ],
-        "note": "arXiv preprint",
-        "url": "https://ui.adsabs.harvard.edu/abs/2015Sci...347.1123K/abstract"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1411.6009"
       },
       {
         "title": "Predicted properties of multiple images of the strongly lensed supernova SN Refsdal",
-        "label": "Oguri 2015, predicted properties",
         "roles": [
           "modelling",
           "followup"
         ],
-        "note": "arXiv preprint",
+        "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1411.6443"
-      },
-      {
-        "title": "SN Refsdal follow-up and time delays",
-        "label": "SN Refsdal follow-up and time delays",
-        "roles": [
-          "followup"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Refsdal%22%20time%20delay%20lens%20model"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
@@ -5856,32 +4496,13 @@
     "thumbnail": "assets/img/thumbs/sn-zwicky.svg",
     "references": [
       {
-        "title": "LensWatch: resolved HST observations of the strongly lensed Type Ia supernova SN Zwicky",
-        "label": "LensWatch HST observations",
+        "title": "LensWatch: I. Resolved HST Observations and Constraints on the Strongly-Lensed Type Ia Supernova 2022qmx (\"SN Zwicky\")",
         "roles": [
           "observation",
           "followup"
         ],
-        "note": "arXiv preprint",
+        "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/2211.03772"
-      },
-      {
-        "title": "SN Zwicky discovery",
-        "label": "SN Zwicky discovery",
-        "roles": [
-          "first"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Zwicky%22%20%22SN%202022qmx%22%20discovery"
-      },
-      {
-        "title": "SN Zwicky / SN 2022qmx: lens modelling and follow-up papers",
-        "label": "Lens modelling",
-        "roles": [
-          "modelling"
-        ],
-        "note": "ADS entry/search pending bibcode curation",
-        "url": "https://ui.adsabs.harvard.edu/search/q=%22SN%20Zwicky%22%20lens%20model"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",

@@ -9,7 +9,6 @@ const langButtons = Array.from(document.querySelectorAll(".lang-btn"));
 const pageSizeSelect = document.querySelector("#pageSize");
 const pagerTop = document.querySelector("#pagerTop");
 const pagerBottom = document.querySelector("#pagerBottom");
-const referenceStats = document.querySelector("#referenceStats");
 
 let activeFilter = "All";
 let lang = localStorage.getItem("smtl-lang") || "zh";
@@ -19,7 +18,7 @@ pageSizeSelect.value = String(pageSize);
 
 const i18n = {
   zh: {
-    nav_catalogue: "数据目录", nav_references: "文献统计", nav_sources: "数据源", nav_submit: "投送",
+    nav_catalogue: "数据目录", nav_sources: "数据源", nav_submit: "投送",
     hero_eyebrow: "引力透镜数据汇", hero_subtitle: "引力透镜类星体与引力透镜超新星数据目录",
     hero_text: "汇总已确认和高可信候选的 lensed QSOs 与 lensed SNe，优先使用 MAST 坐标检索入口、可复用图像字段和可核查文献标签。",
     browse_systems: "浏览源表", download_json: "下载 JSON",
@@ -29,8 +28,6 @@ const i18n = {
     search_label: "搜索", search_placeholder: "输入源名、类型、标签或红移",
     filter_all: "全部", filter_qso: "透镜类星体", filter_sn: "透镜超新星", filter_quad: "四重像", filter_cluster: "星系团尺度", filter_timedelay: "时间延迟", filter_h0: "H0 测量样本",
     per_page: "每页", prev: "上一页", next: "下一页", page_of: "第 {page} / {pages} 页", no_results: "没有匹配结果。",
-    references_eyebrow: "References", references_title: "References 目录",
-    references_desc: "按多列目录列出源名、具体文章或目录记录、角色上标和链接。arXiv 链接直接指向 abstract 页面；ADS 条目后续可继续替换为具体 bibcode abstract 页面。",
     sources_eyebrow: "Data Source", sources_title: "数据源先限定为 MAST",
     sources_desc: "每个源的 Data 按钮指向 MAST Portal，并在链接参数中写入该源的 RA/Dec。其它数据库保留在文献和备注中，不作为本版数据入口。",
     submit_eyebrow: "Submit", submit_title: "投送与补充意见",
@@ -42,7 +39,7 @@ const i18n = {
     ref_source: "源", ref_title: "文章/记录", ref_roles: "标记"
   },
   en: {
-    nav_catalogue: "Catalogue", nav_references: "References", nav_sources: "Data Source", nav_submit: "Submit",
+    nav_catalogue: "Catalogue", nav_sources: "Data Source", nav_submit: "Submit",
     hero_eyebrow: "Gravitational-lens catalogue", hero_subtitle: "Data catalogue of gravitationally lensed quasars and supernovae",
     hero_text: "A bilingual catalogue of confirmed and high-confidence lensed QSOs and lensed SNe, with MAST coordinate links, reusable image fields, and reference roles.",
     browse_systems: "Browse catalogue", download_json: "Download JSON",
@@ -52,8 +49,6 @@ const i18n = {
     search_label: "Search", search_placeholder: "Search by name, type, tag, or redshift",
     filter_all: "All", filter_qso: "Lensed QSOs", filter_sn: "Lensed SNe", filter_quad: "Quad", filter_cluster: "Cluster-scale", filter_timedelay: "Time-delay", filter_h0: "H0 samples",
     per_page: "Per page", prev: "Previous", next: "Next", page_of: "Page {page} / {pages}", no_results: "No matching systems.",
-    references_eyebrow: "References", references_title: "References directory",
-    references_desc: "A multi-column directory of source names, article or catalogue-record titles, role superscripts, and links. arXiv links go directly to abstract pages; ADS entries can be upgraded to bibcode abstract pages as curation continues.",
     sources_eyebrow: "Data Source", sources_title: "MAST-first data links",
     sources_desc: "Each Data button opens MAST Portal with the source RA/Dec in the query. Other services are kept as literature context rather than primary data sources.",
     submit_eyebrow: "Submit", submit_title: "Submit additions and corrections",
@@ -86,7 +81,6 @@ function applyLanguage() {
   searchInput.placeholder = t("search_placeholder");
   langButtons.forEach(btn => btn.classList.toggle("active", btn.dataset.lang === lang));
   render();
-  renderReferenceDirectory();
 }
 
 function matchesFilter(system) {
@@ -161,7 +155,7 @@ function renderPager(total, pages) {
   const label = t("page_of").replace("{page}", page).replace("{pages}", pages);
   const html = `
     <button type="button" data-page="prev" ${page <= 1 ? "disabled" : ""}>${t("prev")}</button>
-    <span>${label} · ${total}</span>
+    <span>${label} / ${total}</span>
     <button type="button" data-page="next" ${page >= pages ? "disabled" : ""}>${t("next")}</button>
   `;
   [pagerTop, pagerBottom].forEach(pager => {
@@ -180,6 +174,7 @@ function openDetails(id) {
   const system = systems.find(s => s.id === id);
   if (!system) return;
   const tagsHtml = tags(system).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
+  const referenceLinks = createReferences(system.references);
   dialogBody.innerHTML = `
     <div class="dialog-layout">
       <img src="${escapeAttr(system.thumbnail)}" alt="${escapeAttr(system.name)} thumbnail">
@@ -203,10 +198,10 @@ function openDetails(id) {
           <h4>${t("data")}</h4>
           <a href="${escapeAttr(mastUrl(system))}" target="_blank" rel="noreferrer">MAST Portal <small>${escapeHtml(system.mast_query || `${system.ra} ${system.dec}`)}</small></a>
         </div>
-        <div class="link-group references-list">
+        ${referenceLinks ? `<div class="link-group references-list">
           <h4>${t("references")}</h4>
-          ${createReferences(system.references)}
-        </div>
+          ${referenceLinks}
+        </div>` : ""}
       </div>
     </div>
   `;
@@ -214,43 +209,16 @@ function openDetails(id) {
 }
 
 function createReferences(refs = []) {
-  return refs.map(ref => `
+  const articleRefs = refs.filter(ref => {
+    const url = ref.url || "";
+    return !refRoles(ref).includes("catalog") && !url.includes("/search/");
+  });
+  return articleRefs.map(ref => `
     <a href="${escapeAttr(ref.url)}" target="_blank" rel="noreferrer">
       <span>${escapeHtml(ref.title || ref.label)} ${refRoleHtml(ref)}</span>
       <small>${escapeHtml(ref.note || "")}</small>
     </a>
   `).join("");
-}
-
-function renderReferenceDirectory() {
-  const refs = systems.flatMap(system => (system.references || []).map(ref => ({ system, ref })));
-  referenceStats.innerHTML = `
-    <div class="references-directory">
-      <table>
-        <thead>
-          <tr>
-            <th>${t("ref_source")}</th>
-            <th>${t("ref_title")}</th>
-            <th>${t("ref_roles")}</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${refs.map(({ system, ref }) => `
-            <tr>
-              <td>${escapeHtml(system.name)}</td>
-              <td>
-                <a href="${escapeAttr(ref.url)}" target="_blank" rel="noreferrer">
-                  ${escapeHtml(ref.title || ref.label)}
-                </a>
-                <small>${escapeHtml(ref.note || "")}</small>
-              </td>
-              <td>${refRoleHtml(ref)}</td>
-            </tr>
-          `).join("")}
-        </tbody>
-      </table>
-    </div>
-  `;
 }
 
 function escapeHtml(value) {

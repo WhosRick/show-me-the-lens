@@ -12,7 +12,7 @@
   --muted: #b9b2a4;
   --line: rgba(214, 168, 78, 0.34);
   --shadow: rgba(100, 185, 255, 0.16);
-  --hero-bg: url("../img/hero-lens-bg.jpg");
+  --hero-bg: url("../img/hero-lens-bg.png");
   color-scheme: dark;
 }
 
@@ -24,13 +24,11 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    linear-gradient(rgba(2, 2, 2, 0.42), rgba(2, 2, 2, 0.82)),
-    var(--hero-bg, none),
     radial-gradient(circle at 70% 30%, rgba(82, 150, 222, 0.14), transparent 28rem),
     radial-gradient(circle at 14% 70%, rgba(214, 168, 78, 0.10), transparent 24rem),
     var(--bg);
-  background-size: cover, cover, auto, auto, auto;
-  background-position: center top, center top, center, center, center;
+  background-size: auto, auto, auto;
+  background-position: center, center, center;
   font-family: ui-serif, Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif;
   line-height: 1.6;
   overflow-x: hidden;
@@ -54,26 +52,21 @@ body {
   min-height: 88vh;
   padding: 28px clamp(20px, 4vw, 72px) 64px;
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
 }
 
-.site-header::after {
+.site-header::before {
   content: "";
   position: absolute;
-  left: 50%;
-  top: 55%;
-  width: 45vw;
-  max-width: 620px;
-  aspect-ratio: 1;
-  transform: translate(-50%, -13%);
-  border: 1px solid rgba(214,168,78,.2);
-  border-radius: 50%;
-  box-shadow:
-    0 0 140px rgba(222, 138, 32, 0.12),
-    inset 0 0 80px rgba(222, 138, 32, 0.08);
+  inset: 0;
+  z-index: -2;
   background:
-    radial-gradient(circle at 50% 50%, transparent 0 26%, rgba(245, 166, 65, 0.13) 27%, transparent 29% 100%);
-  opacity: 0.75;
-  z-index: -1;
+    linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.78)),
+    radial-gradient(circle at 50% 32%, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.50) 46%, rgba(0, 0, 0, 0.86) 100%),
+    var(--hero-bg);
+  background-size: cover, cover, cover;
+  background-position: center top, center top, center top;
 }
 
 .nav {

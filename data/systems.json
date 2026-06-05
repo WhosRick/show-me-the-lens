@@ -28,7 +28,26 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -63,7 +82,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -98,7 +154,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -133,7 +226,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -168,7 +298,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -203,7 +370,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -238,7 +442,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -273,7 +514,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -308,7 +586,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -343,7 +658,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -378,7 +730,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -413,7 +802,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -450,7 +876,26 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -485,7 +930,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -520,7 +1002,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -578,6 +1097,40 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/0910.2773"
+      },
+      {
+        "title": "H0LiCOW I. H0 Lenses in COSMOGRAIL's Wellspring: Program Overview",
+        "roles": [
+          "review"
+        ],
+        "note": "H0LiCOW programme overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.00017"
+      },
+      {
+        "title": "H0LiCOW XIII. A 2.4% measurement of H0 from lensed quasars: 5.3 sigma tension between early and late-Universe probes",
+        "roles": [
+          "modelling"
+        ],
+        "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.04869"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -614,7 +1167,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -649,7 +1239,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -684,7 +1311,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -719,7 +1383,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -754,7 +1455,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -789,7 +1527,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -824,7 +1599,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -859,7 +1653,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -894,7 +1707,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -942,6 +1774,31 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1910.06306"
+      },
+      {
+        "title": "STRIDES: Spectroscopic and photometric characterization of the environment and effects of mass along the line of sight to the gravitational lenses DES J0408-5354 and WGD 2038-4008",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "STRIDES environment and line-of-sight analysis; arXiv abstract",
+        "url": "https://arxiv.org/abs/2003.12117"
+      },
+      {
+        "title": "H0LiCOW I. H0 Lenses in COSMOGRAIL's Wellspring: Program Overview",
+        "roles": [
+          "review"
+        ],
+        "note": "H0LiCOW programme overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.00017"
+      },
+      {
+        "title": "H0LiCOW XIII. A 2.4% measurement of H0 from lensed quasars: 5.3 sigma tension between early and late-Universe probes",
+        "roles": [
+          "modelling"
+        ],
+        "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.04869"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -978,7 +1835,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1013,7 +1889,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1048,7 +1943,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1083,7 +1997,17 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Gaia GraL: Gaia DR2 Gravitational Lens Systems. VI. Spectroscopic Confirmation and Modeling of Quadruply-Imaged Lensed Quasars",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "GraL quadruple-lens confirmation and modelling; arXiv abstract",
+        "url": "https://arxiv.org/abs/2012.10051"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1118,7 +2042,17 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Gaia GraL: Gaia DR2 Gravitational Lens Systems. VI. Spectroscopic Confirmation and Modeling of Quadruply-Imaged Lensed Quasars",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "GraL quadruple-lens confirmation and modelling; arXiv abstract",
+        "url": "https://arxiv.org/abs/2012.10051"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1153,7 +2087,17 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Gaia GraL: Gaia DR2 Gravitational Lens Systems. VI. Spectroscopic Confirmation and Modeling of Quadruply-Imaged Lensed Quasars",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "GraL quadruple-lens confirmation and modelling; arXiv abstract",
+        "url": "https://arxiv.org/abs/2012.10051"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1188,7 +2132,17 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Gaia GraL: Gaia DR2 Gravitational Lens Systems. VI. Spectroscopic Confirmation and Modeling of Quadruply-Imaged Lensed Quasars",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "GraL quadruple-lens confirmation and modelling; arXiv abstract",
+        "url": "https://arxiv.org/abs/2012.10051"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1223,7 +2177,26 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1258,7 +2231,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1323,6 +2315,22 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1907.02533"
+      },
+      {
+        "title": "H0LiCOW I. H0 Lenses in COSMOGRAIL's Wellspring: Program Overview",
+        "roles": [
+          "review"
+        ],
+        "note": "H0LiCOW programme overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.00017"
+      },
+      {
+        "title": "H0LiCOW XIII. A 2.4% measurement of H0 from lensed quasars: 5.3 sigma tension between early and late-Universe probes",
+        "roles": [
+          "modelling"
+        ],
+        "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.04869"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -1359,7 +2367,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1394,7 +2421,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1429,7 +2475,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1464,7 +2529,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1499,7 +2583,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1532,7 +2635,26 @@
       "四重像"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -1567,7 +2689,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1602,7 +2743,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1637,7 +2797,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1672,7 +2851,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1707,7 +2905,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1742,7 +2959,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1777,7 +3013,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1812,7 +3067,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1847,7 +3121,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1882,7 +3175,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1917,7 +3229,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1952,7 +3283,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -1987,7 +3337,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2022,7 +3391,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2057,7 +3445,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2092,7 +3499,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2129,7 +3555,26 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -2164,7 +3609,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2199,7 +3681,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2234,7 +3753,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2269,7 +3825,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2304,7 +3897,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2352,6 +3982,22 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1907.02533"
+      },
+      {
+        "title": "H0LiCOW I. H0 Lenses in COSMOGRAIL's Wellspring: Program Overview",
+        "roles": [
+          "review"
+        ],
+        "note": "H0LiCOW programme overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.00017"
+      },
+      {
+        "title": "H0LiCOW XIII. A 2.4% measurement of H0 from lensed quasars: 5.3 sigma tension between early and late-Universe probes",
+        "roles": [
+          "modelling"
+        ],
+        "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.04869"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -2388,7 +4034,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2423,7 +4106,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2458,7 +4178,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2493,7 +4250,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2528,7 +4322,44 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Cosmic Lens All-Sky Survey - I. Source selection and observations",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CLASS/JVAS radio lens survey; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211073"
+      },
+      {
+        "title": "Cosmic Lens All-Sky Survey - II. Gravitational lens candidate selection and follow-up",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2563,7 +4394,17 @@
       "GraL"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Gaia GraL: Gaia DR2 Gravitational Lens Systems. VI. Spectroscopic Confirmation and Modeling of Quadruply-Imaged Lensed Quasars",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "GraL quadruple-lens confirmation and modelling; arXiv abstract",
+        "url": "https://arxiv.org/abs/2012.10051"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -2598,7 +4439,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2633,7 +4493,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2668,7 +4547,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2715,6 +4613,24 @@
         ],
         "note": "Nature discovery paper; ADS abstract",
         "url": "https://ui.adsabs.harvard.edu/abs/1979Natur.279..381W/abstract"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
@@ -2751,7 +4667,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2786,7 +4721,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2821,7 +4775,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2856,7 +4829,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2891,7 +4883,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2926,7 +4937,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2961,7 +4991,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -2996,7 +5045,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3053,6 +5121,22 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1907.02533"
+      },
+      {
+        "title": "H0LiCOW I. H0 Lenses in COSMOGRAIL's Wellspring: Program Overview",
+        "roles": [
+          "review"
+        ],
+        "note": "H0LiCOW programme overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.00017"
+      },
+      {
+        "title": "H0LiCOW XIII. A 2.4% measurement of H0 from lensed quasars: 5.3 sigma tension between early and late-Universe probes",
+        "roles": [
+          "modelling"
+        ],
+        "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.04869"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -3089,7 +5173,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3124,7 +5227,26 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3159,7 +5281,17 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -3198,7 +5330,34 @@
       "classic"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "Discovery of a Fifth Image of the Large Separation Gravitationally Lensed Quasar SDSS J1004+4112",
+        "roles": [
+          "observation"
+        ],
+        "note": "Cluster-scale lensed quasar follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0503310"
+      },
+      {
+        "title": "Discovery of Multiply Imaged Galaxies behind the Cluster and Lensed Quasar SDSS J1004+4112",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "Cluster lens follow-up and modelling context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0507360"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -3233,7 +5392,17 @@
       "时间延迟"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -3287,6 +5456,31 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1809.01274"
+      },
+      {
+        "title": "H0LiCOW I. H0 Lenses in COSMOGRAIL's Wellspring: Program Overview",
+        "roles": [
+          "review"
+        ],
+        "note": "H0LiCOW programme overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.00017"
+      },
+      {
+        "title": "H0LiCOW XIII. A 2.4% measurement of H0 from lensed quasars: 5.3 sigma tension between early and late-Universe probes",
+        "roles": [
+          "modelling"
+        ],
+        "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.04869"
+      },
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -3323,7 +5517,17 @@
       "时间延迟"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -3358,7 +5562,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3393,7 +5625,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3428,7 +5688,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3463,7 +5751,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3498,7 +5814,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3533,7 +5877,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3568,7 +5940,52 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "Discovery of a Fifth Image of the Large Separation Gravitationally Lensed Quasar SDSS J1004+4112",
+        "roles": [
+          "observation"
+        ],
+        "note": "Cluster-scale lensed quasar follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0503310"
+      },
+      {
+        "title": "Discovery of Multiply Imaged Galaxies behind the Cluster and Lensed Quasar SDSS J1004+4112",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "Cluster lens follow-up and modelling context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/0507360"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3603,7 +6020,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3638,7 +6083,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3673,7 +6146,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3708,7 +6209,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3743,7 +6272,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3778,7 +6335,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3813,7 +6398,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3848,7 +6461,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3883,7 +6524,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3918,7 +6587,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3953,7 +6650,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -3988,7 +6713,35 @@
       "目录导入"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The Sloan Digital Sky Survey Quasar Lens Search. V. Final Catalog from the Seventh Data Release",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "SDSS quasar lens final catalog; arXiv abstract",
+        "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
     "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
   },
@@ -4021,7 +6774,26 @@
       "四重像"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -4054,7 +6826,26 @@
       "四重像"
     ],
     "thumbnail": "assets/img/thumbs/q0957-561.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES lensing tool and sample context; arXiv abstract",
+        "url": "https://arxiv.org/abs/astro-ph/9910025"
+      }
+    ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
@@ -4109,6 +6900,22 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1905.09338"
+      },
+      {
+        "title": "H0LiCOW I. H0 Lenses in COSMOGRAIL's Wellspring: Program Overview",
+        "roles": [
+          "review"
+        ],
+        "note": "H0LiCOW programme overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.00017"
+      },
+      {
+        "title": "H0LiCOW XIII. A 2.4% measurement of H0 from lensed quasars: 5.3 sigma tension between early and late-Universe probes",
+        "roles": [
+          "modelling"
+        ],
+        "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.04869"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
@@ -4149,7 +6956,33 @@
       "H0 测量"
     ],
     "thumbnail": "assets/img/panels/wgd2038-4008_panel.png",
-    "references": [],
+    "references": [
+      {
+        "title": "STRIDES: Spectroscopic and photometric characterization of the environment and effects of mass along the line of sight to the gravitational lenses DES J0408-5354 and WGD 2038-4008",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "STRIDES environment and line-of-sight analysis; arXiv abstract",
+        "url": "https://arxiv.org/abs/2003.12117"
+      },
+      {
+        "title": "H0LiCOW I. H0 Lenses in COSMOGRAIL's Wellspring: Program Overview",
+        "roles": [
+          "review"
+        ],
+        "note": "H0LiCOW programme overview; arXiv abstract",
+        "url": "https://arxiv.org/abs/1607.00017"
+      },
+      {
+        "title": "H0LiCOW XIII. A 2.4% measurement of H0 from lensed quasars: 5.3 sigma tension between early and late-Universe probes",
+        "roles": [
+          "modelling"
+        ],
+        "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
+        "url": "https://arxiv.org/abs/1907.04869"
+      }
+    ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
     "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
   },
@@ -4186,7 +7019,18 @@
       "时间延迟"
     ],
     "thumbnail": "assets/img/thumbs/sn-refsdal.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "A Gravitationally Lensed Supernova with an Observable Two-Decade Time Delay",
+        "roles": [
+          "first",
+          "observation",
+          "modelling"
+        ],
+        "note": "SN Requiem / AT 2016jka discovery and time-delay prediction; arXiv abstract",
+        "url": "https://arxiv.org/abs/2106.08935"
+      }
+    ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
@@ -4223,7 +7067,18 @@
       "候选"
     ],
     "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "SN 2022riv in RX J2129: Discovery, Spectroscopic Classification, and Microlensing of a Strongly Lensed Type Ia Supernova from JWST and HST Observations",
+        "roles": [
+          "first",
+          "observation",
+          "followup"
+        ],
+        "note": "AT 2022riv / SN 2022riv discovery and classification; arXiv abstract",
+        "url": "https://arxiv.org/abs/2604.11882"
+      }
+    ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
@@ -4260,7 +7115,26 @@
       "候选"
     ],
     "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Discovery of An Apparent Red, High-Velocity Type Ia Supernova at z = 2.9 with JWST",
+        "roles": [
+          "first",
+          "observation"
+        ],
+        "note": "SN 2023adsy discovery and classification; arXiv abstract",
+        "url": "https://arxiv.org/abs/2406.05089"
+      },
+      {
+        "title": "The JADES Transient Survey: Discovery and Classification of Supernovae in the JADES Deep Field",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "JADES transient survey context for AT 2023adsy; arXiv abstract",
+        "url": "https://arxiv.org/abs/2406.05060"
+      }
+    ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
@@ -4338,7 +7212,34 @@
       "星系透镜"
     ],
     "thumbnail": "assets/img/thumbs/sn-zwicky.svg",
-    "references": [],
+    "references": [
+      {
+        "title": "Extraordinary Magnification of the Ordinary Type Ia Supernova PS1-10afx",
+        "roles": [
+          "first",
+          "modelling"
+        ],
+        "note": "Lensing interpretation; arXiv abstract",
+        "url": "https://arxiv.org/abs/1302.2785"
+      },
+      {
+        "title": "Detection of the Gravitational Lens Magnifying a Type Ia Supernova",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "Foreground lens confirmation; arXiv abstract",
+        "url": "https://arxiv.org/abs/1404.6014"
+      },
+      {
+        "title": "Testing for redshift evolution of Type Ia supernovae using the strongly lensed PS1-10afx at z=1.4",
+        "roles": [
+          "followup"
+        ],
+        "note": "Spectroscopic follow-up; arXiv abstract",
+        "url": "https://arxiv.org/abs/1706.03770"
+      }
+    ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
@@ -4398,6 +7299,15 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/2403.18954"
+      },
+      {
+        "title": "The JADES Transient Survey: Discovery and Classification of Supernovae in the JADES Deep Field",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "JADES transient survey context for AT 2023adsy; arXiv abstract",
+        "url": "https://arxiv.org/abs/2406.05060"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
@@ -4456,6 +7366,15 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1411.6443"
+      },
+      {
+        "title": "The JADES Transient Survey: Discovery and Classification of Supernovae in the JADES Deep Field",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "JADES transient survey context for AT 2023adsy; arXiv abstract",
+        "url": "https://arxiv.org/abs/2406.05060"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
@@ -4503,6 +7422,15 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/2211.03772"
+      },
+      {
+        "title": "The JADES Transient Survey: Discovery and Classification of Supernovae in the JADES Deep Field",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "JADES transient survey context for AT 2023adsy; arXiv abstract",
+        "url": "https://arxiv.org/abs/2406.05060"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",

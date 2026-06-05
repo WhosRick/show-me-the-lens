@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -8,7 +8,7 @@
   <meta property="og:title" content="Show Me the Lens" />
   <meta property="og:description" content="Data catalogue of gravitationally lensed quasars and supernovae." />
   <meta property="og:type" content="website" />
-  <link rel="stylesheet" href="assets/css/styles.css?v=refs-fill-20260605-1" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=content-filter-20260606-1" />
 </head>
 <body>
   <div class="sky" aria-hidden="true"></div>
@@ -20,62 +20,61 @@
       </a>
       <div class="nav-right">
         <div class="nav-links">
-          <a href="#catalogue" data-i18n="nav_catalogue">数据目录</a>
-          <a href="#sources" data-i18n="nav_sources">数据源</a>
-          <a href="#submit" data-i18n="nav_submit">投送</a>
+          <a href="#catalogue" data-i18n="nav_catalogue">Catalogue</a>
+          <a href="#sources" data-i18n="nav_sources">Data Source</a>
+          <a href="#submit" data-i18n="nav_submit">Submit</a>
         </div>
         <div class="lang-switch" aria-label="language switch">
-          <button type="button" class="lang-btn active" data-lang="zh">中文</button>
-          <button type="button" class="lang-btn" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="zh">中文</button>
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
         </div>
       </div>
     </nav>
 
     <section class="hero">
-      <p class="eyebrow" data-i18n="hero_eyebrow">引力透镜数据汇</p>
+      <p class="eyebrow" data-i18n="hero_eyebrow">Gravitational-lens catalogue</p>
       <h1>Show Me the Lens</h1>
-      <p class="subtitle" data-i18n="hero_subtitle">引力透镜类星体与引力透镜超新星数据目录</p>
+      <p class="subtitle" data-i18n="hero_subtitle">Data catalogue of gravitationally lensed quasars and supernovae</p>
       <p class="hero-text" data-i18n="hero_text">
-        汇总已确认和高可信候选的 lensed QSOs 与 lensed SNe，优先使用 MAST 坐标检索入口、可复用图像字段和可核查文献标签。
+        A bilingual catalogue of confirmed and high-confidence lensed QSOs and lensed SNe. MAST coordinate search links are currently prioritized.
       </p>
       <div class="hero-actions">
-        <a class="button primary" href="#catalogue" data-i18n="browse_systems">浏览源表</a>
-        <a class="button" href="data/systems.json" data-i18n="download_json">下载 JSON</a>
+        <a class="button primary" href="#catalogue" data-i18n="browse_systems">Browse catalogue</a>
       </div>
     </section>
   </header>
 
   <main>
     <section class="metrics" aria-label="catalogue statistics">
-      <article><span id="count-all">0</span><p data-i18n="metric_systems">源条目</p></article>
-      <article><span id="count-qso">0</span><p data-i18n="metric_qso">透镜类星体</p></article>
-      <article><span id="count-sn">0</span><p data-i18n="metric_sn">透镜超新星</p></article>
-      <article><span id="count-ref">0</span><p data-i18n="metric_refs">文献链接</p></article>
+      <article><span id="count-all">0</span><p data-i18n="metric_systems">systems</p></article>
+      <article><span id="count-qso">0</span><p data-i18n="metric_qso">lensed QSOs</p></article>
+      <article><span id="count-sn">0</span><p data-i18n="metric_sn">lensed SNe</p></article>
+      <article><span id="count-ref">0</span><p data-i18n="metric_refs">reference links</p></article>
     </section>
 
     <section class="panel" id="catalogue">
       <div class="section-heading">
         <p class="eyebrow" data-i18n="catalogue_eyebrow">Catalogue</p>
-        <h2 data-i18n="catalogue_title">透镜源目录</h2>
-        <p data-i18n="catalogue_desc">当前版本按 GraL/CASTLES/经典样本补足 QSO 数量，并加入已报道的 lensed SNe。图片可继续替换为服务器生成的面板。</p>
+        <h2 data-i18n="catalogue_title">Lens-source catalogue</h2>
       </div>
       <div class="toolbar" aria-label="filters">
         <label class="search-box">
-          <span data-i18n="search_label">搜索</span>
-          <input id="search" type="search" placeholder="输入源名、类型、标签或红移" />
+          <span data-i18n="search_label">Search</span>
+          <input id="search" type="search" placeholder="Search by name, type, tag, or redshift" />
         </label>
         <div class="chips" id="chips">
-          <button class="chip active" data-filter="All" data-i18n="filter_all">全部</button>
-          <button class="chip" data-filter="Lensed QSO" data-i18n="filter_qso">透镜类星体</button>
-          <button class="chip" data-filter="Lensed SN" data-i18n="filter_sn">透镜超新星</button>
-          <button class="chip" data-filter="quad" data-i18n="filter_quad">四重像</button>
-          <button class="chip" data-filter="cluster" data-i18n="filter_cluster">星系团尺度</button>
-          <button class="chip" data-filter="time-delay" data-i18n="filter_timedelay">时间延迟</button>
-          <button class="chip" data-filter="h0-measurement" data-i18n="filter_h0">H0 测量样本</button>
+          <button class="chip active" data-filter="has-thumbnail" data-i18n="filter_thumbnail">With thumbnails</button>
+          <button class="chip" data-filter="All" data-i18n="filter_all">All</button>
+          <button class="chip" data-filter="Lensed QSO" data-i18n="filter_qso">Lensed QSOs</button>
+          <button class="chip" data-filter="Lensed SN" data-i18n="filter_sn">Lensed SNe</button>
+          <button class="chip" data-filter="quad" data-i18n="filter_quad">Quad</button>
+          <button class="chip" data-filter="cluster" data-i18n="filter_cluster">Cluster-scale</button>
+          <button class="chip" data-filter="time-delay" data-i18n="filter_timedelay">Time-delay</button>
+          <button class="chip" data-filter="h0-measurement" data-i18n="filter_h0">H0 samples</button>
         </div>
         <div class="pager-bar">
           <label>
-            <span data-i18n="per_page">每页</span>
+            <span data-i18n="per_page">Per page</span>
             <select id="pageSize">
               <option value="12">12</option>
               <option value="24" selected>24</option>
@@ -92,9 +91,9 @@
     <section class="panel split" id="sources">
       <div>
         <p class="eyebrow" data-i18n="sources_eyebrow">Data Source</p>
-        <h2 data-i18n="sources_title">数据源先限定为 MAST</h2>
+        <h2 data-i18n="sources_title">MAST-first data links</h2>
         <p data-i18n="sources_desc">
-          每个源的 Data 按钮指向 MAST Portal，并在链接参数中写入该源的 RA/Dec。其它数据库保留在文献和备注中，不作为本版数据入口。
+          Each Data button opens MAST Portal with the source RA/Dec in the query.
         </p>
       </div>
       <div class="source-list">
@@ -105,8 +104,8 @@
 
     <section class="panel" id="submit">
       <p class="eyebrow" data-i18n="submit_eyebrow">Submit</p>
-      <h2 data-i18n="submit_title">投送与补充意见</h2>
-      <p data-i18n="submit_desc">欢迎补充新源、坐标、红移、图像、首报论文、建模论文和后续观测论文。</p>
+      <h2 data-i18n="submit_title">Submit additions and corrections</h2>
+      <p data-i18n="submit_desc">Please send new systems, coordinates, redshifts, images, first-report papers, modelling papers, and follow-up papers. Corrections are also welcome. If any content infringes copyright, please email us and we will remove or revise it promptly.</p>
       <p class="contact"><a href="mailto:ruiguanhua@foxmail.com">ruiguanhua@foxmail.com</a></p>
     </section>
   </main>
@@ -118,10 +117,10 @@
 
   <footer class="footer">
     <p>Show Me the Lens</p>
-    <p data-i18n="disclaimer">免责声明：本网站为研究资料汇总与展示原型，红移、分类、文献角色和图像版权请以原始论文、MAST 元数据和数据发布页为准。</p>
+    <p data-i18n="disclaimer">Disclaimer: this site is a research catalogue prototype. Redshifts, classifications, reference roles, and image rights should be checked against original papers, MAST metadata, and data-release pages.</p>
   </footer>
 
-  <script src="assets/js/data.js?v=refs-fill-20260605-1"></script>
-  <script src="assets/js/app.js?v=refs-fill-20260605-1"></script>
+  <script src="assets/js/data.js?v=content-filter-20260606-1"></script>
+  <script src="assets/js/app.js?v=content-filter-20260606-1"></script>
 </body>
 </html>

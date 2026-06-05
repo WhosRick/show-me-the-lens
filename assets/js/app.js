@@ -10,8 +10,8 @@ const pageSizeSelect = document.querySelector("#pageSize");
 const pagerTop = document.querySelector("#pagerTop");
 const pagerBottom = document.querySelector("#pagerBottom");
 
-let activeFilter = "All";
-let lang = localStorage.getItem("smtl-lang") || "zh";
+let activeFilter = "has-thumbnail";
+let lang = localStorage.getItem("smtl-lang-v2") || "en";
 let page = 1;
 let pageSize = Number(localStorage.getItem("smtl-page-size") || 24);
 pageSizeSelect.value = String(pageSize);
@@ -20,42 +20,42 @@ const i18n = {
   zh: {
     nav_catalogue: "数据目录", nav_sources: "数据源", nav_submit: "投送",
     hero_eyebrow: "引力透镜数据汇", hero_subtitle: "引力透镜类星体与引力透镜超新星数据目录",
-    hero_text: "汇总已确认和高可信候选的 lensed QSOs 与 lensed SNe，优先使用 MAST 坐标检索入口、可复用图像字段和可核查文献标签。",
-    browse_systems: "浏览源表", download_json: "下载 JSON",
+    hero_text: "汇总已确认和高可信候选的 lensed QSOs 与 lensed SNe，目前优先使用 MAST 坐标检索入口。",
+    browse_systems: "浏览源表",
     metric_systems: "源条目", metric_qso: "透镜类星体", metric_sn: "透镜超新星", metric_refs: "文献链接",
     catalogue_eyebrow: "Catalogue", catalogue_title: "透镜源目录",
-    catalogue_desc: "目录改为横向列表。当前批量并入 CASTLES 101 个多重成像系统，并保留服务器生成的 QSO panel 图；GraL 全量表可继续追加。",
+    catalogue_desc: "",
     search_label: "搜索", search_placeholder: "输入源名、类型、标签或红移",
-    filter_all: "全部", filter_qso: "透镜类星体", filter_sn: "透镜超新星", filter_quad: "四重像", filter_cluster: "星系团尺度", filter_timedelay: "时间延迟", filter_h0: "H0 测量样本",
+    filter_thumbnail: "有缩略图", filter_all: "全部", filter_qso: "透镜类星体", filter_sn: "透镜超新星", filter_quad: "四重像", filter_cluster: "星系团尺度", filter_timedelay: "时间延迟", filter_h0: "H0 测量样本",
     per_page: "每页", prev: "上一页", next: "下一页", page_of: "第 {page} / {pages} 页", no_results: "没有匹配结果。",
     sources_eyebrow: "Data Source", sources_title: "数据源先限定为 MAST",
-    sources_desc: "每个源的 Data 按钮指向 MAST Portal，并在链接参数中写入该源的 RA/Dec。其它数据库保留在文献和备注中，不作为本版数据入口。",
+    sources_desc: "每个源的 Data 按钮指向 MAST Portal，并在链接参数中写入该源的 RA/Dec。",
     submit_eyebrow: "Submit", submit_title: "投送与补充意见",
-    submit_desc: "欢迎补充新源、坐标、红移、图像、首报论文、建模论文和后续观测论文。",
+    submit_desc: "欢迎补充新源、坐标、红移、图像、首报论文、建模论文和后续观测论文；也欢迎指正错误。若本站内容侵犯版权，请发邮件告知，我们会及时删除或修正。",
     disclaimer: "免责声明：本网站为研究资料汇总与展示原型，红移、分类、文献角色和图像版权请以原始论文、MAST 元数据和数据发布页为准。",
     name: "源的名字", thumbnail: "缩略图", type: "源类型", status: "是否已认证", images: "成像数目", scale: "scale", lens_redshift: "lens redshift", source_redshift: "source redshift",
-    detail: "details", data: "MAST", references: "References", subtype: "子类型", discovery: "发现年份", coordinates: "坐标", image_credit: "图像说明",
+    detail: "details", data: "MAST", references: "References", subtype: "源类型", discovery: "发现年份", coordinates: "坐标", image_credit: "图像说明",
     first: "发现", observation: "观测", modelling: "建模", followup: "后续", review: "综述", catalog: "目录", candidate: "候选",
     ref_source: "源", ref_title: "文章/记录", ref_roles: "标记"
   },
   en: {
     nav_catalogue: "Catalogue", nav_sources: "Data Source", nav_submit: "Submit",
     hero_eyebrow: "Gravitational-lens catalogue", hero_subtitle: "Data catalogue of gravitationally lensed quasars and supernovae",
-    hero_text: "A bilingual catalogue of confirmed and high-confidence lensed QSOs and lensed SNe, with MAST coordinate links, reusable image fields, and reference roles.",
-    browse_systems: "Browse catalogue", download_json: "Download JSON",
+    hero_text: "A bilingual catalogue of confirmed and high-confidence lensed QSOs and lensed SNe. MAST coordinate search links are currently prioritized.",
+    browse_systems: "Browse catalogue",
     metric_systems: "systems", metric_qso: "lensed QSOs", metric_sn: "lensed SNe", metric_refs: "reference links",
     catalogue_eyebrow: "Catalogue", catalogue_title: "Lens-source catalogue",
-    catalogue_desc: "The catalogue now uses a horizontal list. This batch imports the CASTLES 101 multiply imaged systems and keeps server-generated QSO panels; the full GraL table can be appended later.",
+    catalogue_desc: "",
     search_label: "Search", search_placeholder: "Search by name, type, tag, or redshift",
-    filter_all: "All", filter_qso: "Lensed QSOs", filter_sn: "Lensed SNe", filter_quad: "Quad", filter_cluster: "Cluster-scale", filter_timedelay: "Time-delay", filter_h0: "H0 samples",
+    filter_thumbnail: "With thumbnails", filter_all: "All", filter_qso: "Lensed QSOs", filter_sn: "Lensed SNe", filter_quad: "Quad", filter_cluster: "Cluster-scale", filter_timedelay: "Time-delay", filter_h0: "H0 samples",
     per_page: "Per page", prev: "Previous", next: "Next", page_of: "Page {page} / {pages}", no_results: "No matching systems.",
     sources_eyebrow: "Data Source", sources_title: "MAST-first data links",
-    sources_desc: "Each Data button opens MAST Portal with the source RA/Dec in the query. Other services are kept as literature context rather than primary data sources.",
+    sources_desc: "Each Data button opens MAST Portal with the source RA/Dec in the query.",
     submit_eyebrow: "Submit", submit_title: "Submit additions and corrections",
-    submit_desc: "Please send new systems, coordinates, redshifts, images, first-report papers, modelling papers, and follow-up papers.",
+    submit_desc: "Please send new systems, coordinates, redshifts, images, first-report papers, modelling papers, and follow-up papers. Corrections are also welcome. If any content infringes copyright, please email us and we will remove or revise it promptly.",
     disclaimer: "Disclaimer: this site is a research catalogue prototype. Redshifts, classifications, reference roles, and image rights should be checked against original papers, MAST metadata, and data-release pages.",
     name: "Source name", thumbnail: "Thumbnail", type: "Source type", status: "Certified", images: "Images", scale: "scale", lens_redshift: "lens redshift", source_redshift: "source redshift",
-    detail: "details", data: "MAST", references: "References", subtype: "Subtype", discovery: "Discovery year", coordinates: "Coordinates", image_credit: "Image credit",
+    detail: "details", data: "MAST", references: "References", subtype: "Source type", discovery: "Discovery year", coordinates: "Coordinates", image_credit: "Image credit",
     first: "discovery", observation: "observation", modelling: "modelling", followup: "follow-up", review: "review", catalog: "catalogue", candidate: "candidate",
     ref_source: "Source", ref_title: "Article / record", ref_roles: "Roles"
   }
@@ -84,9 +84,15 @@ function applyLanguage() {
 }
 
 function matchesFilter(system) {
+  if (activeFilter === "has-thumbnail") return hasRealThumbnail(system);
   if (activeFilter === "All") return true;
   if (activeFilter === "Lensed QSO" || activeFilter === "Lensed SN") return system.category === activeFilter;
   return searchableText(system).includes(normalize(activeFilter));
+}
+
+function hasRealThumbnail(system) {
+  const thumbnail = system.thumbnail || "";
+  return Boolean(thumbnail) && !thumbnail.endsWith("/q0957-561.svg");
 }
 
 function matchesSearch(system) {
@@ -108,7 +114,7 @@ function createRow(system) {
     <tr>
       <td class="source-name">${escapeHtml(system.name)}</td>
       <td><img class="table-thumb" src="${escapeAttr(system.thumbnail)}" alt="${escapeAttr(system.name)} thumbnail" loading="lazy"></td>
-      <td>${escapeHtml(pick(system, "subtype") || pick(system, "category"))}</td>
+      <td>${escapeHtml(displayType(system))}</td>
       <td><span class="status-pill">${escapeHtml(pick(system, "status"))}</span></td>
       <td>${escapeHtml(system.images)}</td>
       <td>${escapeHtml(pick(system, "scale"))}</td>
@@ -179,11 +185,11 @@ function openDetails(id) {
     <div class="dialog-layout">
       <img src="${escapeAttr(system.thumbnail)}" alt="${escapeAttr(system.name)} thumbnail">
       <div class="dialog-content">
-        <p class="eyebrow">${escapeHtml(pick(system, "category"))}</p>
+        <p class="eyebrow">${escapeHtml(displayType(system))}</p>
         <h3>${escapeHtml(system.name)}</h3>
         ${pick(system, "summary") ? `<p>${escapeHtml(pick(system, "summary"))}</p>` : ""}
         <div class="meta">
-          <div><span>${t("subtype")}</span>${escapeHtml(pick(system, "subtype"))}</div>
+          <div><span>${t("subtype")}</span>${escapeHtml(displayType(system))}</div>
           <div><span>${t("status")}</span>${escapeHtml(pick(system, "status"))}</div>
           <div><span>${t("images")}</span>${escapeHtml(system.images)}</div>
           <div><span>${t("scale")}</span>${escapeHtml(pick(system, "scale"))}</div>
@@ -221,6 +227,17 @@ function createReferences(refs = []) {
   `).join("");
 }
 
+function displayType(system) {
+  if (system.category !== "Lensed SN") {
+    return lang === "zh" ? "透镜类星体" : "Lensed QSO";
+  }
+  const subtype = system.subtype || "";
+  if (/ia/i.test(subtype)) return lang === "zh" ? "透镜 Ia 型超新星" : "Lensed SN Ia";
+  if (/core-collapse/i.test(subtype)) return lang === "zh" ? "透镜核坍缩超新星" : "Lensed core-collapse SN";
+  if (/candidate/i.test(subtype)) return lang === "zh" ? "透镜超新星候选体" : "Lensed SN candidate";
+  return lang === "zh" ? "透镜超新星" : "Lensed SN";
+}
+
 function escapeHtml(value) {
   return String(value || "")
     .replaceAll("&", "&amp;")
@@ -249,7 +266,7 @@ chips.forEach(chip => {
 langButtons.forEach(button => {
   button.addEventListener("click", () => {
     lang = button.dataset.lang;
-    localStorage.setItem("smtl-lang", lang);
+    localStorage.setItem("smtl-lang-v2", lang);
     applyLanguage();
   });
 });

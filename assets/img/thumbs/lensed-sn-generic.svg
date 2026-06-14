@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Generic lensed supernova thumbnail">
+  <rect width="640" height="420" fill="#10131a"/>
+  <ellipse cx="320" cy="210" rx="245" ry="78" fill="none" stroke="#91b7ff" stroke-width="3" opacity=".62"/>
+  <ellipse cx="320" cy="210" rx="210" ry="55" fill="none" stroke="#d5e2ff" stroke-width="2" opacity=".32"/>
+  <circle cx="320" cy="210" r="34" fill="#ffd67a"/>
+  <circle cx="197" cy="162" r="10" fill="#ffffff"/>
+  <circle cx="443" cy="258" r="10" fill="#ffffff"/>
+  <circle cx="256" cy="268" r="7" fill="#c8ddff"/>
+  <circle cx="384" cy="152" r="7" fill="#c8ddff"/>
+  <g fill="#6f7b91" opacity=".35">
+    <circle cx="82" cy="74" r="2"/><circle cx="548" cy="84" r="2"/><circle cx="116" cy="334" r="2"/>
+    <circle cx="516" cy="342" r="2"/><circle cx="474" cy="54" r="1.5"/><circle cx="154" cy="98" r="1.5"/>
+  </g>
+</svg>

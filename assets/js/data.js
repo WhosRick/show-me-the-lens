@@ -6991,8 +6991,8 @@ window.LENS_SYSTEMS = [
     "name": "AT 2016jka / SN Requiem",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Lensed core-collapse SN",
-    "subtype_zh": "透镜核心坍缩型超新星",
+    "subtype": "Probable lensed SN Ia",
+    "subtype_zh": "很可能为透镜 Ia 型超新星",
     "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
     "status": "Confirmed",
@@ -7004,8 +7004,8 @@ window.LENS_SYSTEMS = [
     "ra": "03:32:38.6",
     "dec": "-27:46:59",
     "mast_query": "03:32:38.6 -27:46:59",
-    "summary": "Core-collapse supernova candidate in a cluster lens field with predicted reappearance constraints.",
-    "summary_zh": "星系团透镜场中的核心坍缩型超新星候选体，具有再现像预测约束。",
+    "summary": "Multiply imaged transient in the MACS J0138.0-2155 field, commonly discussed as SN Requiem; its delayed image makes it a benchmark for cluster-lens time-delay predictions.",
+    "summary_zh": "MACS J0138.0-2155 场中的多重成像暂现源，常称为 SN Requiem；其延迟像使其成为检验星系团透镜时延预测的基准系统。",
     "tags": [
       "SN",
       "cluster",
@@ -7039,21 +7039,21 @@ window.LENS_SYSTEMS = [
     "name": "AT 2022riv",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Lensed SN candidate",
-    "subtype_zh": "透镜超新星候选体",
+    "subtype": "Lensed SN Ia",
+    "subtype_zh": "透镜 Ia 型超新星",
     "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
     "status": "Candidate/high-confidence",
     "status_zh": "候选",
-    "images": "candidate",
+    "images": "multiple images",
     "lens_redshift": "z_l ≈ 0.49",
     "source_redshift": "z_s ≈ 1.78",
     "discovery_year": "2022",
     "ra": "00:14:21.2",
     "dec": "-30:23:50",
     "mast_query": "00:14:21.2 -30:23:50",
-    "summary": "Lensed supernova candidate in a cluster field; type classification remains to be curated.",
-    "summary_zh": "星系团场中的透镜超新星候选体，具体类型仍待整理。",
+    "summary": "A strongly lensed Type Ia SN in the RX J2129 cluster field, useful for combining spectroscopic classification, microlensing, and cluster-lens time-delay constraints.",
+    "summary_zh": "RX J2129 星系团场中的强透镜 Ia 型超新星，可用于联合光谱分类、微透镜效应和星系团透镜时延约束。",
     "tags": [
       "SN",
       "cluster",
@@ -7087,8 +7087,8 @@ window.LENS_SYSTEMS = [
     "name": "AT 2023adsy",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Lensed SN candidate",
-    "subtype_zh": "透镜超新星候选体",
+    "subtype": "High-redshift lensed SN Ia candidate",
+    "subtype_zh": "高红移透镜 Ia 型超新星候选体",
     "scale": "Cluster-scale",
     "scale_zh": "星系团尺度",
     "status": "Candidate/high-confidence",
@@ -7100,8 +7100,8 @@ window.LENS_SYSTEMS = [
     "ra": "03:32:38.0",
     "dec": "-27:47:00",
     "mast_query": "03:32:38.0 -27:47:00",
-    "summary": "Lensed supernova candidate in a JWST cluster field; type classification remains to be curated.",
-    "summary_zh": "JWST 星系团场中的透镜超新星候选体，具体类型仍待整理。",
+    "summary": "A red, high-velocity Type Ia SN candidate at z ≈ 2.9 in a JWST field, valuable for testing high-redshift SN classification in strongly magnified survey data.",
+    "summary_zh": "JWST 场中 z ≈ 2.9 的红色高速 Ia 型超新星候选体，可用于检验强放大巡天数据中的高红移超新星分类。",
     "tags": [
       "SN",
       "cluster",
@@ -7435,5 +7435,242 @@ window.LENS_SYSTEMS = [
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "a370-c22",
+    "name": "C22 / A370-C22",
+    "subtype": "H-rich core-collapse SN candidate",
+    "subtype_zh": "富氢核塌缩超新星候选体",
+    "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
+    "status": "Candidate / model-dependent",
+    "status_zh": "候选 / 依赖透镜模型",
+    "images": "candidate multiple images",
+    "lens_redshift": "Abell 370 cluster, z_l ≈ 0.375",
+    "source_redshift": "high-redshift background source",
+    "discovery_year": "2022",
+    "ra": "02:39:52.9",
+    "dec": "-01:34:36",
+    "mast_query": "Abell 370",
+    "summary": "A candidate multiply imaged, hydrogen-rich core-collapse event behind Abell 370, useful for testing cluster-lens magnification maps and high-redshift transient recovery.",
+    "summary_zh": "Abell 370 背景中的候选多重成像富氢核塌缩事件，可用于检验星系团透镜放大率图和高红移暂现源识别。",
+    "tags": [
+      "SN",
+      "cluster",
+      "core-collapse",
+      "high-redshift",
+      "candidate"
+    ],
+    "tags_zh": [
+      "超新星",
+      "星系团环境",
+      "核塌缩",
+      "高红移",
+      "候选"
+    ],
+    "references": [
+      {
+        "title": "ADS search: A370-C22 / Abell 370 C22",
+        "roles": [
+          "observation",
+          "catalogue"
+        ],
+        "note": "ADS literature search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22A370-C22%22%20OR%20full%3A%22Abell%20370%20C22%22"
+      }
+    ]
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "sn-encore",
+    "name": "SN Encore",
+    "subtype": "Lensed SN Ia",
+    "subtype_zh": "透镜 Ia 型超新星",
+    "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
+    "status": "Confirmed / emerging system",
+    "status_zh": "已确认 / 新近系统",
+    "images": "5 predicted; 3 observed",
+    "lens_redshift": "MACS J0138.0-2155 cluster",
+    "source_redshift": "same lensed host field as SN Requiem",
+    "discovery_year": "2023",
+    "ra": "01:38:00.0",
+    "dec": "-21:55:00",
+    "mast_query": "MACS J0138.0-2155",
+    "summary": "A second multiply imaged SN in the same lensed host field as SN Requiem, making it a valuable consistency test for cluster mass models and time-delay predictions.",
+    "summary_zh": "与 SN Requiem 位于同一透镜宿主场中的第二个多重成像超新星，是检验星系团质量模型和时延预测一致性的关键系统。",
+    "tags": [
+      "SN Ia",
+      "cluster",
+      "same host as Requiem",
+      "time-delay"
+    ],
+    "tags_zh": [
+      "Ia 型超新星",
+      "星系团环境",
+      "Requiem 同宿主",
+      "时间延迟"
+    ],
+    "references": [
+      {
+        "title": "ADS search: SN Encore",
+        "roles": [
+          "observation",
+          "followup"
+        ],
+        "note": "ADS literature search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%20Encore%22"
+      }
+    ]
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "sn-winny",
+    "name": "SN 2025wny / SN Winny",
+    "subtype": "Lensed superluminous SN I",
+    "subtype_zh": "透镜 I 型超亮超新星",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Candidate / follow-up ongoing",
+    "status_zh": "候选 / 后续观测中",
+    "images": "quad",
+    "lens_redshift": "foreground galaxy lens",
+    "source_redshift": "z_s ≈ 2.01",
+    "discovery_year": "2025",
+    "ra": "field to be curated",
+    "dec": "field to be curated",
+    "mast_query": "SN 2025wny",
+    "summary": "A quadruply imaged superluminous SN candidate, useful for linking transient classification, lens-model constraints, and cadence requirements in galaxy-scale systems.",
+    "summary_zh": "四重成像的超亮超新星候选体，可用于连接暂现源分类、星系尺度透镜模型约束和巡天 cadence 需求。",
+    "tags": [
+      "superluminous SN",
+      "quad",
+      "galaxy lens",
+      "candidate"
+    ],
+    "tags_zh": [
+      "超亮超新星",
+      "四重像",
+      "星系透镜",
+      "候选"
+    ],
+    "references": [
+      {
+        "title": "ADS search: SN 2025wny / SN Winny",
+        "roles": [
+          "discovery",
+          "followup"
+        ],
+        "note": "ADS literature search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%202025wny%22%20OR%20full%3A%22SN%20Winny%22"
+      }
+    ]
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "sn-eos",
+    "name": "SN Eos",
+    "subtype": "Lensed SN II",
+    "subtype_zh": "透镜 II 型超新星",
+    "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
+    "status": "Candidate / predicted images",
+    "status_zh": "候选 / 含预测像",
+    "images": "5 predicted; 2 observed",
+    "lens_redshift": "cluster lens",
+    "source_redshift": "z_s ≈ 5.13",
+    "discovery_year": "2025",
+    "ra": "field to be curated",
+    "dec": "field to be curated",
+    "mast_query": "SN Eos",
+    "summary": "A very high-redshift lensed SN II candidate, important for assessing how cluster magnification and time-delay predictions extend transient discovery to the early Universe.",
+    "summary_zh": "极高红移的透镜 II 型超新星候选体，有助于评估星系团放大和时延预测如何把暂现源发现推进到早期宇宙。",
+    "tags": [
+      "SN II",
+      "cluster",
+      "high-redshift",
+      "predicted images"
+    ],
+    "tags_zh": [
+      "II 型超新星",
+      "星系团环境",
+      "高红移",
+      "预测像"
+    ],
+    "references": [
+      {
+        "title": "ADS search: SN Eos",
+        "roles": [
+          "discovery",
+          "modelling"
+        ],
+        "note": "ADS literature search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%20Eos%22%20AND%20full%3A%22lensed%22"
+      }
+    ]
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "sn-2025mkn",
+    "name": "SN 2025mkn",
+    "subtype": "Lensed SN II candidate",
+    "subtype_zh": "透镜 II 型超新星候选体",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Candidate / early report",
+    "status_zh": "候选 / 早期报告",
+    "images": "multiple images",
+    "lens_redshift": "foreground galaxy lens",
+    "source_redshift": "source redshift to be curated",
+    "discovery_year": "2025",
+    "ra": "field to be curated",
+    "dec": "field to be curated",
+    "mast_query": "SN 2025mkn",
+    "summary": "A recently reported galaxy-scale lensed SN II candidate, currently most useful as a watch-list object for follow-up, classification, and lens-model refinement.",
+    "summary_zh": "新近报告的星系尺度透镜 II 型超新星候选体，目前更适合作为后续观测、分类和透镜模型改进的关注目标。",
+    "tags": [
+      "SN II",
+      "galaxy lens",
+      "candidate",
+      "follow-up"
+    ],
+    "tags_zh": [
+      "II 型超新星",
+      "星系透镜",
+      "候选",
+      "后续观测"
+    ],
+    "references": [
+      {
+        "title": "ADS search: SN 2025mkn",
+        "roles": [
+          "discovery",
+          "followup"
+        ],
+        "note": "ADS literature search",
+        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%202025mkn%22"
+      }
+    ]
   }
 ];

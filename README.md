@@ -4,7 +4,7 @@ Data catalogue of gravitationally lensed quasars and supernovae.
 
 ## Current scope
 
-- 24 lensed QSO entries and 8 lensed SN entries.
+- 24 lensed QSO entries and 13 lensed SN entries.
 - Bilingual UI with strict Chinese-only and English-only display modes.
 - MAST-first data links using source coordinates.
 - Reference links tagged as first report, modelling, follow-up, review/sample, or candidate/discovery.

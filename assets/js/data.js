@@ -7439,7 +7439,7 @@ window.LENS_SYSTEMS = [
   {
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "thumbnail": "assets/img/thumbs/a370-c22.svg",
     "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
     "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
     "id": "a370-c22",
@@ -7488,7 +7488,7 @@ window.LENS_SYSTEMS = [
   {
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "thumbnail": "assets/img/thumbs/sn-encore.svg",
     "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
     "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
     "id": "sn-encore",
@@ -7535,7 +7535,7 @@ window.LENS_SYSTEMS = [
   {
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "thumbnail": "assets/img/thumbs/sn-winny.svg",
     "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
     "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
     "id": "sn-winny",
@@ -7582,7 +7582,7 @@ window.LENS_SYSTEMS = [
   {
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "thumbnail": "assets/img/thumbs/sn-eos.svg",
     "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
     "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
     "id": "sn-eos",
@@ -7629,7 +7629,7 @@ window.LENS_SYSTEMS = [
   {
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/lensed-sn-generic.svg",
+    "thumbnail": "assets/img/thumbs/sn-2025mkn.svg",
     "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
     "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
     "id": "sn-2025mkn",

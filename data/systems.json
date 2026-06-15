@@ -7071,11 +7071,11 @@
       {
         "title": "SN 2022riv in RX J2129: Discovery, Spectroscopic Classification, and Microlensing of a Strongly Lensed Type Ia Supernova from JWST and HST Observations",
         "roles": [
-          "first",
+          "discovery",
           "observation",
           "followup"
         ],
-        "note": "AT 2022riv / SN 2022riv discovery and classification; arXiv abstract",
+        "note": "AT 2022riv / SN 2022riv discovery, classification, and microlensing analysis",
         "url": "https://arxiv.org/abs/2604.11882"
       }
     ],
@@ -7475,13 +7475,22 @@
     ],
     "references": [
       {
-        "title": "ADS search: A370-C22 / Abell 370 C22",
+        "title": "Searching for supernovae in the multiply-imaged galaxies behind the gravitational telescope A370",
         "roles": [
           "observation",
-          "catalogue"
+          "survey"
         ],
-        "note": "ADS literature search",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22A370-C22%22%20OR%20full%3A%22Abell%20370%20C22%22"
+        "note": "Abell 370 lensed-supernova search context",
+        "url": "https://arxiv.org/abs/1802.10525"
+      },
+      {
+        "title": "Lens Modeling Abell 370: Crowning the Final Frontier Field with MUSE",
+        "roles": [
+          "modelling",
+          "cluster"
+        ],
+        "note": "Abell 370 strong-lensing model context",
+        "url": "https://arxiv.org/abs/1611.01513"
       }
     ]
   },
@@ -7522,13 +7531,31 @@
     ],
     "references": [
       {
-        "title": "ADS search: SN Encore",
+        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Photometry, Cluster Members, and Lens Mass Model",
         "roles": [
           "observation",
-          "followup"
+          "modelling"
         ],
-        "note": "ADS literature search",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%20Encore%22"
+        "note": "SN Encore photometry, cluster-member catalogue, and lens mass model",
+        "url": "https://arxiv.org/abs/2503.09718"
+      },
+      {
+        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Time Delays and Hubble Constant Measurement",
+        "roles": [
+          "time-delay",
+          "h0-measurement"
+        ],
+        "note": "SN Encore time-delay and H0 analysis",
+        "url": "https://arxiv.org/abs/2509.12301"
+      },
+      {
+        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Lens Model Comparison and H0 Measurement",
+        "roles": [
+          "modelling",
+          "h0-measurement"
+        ],
+        "note": "SN Encore lens-model comparison and cosmographic inference",
+        "url": "https://arxiv.org/abs/2509.12319"
       }
     ]
   },
@@ -7569,13 +7596,22 @@
     ],
     "references": [
       {
-        "title": "ADS search: SN 2025wny / SN Winny",
+        "title": "Discovery of SN 2025wny: A Strongly Gravitationally Lensed Superluminous Supernova at z = 2.01",
         "roles": [
           "discovery",
-          "followup"
+          "observation"
         ],
-        "note": "ADS literature search",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%202025wny%22%20OR%20full%3A%22SN%20Winny%22"
+        "note": "SN Winny / SN 2025wny discovery paper",
+        "url": "https://arxiv.org/abs/2510.23533"
+      },
+      {
+        "title": "Supernova 2025wny: High-Angular Resolution Keck/NIRC2 Observations and Preliminary Lens Modeling",
+        "roles": [
+          "followup",
+          "modelling"
+        ],
+        "note": "Keck/NIRC2 high-angular-resolution follow-up and preliminary lens modelling",
+        "url": "https://arxiv.org/abs/2604.02418"
       }
     ]
   },
@@ -7616,13 +7652,13 @@
     ],
     "references": [
       {
-        "title": "ADS search: SN Eos",
+        "title": "A Spectroscopically Confirmed, Strongly Lensed, Metal-Poor Type II Supernova at z = 5.13",
         "roles": [
           "discovery",
-          "modelling"
+          "spectroscopy"
         ],
-        "note": "ADS literature search",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%20Eos%22%20AND%20full%3A%22lensed%22"
+        "note": "SN Eos spectroscopic confirmation and high-redshift Type II classification",
+        "url": "https://arxiv.org/abs/2601.04156"
       }
     ]
   },
@@ -7663,13 +7699,13 @@
     ],
     "references": [
       {
-        "title": "ADS search: SN 2025mkn",
+        "title": "A Natural >100x Telescope: Discovery of the Strongly Lensed Type II SN 2025mkn at z = 1.37",
         "roles": [
           "discovery",
-          "followup"
+          "observation"
         ],
-        "note": "ADS literature search",
-        "url": "https://ui.adsabs.harvard.edu/search/q=full%3A%22SN%202025mkn%22"
+        "note": "SN 2025mkn discovery and lensing interpretation",
+        "url": "https://arxiv.org/abs/2604.07983"
       }
     ]
   }

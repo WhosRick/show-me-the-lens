@@ -21,7 +21,12 @@ window.LENS_SYSTEMS = [
     "summary_zh": "",
     "tags": [
       "QSO",
-      "classic"
+      "classic",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.38 arcsec",
+      "mag I=14.55"
     ],
     "tags_zh": [
       "类星体",
@@ -46,10 +51,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.38,
+    "faintest_image_mag": 14.55,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/APM08279.html"
   },
   {
     "id": "b0128-437",
@@ -74,7 +94,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 0.55 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -118,10 +140,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 0.55,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0128.html"
   },
   {
     "id": "b0218-357",
@@ -146,7 +180,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.34 arcsec",
+      "mag I=19.28"
     ],
     "tags_zh": [
       "类星体",
@@ -190,10 +227,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.34,
+    "faintest_image_mag": 19.28,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0218.html"
   },
   {
     "id": "b0445-123",
@@ -218,7 +270,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 1.35 arcsec",
+      "mag I=22.80"
     ],
     "tags_zh": [
       "类星体",
@@ -262,10 +317,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 1.35,
+    "faintest_image_mag": 22.8,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0445.html"
   },
   {
     "id": "b0631-519",
@@ -290,7 +360,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.16 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -334,10 +406,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.16,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0631.html"
   },
   {
     "id": "b0712-472",
@@ -362,7 +446,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.46 arcsec",
+      "mag I=22.42"
     ],
     "tags_zh": [
       "类星体",
@@ -406,10 +493,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.46,
+    "faintest_image_mag": 22.42,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0712.html"
   },
   {
     "id": "b0739-366",
@@ -434,7 +536,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.53 arcsec",
+      "mag I=25.25"
     ],
     "tags_zh": [
       "类星体",
@@ -478,10 +583,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.53,
+    "faintest_image_mag": 25.25,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0739.html"
   },
   {
     "id": "b0850-054",
@@ -506,7 +626,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.68 arcsec",
+      "mag I=23.15"
     ],
     "tags_zh": [
       "类星体",
@@ -550,10 +673,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.68,
+    "faintest_image_mag": 23.15,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0850.html"
   },
   {
     "id": "b1030-074",
@@ -578,7 +716,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.65 arcsec",
+      "mag I=19.41"
     ],
     "tags_zh": [
       "类星体",
@@ -622,10 +763,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.65,
+    "faintest_image_mag": 19.41,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1030.html"
   },
   {
     "id": "b1127-385",
@@ -650,7 +806,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.74 arcsec",
+      "mag I=25.62"
     ],
     "tags_zh": [
       "类星体",
@@ -694,10 +853,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.74,
+    "faintest_image_mag": 25.62,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1127.html"
   },
   {
     "id": "b1152-200",
@@ -722,7 +896,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.59 arcsec",
+      "mag I=16.53"
     ],
     "tags_zh": [
       "类星体",
@@ -766,10 +943,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.59,
+    "faintest_image_mag": 16.53,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1152.html"
   },
   {
     "id": "b1359-154",
@@ -794,7 +986,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.71 arcsec",
+      "mag I=22.62"
     ],
     "tags_zh": [
       "类星体",
@@ -838,10 +1033,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.71,
+    "faintest_image_mag": 22.62,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1359.html"
   },
   {
     "id": "b1422-231",
@@ -867,7 +1077,12 @@ window.LENS_SYSTEMS = [
       "QSO",
       "quad",
       "radio",
-      "classic"
+      "classic",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.68 arcsec",
+      "mag I=14.81"
     ],
     "tags_zh": [
       "类星体",
@@ -894,10 +1109,34 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract.",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.68,
+    "faintest_image_mag": 14.81,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1422.html"
   },
   {
     "id": "b1555-375",
@@ -922,7 +1161,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.42 arcsec",
+      "mag H=20.65"
     ],
     "tags_zh": [
       "类星体",
@@ -966,10 +1208,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.42,
+    "faintest_image_mag": 20.65,
+    "faintest_image_mag_band": "H",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1555.html"
   },
   {
     "id": "b1600-434",
@@ -994,7 +1251,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.40 arcsec",
+      "mag I=20.87"
     ],
     "tags_zh": [
       "类星体",
@@ -1038,10 +1298,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.4,
+    "faintest_image_mag": 20.87,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1600.html"
   },
   {
     "id": "b1608-656",
@@ -1069,7 +1344,11 @@ window.LENS_SYSTEMS = [
       "time-delay",
       "radio",
       "classic",
-      "h0-measurement"
+      "h0-measurement",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.27 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -1131,10 +1410,31 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract.",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
-    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.27,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1608.html"
   },
   {
     "id": "b1933-503",
@@ -1159,7 +1459,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.00 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -1203,10 +1505,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.0,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1933.html"
   },
   {
     "id": "b1938-666",
@@ -1231,7 +1545,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.00 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -1275,10 +1591,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.0,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1938.html"
   },
   {
     "id": "b2045-265",
@@ -1303,7 +1631,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.74 arcsec",
+      "mag I=22.02"
     ],
     "tags_zh": [
       "类星体",
@@ -1347,10 +1678,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.74,
+    "faintest_image_mag": 22.02,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B2045.html"
   },
   {
     "id": "b2108-213",
@@ -1375,7 +1721,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 4.57 arcsec",
+      "mag I=20.92"
     ],
     "tags_zh": [
       "类星体",
@@ -1419,10 +1768,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 4.57,
+    "faintest_image_mag": 20.92,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B2108.html"
   },
   {
     "id": "b2114-022",
@@ -1447,7 +1811,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 1.31 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -1491,10 +1857,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 1.31,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B2114.html"
   },
   {
     "id": "b2319-052",
@@ -1519,7 +1897,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.36 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -1563,10 +1943,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.36,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B2319.html"
   },
   {
     "id": "bri0952-0115",
@@ -1591,7 +1983,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.00 arcsec",
+      "mag I=18.27"
     ],
     "tags_zh": [
       "类星体",
@@ -1617,10 +2012,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.0,
+    "faintest_image_mag": 18.27,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/BRI0952.html"
   },
   {
     "id": "cfrs03-1077",
@@ -1645,7 +2055,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 2.10 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -1671,10 +2083,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 2.1,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/CFRS03.html"
   },
   {
     "id": "cy2201-3201",
@@ -1699,7 +2123,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.83 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -1725,10 +2151,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.83,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/CY2201.html"
   },
   {
     "id": "des-j0408-5354",
@@ -1827,7 +2265,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.11 arcsec",
+      "mag I=16.39"
     ],
     "tags_zh": [
       "类星体",
@@ -1853,10 +2294,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.11,
+    "faintest_image_mag": 16.39,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/FBQ0951.html"
   },
   {
     "id": "fbq1633-3134",
@@ -1881,7 +2337,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 0.75 arcsec",
+      "mag I=16.59"
     ],
     "tags_zh": [
       "类星体",
@@ -1907,10 +2366,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 0.75,
+    "faintest_image_mag": 16.59,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/FBQ1633.html"
   },
   {
     "id": "fsc10214-4724",
@@ -1935,7 +2409,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.59 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -1961,10 +2437,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.59,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/FSC10214.html"
   },
   {
     "id": "graL-j0248-1845",
@@ -2147,6 +2635,69 @@ window.LENS_SYSTEMS = [
     "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
   },
   {
+    "id": "h1413p117",
+    "name": "H1413+117",
+    "category": "Lensed QSO",
+    "category_zh": "透镜类星体",
+    "subtype": "Lensed QSO / multiply imaged system",
+    "subtype_zh": "透镜类星体 / 多重成像系统",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "4",
+    "lens_redshift": "",
+    "source_redshift": "z_s ≈ 2.55",
+    "discovery_year": "",
+    "ra": "14:15:46.40",
+    "dec": "11:29:41.4",
+    "mast_query": "14:15:46.40 11:29:41.4",
+    "summary": "CASTLES multiply imaged quasar entry; included to support catalogue-based MOST follow-up filtering.",
+    "summary_zh": "CASTLES 多重成像类星体条目；用于支持基于目录的 MOST 后随观测筛选。",
+    "tags": [
+      "QSO",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.35 arcsec",
+      "mag I=16.44"
+    ],
+    "tags_zh": [
+      "类星体",
+      "CASTLES",
+      "目录导入"
+    ],
+    "thumbnail": "assets/img/thumbs/q0957-561.svg",
+    "references": [
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract.",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
+      }
+    ],
+    "image_credit": "Thumbnail placeholder styled consistently with the catalogue; scientific values are from the linked references.",
+    "image_credit_zh": "缩略图为保持目录风格的一致性占位图；科学数据来自链接文献。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.35,
+    "faintest_image_mag": 16.44,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/H1413.html"
+  },
+  {
     "id": "h1413-117",
     "name": "H1413+117 / Cloverleaf",
     "category": "Lensed QSO",
@@ -2223,7 +2774,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade C",
+      "sep 0.90 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -2249,10 +2802,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "C",
+    "separation_arcsec": 0.9,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HDFS2232509.html"
   },
   {
     "id": "he0435-1223",
@@ -2279,7 +2844,12 @@ window.LENS_SYSTEMS = [
       "quad",
       "time-delay",
       "H0LiCOW",
-      "h0-measurement"
+      "h0-measurement",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.42 arcsec",
+      "mag i=16.84"
     ],
     "tags_zh": [
       "类星体",
@@ -2331,10 +2901,34 @@ window.LENS_SYSTEMS = [
         ],
         "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
         "url": "https://arxiv.org/abs/1907.04869"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract.",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
-    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.42,
+    "faintest_image_mag": 16.84,
+    "faintest_image_mag_band": "i",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0435.html"
   },
   {
     "id": "he0047-1756",
@@ -2359,7 +2953,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.44 arcsec",
+      "mag I=16.53"
     ],
     "tags_zh": [
       "类星体",
@@ -2385,10 +2982,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.44,
+    "faintest_image_mag": 16.53,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0047.html"
   },
   {
     "id": "he0230-2130",
@@ -2413,7 +3025,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.05 arcsec",
+      "mag I=18.00"
     ],
     "tags_zh": [
       "类星体",
@@ -2439,10 +3054,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.05,
+    "faintest_image_mag": 18.0,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0230.html"
   },
   {
     "id": "he0512-3329",
@@ -2467,7 +3097,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.65 arcsec",
+      "mag I=16.27"
     ],
     "tags_zh": [
       "类星体",
@@ -2493,10 +3126,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.65,
+    "faintest_image_mag": 16.27,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0512.html"
   },
   {
     "id": "he1104-1805",
@@ -2521,7 +3169,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 3.19 arcsec",
+      "mag I=16.17"
     ],
     "tags_zh": [
       "类星体",
@@ -2547,10 +3198,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 3.19,
+    "faintest_image_mag": 16.17,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE1104.html"
   },
   {
     "id": "he2149-2745",
@@ -2575,7 +3241,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.70 arcsec",
+      "mag I=16.29"
     ],
     "tags_zh": [
       "类星体",
@@ -2601,10 +3270,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.7,
+    "faintest_image_mag": 16.29,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE2149.html"
   },
   {
     "id": "hs0810-2554",
@@ -2628,7 +3312,12 @@ window.LENS_SYSTEMS = [
     "summary_zh": "",
     "tags": [
       "QSO",
-      "quad"
+      "quad",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.96 arcsec",
+      "mag I=15.03"
     ],
     "tags_zh": [
       "类星体",
@@ -2653,10 +3342,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.96,
+    "faintest_image_mag": 15.03,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HS0810.html"
   },
   {
     "id": "hs0818-1227",
@@ -2681,7 +3385,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.83 arcsec",
+      "mag I=18.54"
     ],
     "tags_zh": [
       "类星体",
@@ -2707,10 +3414,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.83,
+    "faintest_image_mag": 18.54,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HS0818.html"
   },
   {
     "id": "hst01247-0352",
@@ -2735,7 +3457,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade C",
+      "sep 2.20 arcsec",
+      "mag I=24.13"
     ],
     "tags_zh": [
       "类星体",
@@ -2761,10 +3486,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "C",
+    "separation_arcsec": 2.2,
+    "faintest_image_mag": 24.13,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST01247.html"
   },
   {
     "id": "hst01248-0351",
@@ -2789,7 +3529,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade C",
+      "sep 0.74 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -2815,10 +3557,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "C",
+    "separation_arcsec": 0.74,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST01248.html"
   },
   {
     "id": "hst12368-6212",
@@ -2843,7 +3597,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade C",
+      "sep 1.17 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -2869,10 +3625,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "C",
+    "separation_arcsec": 1.17,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST12368.html"
   },
   {
     "id": "hst12531-2914",
@@ -2897,7 +3665,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.23 arcsec",
+      "mag I=24.70"
     ],
     "tags_zh": [
       "类星体",
@@ -2923,10 +3694,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.23,
+    "faintest_image_mag": 24.7,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST12531.html"
   },
   {
     "id": "hst14113-5211",
@@ -2951,7 +3737,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.80 arcsec",
+      "mag I=24.14"
     ],
     "tags_zh": [
       "类星体",
@@ -2977,10 +3766,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.8,
+    "faintest_image_mag": 24.14,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14113.html"
   },
   {
     "id": "hst14164-5215",
@@ -3005,7 +3809,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade C",
+      "sep 2.24 arcsec",
+      "mag I=22.75"
     ],
     "tags_zh": [
       "类星体",
@@ -3031,10 +3838,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "C",
+    "separation_arcsec": 2.24,
+    "faintest_image_mag": 22.75,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14164.html"
   },
   {
     "id": "hst14176-5226",
@@ -3059,7 +3881,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.83 arcsec",
+      "mag I=23.41"
     ],
     "tags_zh": [
       "类星体",
@@ -3085,10 +3910,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.83,
+    "faintest_image_mag": 23.41,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14176.html"
   },
   {
     "id": "hst15433-5352",
@@ -3113,7 +3953,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.18 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -3139,10 +3981,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.18,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST15433.html"
   },
   {
     "id": "hst16302-8230",
@@ -3167,7 +4021,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade C",
+      "sep 1.47 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -3193,10 +4049,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "C",
+    "separation_arcsec": 1.47,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST16302.html"
   },
   {
     "id": "hst16309-8230",
@@ -3221,7 +4089,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade C",
+      "sep 0.76 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -3247,10 +4117,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "C",
+    "separation_arcsec": 0.76,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST16309.html"
   },
   {
     "id": "hst18078-4600",
@@ -3275,7 +4157,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade C",
+      "sep 0.91 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -3301,10 +4185,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "C",
+    "separation_arcsec": 0.91,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST18078.html"
   },
   {
     "id": "j0332-2756",
@@ -3329,7 +4225,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 3.64 arcsec",
+      "mag V=-1.95"
     ],
     "tags_zh": [
       "类星体",
@@ -3355,10 +4254,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 3.64,
+    "faintest_image_mag": -1.95,
+    "faintest_image_mag_band": "V",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/J0332.html"
   },
   {
     "id": "j1004-1229",
@@ -3383,7 +4297,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.54 arcsec",
+      "mag I=19.65"
     ],
     "tags_zh": [
       "类星体",
@@ -3409,10 +4326,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.54,
+    "faintest_image_mag": 19.65,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/J1004.html"
   },
   {
     "id": "lbqs1009-0252",
@@ -3437,7 +4369,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.54 arcsec",
+      "mag I=17.80"
     ],
     "tags_zh": [
       "类星体",
@@ -3463,10 +4398,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.54,
+    "faintest_image_mag": 17.8,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1009.html"
   },
   {
     "id": "lbqs1333-0113",
@@ -3491,7 +4441,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.63 arcsec",
+      "mag i=17.26"
     ],
     "tags_zh": [
       "类星体",
@@ -3517,10 +4470,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.63,
+    "faintest_image_mag": 17.26,
+    "faintest_image_mag_band": "i",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/LBQS1333.html"
   },
   {
     "id": "mg0414-0534",
@@ -3546,7 +4514,12 @@ window.LENS_SYSTEMS = [
       "QSO",
       "quad",
       "radio",
-      "classic"
+      "classic",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.40 arcsec",
+      "mag I=19.62"
     ],
     "tags_zh": [
       "类星体",
@@ -3573,10 +4546,34 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CLASS/JVAS candidate selection and follow-up; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/0211069"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract.",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.4,
+    "faintest_image_mag": 19.62,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG0414.html"
   },
   {
     "id": "mg0751-2716",
@@ -3601,7 +4598,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.70 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -3645,10 +4644,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.7,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG0751.html"
   },
   {
     "id": "mg1131-0456",
@@ -3673,7 +4684,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.10 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -3717,10 +4730,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.1,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG1131.html"
   },
   {
     "id": "mg1549-3047",
@@ -3745,7 +4770,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.70 arcsec",
+      "mag H=20.52"
     ],
     "tags_zh": [
       "类星体",
@@ -3789,10 +4817,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.7,
+    "faintest_image_mag": 20.52,
+    "faintest_image_mag_band": "H",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG1549.html"
   },
   {
     "id": "mg1654-1346",
@@ -3817,7 +4860,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.10 arcsec",
+      "mag I=20.18"
     ],
     "tags_zh": [
       "类星体",
@@ -3861,10 +4907,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.1,
+    "faintest_image_mag": 20.18,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG1654.html"
   },
   {
     "id": "mg2016-112",
@@ -3889,7 +4950,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 3.52 arcsec",
+      "mag I=21.51"
     ],
     "tags_zh": [
       "类星体",
@@ -3933,10 +4997,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 3.52,
+    "faintest_image_mag": 21.51,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG2016.html"
   },
   {
     "id": "pg1115-080",
@@ -3963,7 +5042,12 @@ window.LENS_SYSTEMS = [
       "quad",
       "time-delay",
       "classic",
-      "h0-measurement"
+      "h0-measurement",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.32 arcsec",
+      "mag I=15.62"
     ],
     "tags_zh": [
       "类星体",
@@ -3998,10 +5082,34 @@ window.LENS_SYSTEMS = [
         ],
         "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
         "url": "https://arxiv.org/abs/1907.04869"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract.",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
-    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.32,
+    "faintest_image_mag": 15.62,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PG1115.html"
   },
   {
     "id": "pks1830-211",
@@ -4026,7 +5134,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.99 arcsec",
+      "mag I=22.27"
     ],
     "tags_zh": [
       "类星体",
@@ -4070,10 +5181,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.99,
+    "faintest_image_mag": 22.27,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PKS1830.html"
   },
   {
     "id": "pmnj0134-0931",
@@ -4098,7 +5224,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.73 arcsec",
+      "mag I=18.96"
     ],
     "tags_zh": [
       "类星体",
@@ -4142,10 +5271,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.73,
+    "faintest_image_mag": 18.96,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN0134.html"
   },
   {
     "id": "pmnj1632-0033",
@@ -4170,7 +5314,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 1.47 arcsec",
+      "mag I=20.68"
     ],
     "tags_zh": [
       "类星体",
@@ -4214,10 +5361,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 1.47,
+    "faintest_image_mag": 20.68,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN1632.html"
   },
   {
     "id": "pmnj1838-3427",
@@ -4242,7 +5404,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.99 arcsec",
+      "mag I=19.10"
     ],
     "tags_zh": [
       "类星体",
@@ -4286,10 +5451,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.99,
+    "faintest_image_mag": 19.1,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN1838.html"
   },
   {
     "id": "pmnj2004-1349",
@@ -4314,7 +5494,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.18 arcsec",
+      "mag I=21.93"
     ],
     "tags_zh": [
       "类星体",
@@ -4358,10 +5541,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.18,
+    "faintest_image_mag": 21.93,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN2004.html"
   },
   {
     "id": "ps-j0147-4630",
@@ -4431,7 +5629,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 1.49 arcsec",
+      "mag I=17.92"
     ],
     "tags_zh": [
       "类星体",
@@ -4457,10 +5658,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 1.49,
+    "faintest_image_mag": 17.92,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PSS2322.html"
   },
   {
     "id": "q0047-2808",
@@ -4485,7 +5701,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.70 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -4511,10 +5729,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.7,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q0047.html"
   },
   {
     "id": "q0142-100",
@@ -4539,7 +5769,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.24 arcsec",
+      "mag I=16.47"
     ],
     "tags_zh": [
       "类星体",
@@ -4565,10 +5798,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.24,
+    "faintest_image_mag": 16.47,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q0142.html"
   },
   {
     "id": "q0957-561",
@@ -4595,7 +5843,12 @@ window.LENS_SYSTEMS = [
       "double",
       "time-delay",
       "cluster",
-      "classic"
+      "classic",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 6.26 arcsec",
+      "mag I=15.99"
     ],
     "tags_zh": [
       "类星体",
@@ -4631,10 +5884,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "castles_grade": "A",
+    "separation_arcsec": 6.26,
+    "faintest_image_mag": 15.99,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q0957.html"
   },
   {
     "id": "q1017-207",
@@ -4659,7 +5927,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 0.85 arcsec",
+      "mag I=16.78"
     ],
     "tags_zh": [
       "类星体",
@@ -4685,10 +5956,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 0.85,
+    "faintest_image_mag": 16.78,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1017.html"
   },
   {
     "id": "q1208-101",
@@ -4713,7 +5999,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 0.48 arcsec",
+      "mag I=16.96"
     ],
     "tags_zh": [
       "类星体",
@@ -4739,10 +6028,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 0.48,
+    "faintest_image_mag": 16.96,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1208.html"
   },
   {
     "id": "q1355-2257",
@@ -4767,7 +6071,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.23 arcsec",
+      "mag I=16.94"
     ],
     "tags_zh": [
       "类星体",
@@ -4793,10 +6100,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.23,
+    "faintest_image_mag": 16.94,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1355.html"
   },
   {
     "id": "q2138-431",
@@ -4821,7 +6143,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 4.42 arcsec",
+      "mag J=18.02"
     ],
     "tags_zh": [
       "类星体",
@@ -4847,10 +6172,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 4.42,
+    "faintest_image_mag": 18.02,
+    "faintest_image_mag_band": "J",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q2138.html"
   },
   {
     "id": "q2237-030",
@@ -4875,7 +6215,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.78 arcsec",
+      "mag I=15.16"
     ],
     "tags_zh": [
       "类星体",
@@ -4901,10 +6244,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.78,
+    "faintest_image_mag": 15.16,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q2237.html"
   },
   {
     "id": "qj0158-4325",
@@ -4929,7 +6287,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.22 arcsec",
+      "mag I=17.39"
     ],
     "tags_zh": [
       "类星体",
@@ -4955,10 +6316,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.22,
+    "faintest_image_mag": 17.39,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/CTQ414.html"
   },
   {
     "id": "rxj0911-0551",
@@ -4983,7 +6359,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.47 arcsec",
+      "mag I=17.39"
     ],
     "tags_zh": [
       "类星体",
@@ -5009,10 +6388,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.47,
+    "faintest_image_mag": 17.39,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ0911.html"
   },
   {
     "id": "rxj0921-4529",
@@ -5037,7 +6431,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 6.97 arcsec",
+      "mag I=17.74"
     ],
     "tags_zh": [
       "类星体",
@@ -5063,10 +6460,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 6.97,
+    "faintest_image_mag": 17.74,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ0921.html"
   },
   {
     "id": "rxj1131-1231",
@@ -5093,7 +6505,12 @@ window.LENS_SYSTEMS = [
       "quad",
       "time-delay",
       "H0LiCOW",
-      "h0-measurement"
+      "h0-measurement",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 3.80 arcsec",
+      "mag I=16.74"
     ],
     "tags_zh": [
       "类星体",
@@ -5137,10 +6554,34 @@ window.LENS_SYSTEMS = [
         ],
         "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
         "url": "https://arxiv.org/abs/1907.04869"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract.",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
-    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 3.8,
+    "faintest_image_mag": 16.74,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ1131.html"
   },
   {
     "id": "sbs0909-523",
@@ -5165,7 +6606,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.17 arcsec",
+      "mag I=15.65"
     ],
     "tags_zh": [
       "类星体",
@@ -5191,10 +6635,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.17,
+    "faintest_image_mag": 15.65,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SBS0909.html"
   },
   {
     "id": "sbs1520-530",
@@ -5219,7 +6678,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.59 arcsec",
+      "mag I=17.61"
     ],
     "tags_zh": [
       "类星体",
@@ -5245,10 +6707,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.59,
+    "faintest_image_mag": 17.61,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SBS1520.html"
   },
   {
     "id": "sdss-j0924-0219",
@@ -5554,7 +7031,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.19 arcsec",
+      "mag I=16.98"
     ],
     "tags_zh": [
       "类星体",
@@ -5589,10 +7069,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.19,
+    "faintest_image_mag": 16.98,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0246.html"
   },
   {
     "id": "sdss0746-4403",
@@ -5617,7 +7112,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.11 arcsec",
+      "mag I=18.34"
     ],
     "tags_zh": [
       "类星体",
@@ -5652,10 +7150,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.11,
+    "faintest_image_mag": 18.34,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0746.html"
   },
   {
     "id": "sdss0806-2006",
@@ -5680,7 +7193,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.40 arcsec",
+      "mag I=17.93"
     ],
     "tags_zh": [
       "类星体",
@@ -5715,10 +7231,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.4,
+    "faintest_image_mag": 17.93,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0806.html"
   },
   {
     "id": "sdss0903-5028",
@@ -5743,7 +7274,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.99 arcsec",
+      "mag I=18.51"
     ],
     "tags_zh": [
       "类星体",
@@ -5778,10 +7312,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.99,
+    "faintest_image_mag": 18.51,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0903.html"
   },
   {
     "id": "sdss0924-0219",
@@ -5806,7 +7355,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.75 arcsec",
+      "mag i=18.18"
     ],
     "tags_zh": [
       "类星体",
@@ -5841,10 +7393,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.75,
+    "faintest_image_mag": 18.18,
+    "faintest_image_mag_band": "i",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0924.html"
   },
   {
     "id": "sdss1001-5027",
@@ -5869,7 +7436,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.86 arcsec",
+      "mag I=16.64"
     ],
     "tags_zh": [
       "类星体",
@@ -5904,10 +7474,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.86,
+    "faintest_image_mag": 16.64,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1001.html"
   },
   {
     "id": "sdss1004-4112",
@@ -5932,7 +7517,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 15.99 arcsec",
+      "mag i=17.53"
     ],
     "tags_zh": [
       "类星体",
@@ -5984,10 +7572,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 15.99,
+    "faintest_image_mag": 17.53,
+    "faintest_image_mag_band": "i",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1004.html"
   },
   {
     "id": "sdss1011-0143",
@@ -6012,7 +7615,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 3.67 arcsec",
+      "mag UNKNOWN=22.43"
     ],
     "tags_zh": [
       "类星体",
@@ -6047,10 +7653,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 3.67,
+    "faintest_image_mag": 22.43,
+    "faintest_image_mag_band": "UNKNOWN",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1011.html"
   },
   {
     "id": "sdss1021-4913",
@@ -6075,7 +7696,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.14 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -6110,10 +7733,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.14,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1021.html"
   },
   {
     "id": "sdss1029-2623",
@@ -6138,7 +7773,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 22.50 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -6173,10 +7810,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 22.5,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1029.html"
   },
   {
     "id": "sdss1138-0314",
@@ -6201,7 +7850,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.34 arcsec",
+      "mag I=18.43"
     ],
     "tags_zh": [
       "类星体",
@@ -6236,10 +7888,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.34,
+    "faintest_image_mag": 18.43,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1138.html"
   },
   {
     "id": "sdss1155-6346",
@@ -6264,7 +7931,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.95 arcsec",
+      "mag I=17.67"
     ],
     "tags_zh": [
       "类星体",
@@ -6299,10 +7969,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.95,
+    "faintest_image_mag": 17.67,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1155.html"
   },
   {
     "id": "sdss1206-4332",
@@ -6327,7 +8012,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.90 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -6362,10 +8049,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.9,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1206.html"
   },
   {
     "id": "sdss1226-0006",
@@ -6390,7 +8089,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.26 arcsec",
+      "mag I=18.32"
     ],
     "tags_zh": [
       "类星体",
@@ -6425,10 +8127,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.26,
+    "faintest_image_mag": 18.32,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1226.html"
   },
   {
     "id": "sdss1332-0347",
@@ -6453,7 +8170,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.14 arcsec",
+      "mag i=18.70"
     ],
     "tags_zh": [
       "类星体",
@@ -6488,10 +8208,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.14,
+    "faintest_image_mag": 18.7,
+    "faintest_image_mag_band": "i",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1332.html"
   },
   {
     "id": "sdss1353-1138",
@@ -6516,7 +8251,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.41 arcsec",
+      "mag i=16.44"
     ],
     "tags_zh": [
       "类星体",
@@ -6551,10 +8289,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.41,
+    "faintest_image_mag": 16.44,
+    "faintest_image_mag_band": "i",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1353.html"
   },
   {
     "id": "sdss1402-6321",
@@ -6579,7 +8332,9 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.35 arcsec"
     ],
     "tags_zh": [
       "类星体",
@@ -6614,10 +8369,22 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.35,
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1402.html"
   },
   {
     "id": "sdss1406-6126",
@@ -6642,7 +8409,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.98 arcsec",
+      "mag I=18.88"
     ],
     "tags_zh": [
       "类星体",
@@ -6677,10 +8447,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.98,
+    "faintest_image_mag": 18.88,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1406.html"
   },
   {
     "id": "sdss1650-4251",
@@ -6705,7 +8490,10 @@ window.LENS_SYSTEMS = [
     "tags": [
       "QSO",
       "CASTLES",
-      "catalogue"
+      "catalogue",
+      "CASTLES grade B",
+      "sep 1.23 arcsec",
+      "mag I=16.98"
     ],
     "tags_zh": [
       "类星体",
@@ -6740,10 +8528,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Placeholder thumbnail; replace with a public MAST cutout or generated panel after verification.",
-    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。"
+    "image_credit_zh": "当前为占位缩略图；核查后可替换为 MAST cutout 或生成面板。",
+    "castles_grade": "B",
+    "separation_arcsec": 1.23,
+    "faintest_image_mag": 16.98,
+    "faintest_image_mag_band": "I",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1650.html"
   },
   {
     "id": "w2m-j1042-1251",
@@ -6819,7 +8622,12 @@ window.LENS_SYSTEMS = [
     "summary_zh": "",
     "tags": [
       "QSO",
-      "quad"
+      "quad",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 1.34 arcsec",
+      "mag i=16.18"
     ],
     "tags_zh": [
       "类星体",
@@ -6844,10 +8652,25 @@ window.LENS_SYSTEMS = [
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "castles_grade": "A",
+    "separation_arcsec": 1.34,
+    "faintest_image_mag": 16.18,
+    "faintest_image_mag_band": "i",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/WFI2026.html"
   },
   {
     "id": "wfi2033-4723",
@@ -6874,7 +8697,12 @@ window.LENS_SYSTEMS = [
       "quad",
       "time-delay",
       "H0LiCOW",
-      "h0-measurement"
+      "h0-measurement",
+      "CASTLES",
+      "catalogue",
+      "CASTLES grade A",
+      "sep 2.33 arcsec",
+      "mag i=17.59"
     ],
     "tags_zh": [
       "类星体",
@@ -6916,10 +8744,34 @@ window.LENS_SYSTEMS = [
         ],
         "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
         "url": "https://arxiv.org/abs/1907.04869"
+      },
+      {
+        "title": "CASTLES Survey",
+        "roles": [
+          "catalogue",
+          "observation"
+        ],
+        "note": "CASTLES summary table and individual lens pages; used here for coordinates, image number, size, and available image photometry.",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
+      },
+      {
+        "title": "The CASTLES project",
+        "roles": [
+          "observation",
+          "review"
+        ],
+        "note": "CASTLES sample/project overview; arXiv abstract.",
+        "url": "https://arxiv.org/abs/astro-ph/9902131"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
-    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。",
+    "castles_grade": "A",
+    "separation_arcsec": 2.33,
+    "faintest_image_mag": 17.59,
+    "faintest_image_mag_band": "i",
+    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/WFI2033.html"
   },
   {
     "id": "wgd2038-4008",
@@ -7139,49 +8991,62 @@ window.LENS_SYSTEMS = [
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
   {
-    "id": "iptf16geu",
-    "name": "iPTF16geu / SN 2016geu",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "subtype": "Lensed SN Ia",
-    "subtype_zh": "透镜 Ia 型超新星",
-    "scale": "Galaxy-scale",
-    "scale_zh": "星系尺度",
-    "status": "Confirmed",
-    "status_zh": "已认证",
-    "images": "4",
-    "lens_redshift": "z_l ≈ 0.216",
-    "source_redshift": "z_s ≈ 0.409",
-    "discovery_year": "2016",
-    "ra": "21:16:27.4",
-    "dec": "+40:55:03",
-    "mast_query": "21:16:27.4 +40:55:03",
-    "summary": "Type Ia supernova resolved into four images by a galaxy-scale lens.",
-    "summary_zh": "Ia 型超新星，由星系尺度透镜分解为四个像。",
+    "thumbnail": "assets/img/thumbs/a370-c22.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "a370-c22",
+    "name": "C22 / A370-C22",
+    "subtype": "H-rich core-collapse SN",
+    "subtype_zh": "富氢核塌缩超新星",
+    "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
+    "status": "Candidate",
+    "status_zh": "候选",
+    "images": "",
+    "lens_redshift": "z_l ≈ 0.375",
+    "source_redshift": "z_s TBD",
+    "discovery_year": "2022",
+    "ra": "02:39:52.9",
+    "dec": "-01:34:36",
+    "mast_query": "Abell 370",
+    "summary": "A candidate multiply imaged, hydrogen-rich core-collapse event behind Abell 370, useful for testing cluster-lens magnification maps and high-redshift transient recovery.",
+    "summary_zh": "Abell 370 背景中的候选多重成像富氢核塌缩事件，可用于检验星系团透镜放大率图和高红移暂现源识别。",
     "tags": [
       "SN",
-      "galaxy",
-      "quad"
+      "cluster",
+      "core-collapse",
+      "high-redshift",
+      "candidate"
     ],
     "tags_zh": [
       "超新星",
-      "星系透镜",
-      "四重像"
+      "星系团环境",
+      "核塌缩",
+      "高红移",
+      "候选"
     ],
-    "thumbnail": "assets/img/thumbs/iptf16geu.svg",
     "references": [
       {
-        "title": "iPTF16geu: A multiply imaged, gravitationally lensed type Ia supernova",
+        "title": "Searching for supernovae in the multiply-imaged galaxies behind the gravitational telescope A370",
         "roles": [
-          "first",
-          "observation"
+          "observation",
+          "survey"
         ],
-        "note": "arXiv abstract",
-        "url": "https://arxiv.org/abs/1611.00014"
+        "note": "Abell 370 lensed-supernova search context",
+        "url": "https://arxiv.org/abs/1802.10525"
+      },
+      {
+        "title": "Lens Modeling Abell 370: Crowning the Final Frontier Field with MUSE",
+        "roles": [
+          "modelling",
+          "cluster"
+        ],
+        "note": "Abell 370 strong-lensing model context",
+        "url": "https://arxiv.org/abs/1611.01513"
       }
-    ],
-    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
-    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
+    ]
   },
   {
     "id": "ps1-10afx",
@@ -7242,6 +9107,221 @@ window.LENS_SYSTEMS = [
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/sn-2025mkn.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "sn-2025mkn",
+    "name": "SN 2025mkn",
+    "subtype": "Lensed SN II",
+    "subtype_zh": "透镜 II 型超新星",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Candidate",
+    "status_zh": "候选",
+    "images": "4",
+    "lens_redshift": "z_l TBD",
+    "source_redshift": "z_s ≈ 1.37",
+    "discovery_year": "2025",
+    "ra": "field to be curated",
+    "dec": "field to be curated",
+    "mast_query": "SN 2025mkn",
+    "summary": "A recently reported galaxy-scale lensed SN II candidate, currently most useful as a watch-list object for follow-up, classification, and lens-model refinement.",
+    "summary_zh": "新近报告的星系尺度透镜 II 型超新星候选体，目前更适合作为后续观测、分类和透镜模型改进的关注目标。",
+    "tags": [
+      "SN II",
+      "galaxy lens",
+      "candidate",
+      "follow-up"
+    ],
+    "tags_zh": [
+      "II 型超新星",
+      "星系透镜",
+      "候选",
+      "后续观测"
+    ],
+    "references": [
+      {
+        "title": "A Natural >100x Telescope: Discovery of the Strongly Lensed Type II SN 2025mkn at z = 1.37",
+        "roles": [
+          "discovery",
+          "observation"
+        ],
+        "note": "SN 2025mkn discovery and lensing interpretation",
+        "url": "https://arxiv.org/abs/2604.07983"
+      }
+    ]
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/sn-winny.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "sn-winny",
+    "name": "SN 2025wny / SN Winny",
+    "subtype": "Lensed superluminous SN I",
+    "subtype_zh": "透镜 I 型超亮超新星",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Candidate",
+    "status_zh": "候选",
+    "images": "5",
+    "lens_redshift": "z_l TBD",
+    "source_redshift": "z_s ≈ 2.01",
+    "discovery_year": "2025",
+    "ra": "field to be curated",
+    "dec": "field to be curated",
+    "mast_query": "SN 2025wny",
+    "summary": "A quadruply imaged superluminous SN candidate, useful for linking transient classification, lens-model constraints, and cadence requirements in galaxy-scale systems.",
+    "summary_zh": "四重成像的超亮超新星候选体，可用于连接暂现源分类、星系尺度透镜模型约束和巡天 cadence 需求。",
+    "tags": [
+      "superluminous SN",
+      "quad",
+      "galaxy lens",
+      "candidate"
+    ],
+    "tags_zh": [
+      "超亮超新星",
+      "四重像",
+      "星系透镜",
+      "候选"
+    ],
+    "references": [
+      {
+        "title": "Discovery of SN 2025wny: A Strongly Gravitationally Lensed Superluminous Supernova at z = 2.01",
+        "roles": [
+          "discovery",
+          "observation"
+        ],
+        "note": "SN Winny / SN 2025wny discovery paper",
+        "url": "https://arxiv.org/abs/2510.23533"
+      },
+      {
+        "title": "Supernova 2025wny: High-Angular Resolution Keck/NIRC2 Observations and Preliminary Lens Modeling",
+        "roles": [
+          "followup",
+          "modelling"
+        ],
+        "note": "Keck/NIRC2 high-angular-resolution follow-up and preliminary lens modelling",
+        "url": "https://arxiv.org/abs/2604.02418"
+      }
+    ]
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/sn-encore.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "sn-encore",
+    "name": "SN Encore",
+    "subtype": "Lensed SN Ia",
+    "subtype_zh": "透镜 Ia 型超新星",
+    "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
+    "status": "Confirmed",
+    "status_zh": "已确认",
+    "images": "5",
+    "lens_redshift": "z_l ≈ 0.34",
+    "source_redshift": "z_s ≈ 1.95",
+    "discovery_year": "2023",
+    "ra": "01:38:00.0",
+    "dec": "-21:55:00",
+    "mast_query": "MACS J0138.0-2155",
+    "summary": "A second multiply imaged SN in the same lensed host field as SN Requiem, making it a valuable consistency test for cluster mass models and time-delay predictions.",
+    "summary_zh": "与 SN Requiem 位于同一透镜宿主场中的第二个多重成像超新星，是检验星系团质量模型和时延预测一致性的关键系统。",
+    "tags": [
+      "SN Ia",
+      "cluster",
+      "same host as Requiem",
+      "time-delay"
+    ],
+    "tags_zh": [
+      "Ia 型超新星",
+      "星系团环境",
+      "Requiem 同宿主",
+      "时间延迟"
+    ],
+    "references": [
+      {
+        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Photometry, Cluster Members, and Lens Mass Model",
+        "roles": [
+          "observation",
+          "modelling"
+        ],
+        "note": "SN Encore photometry, cluster-member catalogue, and lens mass model",
+        "url": "https://arxiv.org/abs/2503.09718"
+      },
+      {
+        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Time Delays and Hubble Constant Measurement",
+        "roles": [
+          "time-delay",
+          "h0-measurement"
+        ],
+        "note": "SN Encore time-delay and H0 analysis",
+        "url": "https://arxiv.org/abs/2509.12301"
+      },
+      {
+        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Lens Model Comparison and H0 Measurement",
+        "roles": [
+          "modelling",
+          "h0-measurement"
+        ],
+        "note": "SN Encore lens-model comparison and cosmographic inference",
+        "url": "https://arxiv.org/abs/2509.12319"
+      }
+    ]
+  },
+  {
+    "category": "Lensed SN",
+    "category_zh": "透镜超新星",
+    "thumbnail": "assets/img/thumbs/sn-eos.svg",
+    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
+    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
+    "id": "sn-eos",
+    "name": "SN Eos",
+    "subtype": "Lensed SN II",
+    "subtype_zh": "透镜 II 型超新星",
+    "scale": "Cluster-scale",
+    "scale_zh": "星系团尺度",
+    "status": "Candidate",
+    "status_zh": "候选",
+    "images": "5",
+    "lens_redshift": "z_l TBD",
+    "source_redshift": "z_s ≈ 5.13",
+    "discovery_year": "2025",
+    "ra": "field to be curated",
+    "dec": "field to be curated",
+    "mast_query": "SN Eos",
+    "summary": "A very high-redshift lensed SN II candidate, important for assessing how cluster magnification and time-delay predictions extend transient discovery to the early Universe.",
+    "summary_zh": "极高红移的透镜 II 型超新星候选体，有助于评估星系团放大和时延预测如何把暂现源发现推进到早期宇宙。",
+    "tags": [
+      "SN II",
+      "cluster",
+      "high-redshift",
+      "predicted images"
+    ],
+    "tags_zh": [
+      "II 型超新星",
+      "星系团环境",
+      "高红移",
+      "预测像"
+    ],
+    "references": [
+      {
+        "title": "A Spectroscopically Confirmed, Strongly Lensed, Metal-Poor Type II Supernova at z = 5.13",
+        "roles": [
+          "discovery",
+          "spectroscopy"
+        ],
+        "note": "SN Eos spectroscopic confirmation and high-redshift Type II classification",
+        "url": "https://arxiv.org/abs/2601.04156"
+      }
+    ]
   },
   {
     "id": "sn-h0pe",
@@ -7437,276 +9517,48 @@ window.LENS_SYSTEMS = [
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
   {
+    "id": "iptf16geu",
+    "name": "iPTF16geu / SN 2016geu",
     "category": "Lensed SN",
     "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/a370-c22.svg",
-    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
-    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
-    "id": "a370-c22",
-    "name": "C22 / A370-C22",
-    "subtype": "H-rich core-collapse SN",
-    "subtype_zh": "富氢核塌缩超新星",
-    "scale": "Cluster-scale",
-    "scale_zh": "星系团尺度",
-    "status": "Candidate",
-    "status_zh": "候选",
-    "images": "",
-    "lens_redshift": "z_l ≈ 0.375",
-    "source_redshift": "z_s TBD",
-    "discovery_year": "2022",
-    "ra": "02:39:52.9",
-    "dec": "-01:34:36",
-    "mast_query": "Abell 370",
-    "summary": "A candidate multiply imaged, hydrogen-rich core-collapse event behind Abell 370, useful for testing cluster-lens magnification maps and high-redshift transient recovery.",
-    "summary_zh": "Abell 370 背景中的候选多重成像富氢核塌缩事件，可用于检验星系团透镜放大率图和高红移暂现源识别。",
+    "subtype": "Lensed SN Ia",
+    "subtype_zh": "透镜 Ia 型超新星",
+    "scale": "Galaxy-scale",
+    "scale_zh": "星系尺度",
+    "status": "Confirmed",
+    "status_zh": "已认证",
+    "images": "4",
+    "lens_redshift": "z_l ≈ 0.216",
+    "source_redshift": "z_s ≈ 0.409",
+    "discovery_year": "2016",
+    "ra": "21:16:27.4",
+    "dec": "+40:55:03",
+    "mast_query": "21:16:27.4 +40:55:03",
+    "summary": "Type Ia supernova resolved into four images by a galaxy-scale lens.",
+    "summary_zh": "Ia 型超新星，由星系尺度透镜分解为四个像。",
     "tags": [
       "SN",
-      "cluster",
-      "core-collapse",
-      "high-redshift",
-      "candidate"
+      "galaxy",
+      "quad"
     ],
     "tags_zh": [
       "超新星",
-      "星系团环境",
-      "核塌缩",
-      "高红移",
-      "候选"
-    ],
-    "references": [
-      {
-        "title": "Searching for supernovae in the multiply-imaged galaxies behind the gravitational telescope A370",
-        "roles": [
-          "observation",
-          "survey"
-        ],
-        "note": "Abell 370 lensed-supernova search context",
-        "url": "https://arxiv.org/abs/1802.10525"
-      },
-      {
-        "title": "Lens Modeling Abell 370: Crowning the Final Frontier Field with MUSE",
-        "roles": [
-          "modelling",
-          "cluster"
-        ],
-        "note": "Abell 370 strong-lensing model context",
-        "url": "https://arxiv.org/abs/1611.01513"
-      }
-    ]
-  },
-  {
-    "category": "Lensed SN",
-    "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/sn-encore.svg",
-    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
-    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
-    "id": "sn-encore",
-    "name": "SN Encore",
-    "subtype": "Lensed SN Ia",
-    "subtype_zh": "透镜 Ia 型超新星",
-    "scale": "Cluster-scale",
-    "scale_zh": "星系团尺度",
-    "status": "Confirmed",
-    "status_zh": "已确认",
-    "images": "5",
-    "lens_redshift": "z_l ≈ 0.34",
-    "source_redshift": "z_s ≈ 1.95",
-    "discovery_year": "2023",
-    "ra": "01:38:00.0",
-    "dec": "-21:55:00",
-    "mast_query": "MACS J0138.0-2155",
-    "summary": "A second multiply imaged SN in the same lensed host field as SN Requiem, making it a valuable consistency test for cluster mass models and time-delay predictions.",
-    "summary_zh": "与 SN Requiem 位于同一透镜宿主场中的第二个多重成像超新星，是检验星系团质量模型和时延预测一致性的关键系统。",
-    "tags": [
-      "SN Ia",
-      "cluster",
-      "same host as Requiem",
-      "time-delay"
-    ],
-    "tags_zh": [
-      "Ia 型超新星",
-      "星系团环境",
-      "Requiem 同宿主",
-      "时间延迟"
-    ],
-    "references": [
-      {
-        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Photometry, Cluster Members, and Lens Mass Model",
-        "roles": [
-          "observation",
-          "modelling"
-        ],
-        "note": "SN Encore photometry, cluster-member catalogue, and lens mass model",
-        "url": "https://arxiv.org/abs/2503.09718"
-      },
-      {
-        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Time Delays and Hubble Constant Measurement",
-        "roles": [
-          "time-delay",
-          "h0-measurement"
-        ],
-        "note": "SN Encore time-delay and H0 analysis",
-        "url": "https://arxiv.org/abs/2509.12301"
-      },
-      {
-        "title": "Cosmology with Supernova Encore in the Strong Lensing Cluster MACS J0138-2155: Lens Model Comparison and H0 Measurement",
-        "roles": [
-          "modelling",
-          "h0-measurement"
-        ],
-        "note": "SN Encore lens-model comparison and cosmographic inference",
-        "url": "https://arxiv.org/abs/2509.12319"
-      }
-    ]
-  },
-  {
-    "category": "Lensed SN",
-    "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/sn-winny.svg",
-    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
-    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
-    "id": "sn-winny",
-    "name": "SN 2025wny / SN Winny",
-    "subtype": "Lensed superluminous SN I",
-    "subtype_zh": "透镜 I 型超亮超新星",
-    "scale": "Galaxy-scale",
-    "scale_zh": "星系尺度",
-    "status": "Candidate",
-    "status_zh": "候选",
-    "images": "5",
-    "lens_redshift": "z_l TBD",
-    "source_redshift": "z_s ≈ 2.01",
-    "discovery_year": "2025",
-    "ra": "field to be curated",
-    "dec": "field to be curated",
-    "mast_query": "SN 2025wny",
-    "summary": "A quadruply imaged superluminous SN candidate, useful for linking transient classification, lens-model constraints, and cadence requirements in galaxy-scale systems.",
-    "summary_zh": "四重成像的超亮超新星候选体，可用于连接暂现源分类、星系尺度透镜模型约束和巡天 cadence 需求。",
-    "tags": [
-      "superluminous SN",
-      "quad",
-      "galaxy lens",
-      "candidate"
-    ],
-    "tags_zh": [
-      "超亮超新星",
-      "四重像",
       "星系透镜",
-      "候选"
+      "四重像"
     ],
+    "thumbnail": "assets/img/thumbs/iptf16geu.svg",
     "references": [
       {
-        "title": "Discovery of SN 2025wny: A Strongly Gravitationally Lensed Superluminous Supernova at z = 2.01",
+        "title": "iPTF16geu: A multiply imaged, gravitationally lensed type Ia supernova",
         "roles": [
-          "discovery",
+          "first",
           "observation"
         ],
-        "note": "SN Winny / SN 2025wny discovery paper",
-        "url": "https://arxiv.org/abs/2510.23533"
-      },
-      {
-        "title": "Supernova 2025wny: High-Angular Resolution Keck/NIRC2 Observations and Preliminary Lens Modeling",
-        "roles": [
-          "followup",
-          "modelling"
-        ],
-        "note": "Keck/NIRC2 high-angular-resolution follow-up and preliminary lens modelling",
-        "url": "https://arxiv.org/abs/2604.02418"
+        "note": "arXiv abstract",
+        "url": "https://arxiv.org/abs/1611.00014"
       }
-    ]
-  },
-  {
-    "category": "Lensed SN",
-    "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/sn-eos.svg",
-    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
-    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
-    "id": "sn-eos",
-    "name": "SN Eos",
-    "subtype": "Lensed SN II",
-    "subtype_zh": "透镜 II 型超新星",
-    "scale": "Cluster-scale",
-    "scale_zh": "星系团尺度",
-    "status": "Candidate",
-    "status_zh": "候选",
-    "images": "5",
-    "lens_redshift": "z_l TBD",
-    "source_redshift": "z_s ≈ 5.13",
-    "discovery_year": "2025",
-    "ra": "field to be curated",
-    "dec": "field to be curated",
-    "mast_query": "SN Eos",
-    "summary": "A very high-redshift lensed SN II candidate, important for assessing how cluster magnification and time-delay predictions extend transient discovery to the early Universe.",
-    "summary_zh": "极高红移的透镜 II 型超新星候选体，有助于评估星系团放大和时延预测如何把暂现源发现推进到早期宇宙。",
-    "tags": [
-      "SN II",
-      "cluster",
-      "high-redshift",
-      "predicted images"
     ],
-    "tags_zh": [
-      "II 型超新星",
-      "星系团环境",
-      "高红移",
-      "预测像"
-    ],
-    "references": [
-      {
-        "title": "A Spectroscopically Confirmed, Strongly Lensed, Metal-Poor Type II Supernova at z = 5.13",
-        "roles": [
-          "discovery",
-          "spectroscopy"
-        ],
-        "note": "SN Eos spectroscopic confirmation and high-redshift Type II classification",
-        "url": "https://arxiv.org/abs/2601.04156"
-      }
-    ]
-  },
-  {
-    "category": "Lensed SN",
-    "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/sn-2025mkn.svg",
-    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
-    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
-    "id": "sn-2025mkn",
-    "name": "SN 2025mkn",
-    "subtype": "Lensed SN II",
-    "subtype_zh": "透镜 II 型超新星",
-    "scale": "Galaxy-scale",
-    "scale_zh": "星系尺度",
-    "status": "Candidate",
-    "status_zh": "候选",
-    "images": "4",
-    "lens_redshift": "z_l TBD",
-    "source_redshift": "z_s ≈ 1.37",
-    "discovery_year": "2025",
-    "ra": "field to be curated",
-    "dec": "field to be curated",
-    "mast_query": "SN 2025mkn",
-    "summary": "A recently reported galaxy-scale lensed SN II candidate, currently most useful as a watch-list object for follow-up, classification, and lens-model refinement.",
-    "summary_zh": "新近报告的星系尺度透镜 II 型超新星候选体，目前更适合作为后续观测、分类和透镜模型改进的关注目标。",
-    "tags": [
-      "SN II",
-      "galaxy lens",
-      "candidate",
-      "follow-up"
-    ],
-    "tags_zh": [
-      "II 型超新星",
-      "星系透镜",
-      "候选",
-      "后续观测"
-    ],
-    "references": [
-      {
-        "title": "A Natural >100x Telescope: Discovery of the Strongly Lensed Type II SN 2025mkn at z = 1.37",
-        "roles": [
-          "discovery",
-          "observation"
-        ],
-        "note": "SN 2025mkn discovery and lensing interpretation",
-        "url": "https://arxiv.org/abs/2604.07983"
-      }
-    ]
+    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
+    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   }
 ];

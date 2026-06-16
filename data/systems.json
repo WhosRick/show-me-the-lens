@@ -2240,7 +2240,9 @@
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
-    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。",
+    "separation_arcsec": 4.19,
+    "separation_source": "Image-coordinate priors in STRIDES lens modelling; maximum pairwise image separation computed from the published A-D coordinate ranges."
   },
   {
     "id": "fbq0951-2635",
@@ -2455,8 +2457,8 @@
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/FSC10214.html"
   },
   {
-    "id": "graL-j0248-1845",
-    "name": "GraL J0248-1845",
+    "id": "gral-j0248-1913",
+    "name": "GraL J024848.7+191331",
     "category": "Lensed QSO",
     "category_zh": "透镜类星体",
     "subtype": "Quadruply imaged quasar",
@@ -2470,8 +2472,8 @@
     "source_redshift": "z_s ≈ 2.24",
     "discovery_year": "2018",
     "ra": "02:48:48.7",
-    "dec": "-18:45:10",
-    "mast_query": "02:48:48.7 -18:45:10",
+    "dec": "+19:13:31",
+    "mast_query": "02:48:48.7 +19:13:31",
     "summary": "",
     "summary_zh": "",
     "tags": [
@@ -2497,7 +2499,12 @@
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 1.7,
+    "faintest_image_mag": 20.41,
+    "faintest_image_mag_band": "Gaia G",
+    "faintest_image_mag_source": "Gaia GraL VI catalogue component photometry",
+    "separation_source": "Gaia GraL VI Table 1 lists a 1.7 arcsec maximum separation; the previous -18:45 coordinate was a sign/name mismatch and has been corrected to the published +19:13 system."
   },
   {
     "id": "graL-j0607-2152",
@@ -2542,7 +2549,12 @@
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 1.7,
+    "faintest_image_mag": 20.9,
+    "faintest_image_mag_band": "Gaia G",
+    "faintest_image_mag_source": "Gaia GraL VI catalogue component photometry",
+    "separation_source": "Gaia GraL VI Table 1 lists a 1.7 arcsec maximum separation."
   },
   {
     "id": "graL-j0818-2613",
@@ -2587,7 +2599,12 @@
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 6.2,
+    "faintest_image_mag": 19.74,
+    "faintest_image_mag_band": "Gaia G",
+    "faintest_image_mag_source": "Gaia GraL VI catalogue component photometry",
+    "separation_source": "Gaia GraL VI Table 1 lists a 6.2 arcsec maximum separation."
   },
   {
     "id": "graL-j1651-0417",
@@ -2632,7 +2649,12 @@
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 10.1,
+    "faintest_image_mag": 19.6,
+    "faintest_image_mag_band": "Gaia G",
+    "faintest_image_mag_source": "Gaia GraL VI catalogue component photometry",
+    "separation_source": "Gaia GraL VI Table 1 lists a 10.1 arcsec maximum separation."
   },
   {
     "id": "h1413p117",
@@ -2746,10 +2768,20 @@
         ],
         "note": "CASTLES lensing tool and sample context; arXiv abstract",
         "url": "https://arxiv.org/abs/astro-ph/9910025"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 1.35,
+    "faintest_image_mag": 16.44,
+    "faintest_image_mag_band": "mag",
+    "faintest_image_mag_source": "CASTLES individual-system photometry",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/H1413.html",
+    "separation_source": "CASTLES lists a 1.35 arcsec maximum image separation."
   },
   {
     "id": "hdfs2232509-603243",
@@ -5563,7 +5595,7 @@
   },
   {
     "id": "ps-j0147-4630",
-    "name": "PS J0147-4630",
+    "name": "PS J0147+4630",
     "category": "Lensed QSO",
     "category_zh": "透镜类星体",
     "subtype": "Quadruply imaged quasar",
@@ -5577,8 +5609,8 @@
     "source_redshift": "z_s ≈ 2.38",
     "discovery_year": "2017",
     "ra": "01:47:20.0",
-    "dec": "-46:30:00",
-    "mast_query": "01:47:20.0 -46:30:00",
+    "dec": "+46:30:00",
+    "mast_query": "01:47:20.0 +46:30:00",
     "summary": "",
     "summary_zh": "",
     "tags": [
@@ -5601,10 +5633,19 @@
         ],
         "note": "GraL quadruple-lens confirmation and modelling; arXiv abstract",
         "url": "https://arxiv.org/abs/2012.10051"
+      },
+      {
+        "title": "LiOSCo: Lightcurves and lens models for the quadruply lensed quasar PS J0147+4630",
+        "url": "https://arxiv.org/abs/2206.09266"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 3.26,
+    "faintest_image_mag": 18.26,
+    "faintest_image_mag_band": "Pan-STARRS r",
+    "faintest_image_mag_source": "LiOSCo/Pan-STARRS component photometry",
+    "separation_source": "Maximum pairwise separation computed from the published A-D relative astrometry."
   },
   {
     "id": "pss2322-1944",
@@ -6767,10 +6808,20 @@
         ],
         "note": "SDSS quasar lens final catalog; arXiv abstract",
         "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "The CASTLES gravitational lensing tool",
+        "url": "https://lweb.cfa.harvard.edu/castles/"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 1.75,
+    "faintest_image_mag": 18.18,
+    "faintest_image_mag_band": "mag",
+    "faintest_image_mag_source": "CASTLES individual-system photometry",
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0924.html",
+    "separation_source": "CASTLES lists a 1.75 arcsec maximum image separation."
   },
   {
     "id": "sdss-j1004-4112",
@@ -6836,7 +6887,12 @@
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 14.72,
+    "faintest_image_mag": 18.82,
+    "faintest_image_mag_band": "SDSS i",
+    "faintest_image_mag_source": "SQLS final-catalog magnitude column",
+    "separation_source": "SQLS final catalogue Table 5 lists theta_max = 14.72 arcsec."
   },
   {
     "id": "sdss-j1029-2623",
@@ -6881,7 +6937,12 @@
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 22.54,
+    "faintest_image_mag": 18.55,
+    "faintest_image_mag_band": "SDSS i",
+    "faintest_image_mag_source": "SQLS final-catalog magnitude column",
+    "separation_source": "SQLS final catalogue Table 6 lists theta_max = 22.54 arcsec."
   },
   {
     "id": "sdss-j1206-4332",
@@ -6961,7 +7022,12 @@
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
-    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。",
+    "separation_arcsec": 3.03,
+    "faintest_image_mag": 18.46,
+    "faintest_image_mag_band": "SDSS i",
+    "faintest_image_mag_source": "SQLS final-catalog magnitude column",
+    "separation_source": "H0LiCOW imaging paper quotes a 3.03 arcsec image separation; SQLS gives 2.90 arcsec in its catalogue table."
   },
   {
     "id": "sdss-j2222-2745",
@@ -7003,10 +7069,16 @@
         ],
         "note": "SDSS quasar lens final catalog; arXiv abstract",
         "url": "https://arxiv.org/abs/1203.1087"
+      },
+      {
+        "title": "A six-image quasar lens and its host galaxy in SDSS J2222+2745",
+        "url": "https://arxiv.org/abs/2208.13788"
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_arcsec": 15.11,
+    "separation_source": "Maximum pairwise separation computed from the six image coordinates in the MUSE/A&A analysis."
   },
   {
     "id": "sdss0246-0825",
@@ -8570,7 +8642,8 @@
     "summary_zh": "",
     "tags": [
       "QSO",
-      "quad"
+      "quad",
+      "needs-separation-verification"
     ],
     "tags_zh": [
       "类星体",
@@ -8598,7 +8671,8 @@
       }
     ],
     "image_credit": "Thumbnail placeholder; replace with the server-generated raw_lens_panels_wcs panel when available.",
-    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。"
+    "image_credit_zh": "当前为占位缩略图；拿到服务器 raw_lens_panels_wcs 面板后可直接替换。",
+    "separation_source": "No reliable lens-separation value was found in the checked CASTLES/SQLS/GraL/STRIDES sources; excluded from the quantitative screening plot until its original discovery reference is verified."
   },
   {
     "id": "wfi2026-4536",
@@ -8833,10 +8907,16 @@
         ],
         "note": "Joint H0LiCOW time-delay cosmography result; arXiv abstract",
         "url": "https://arxiv.org/abs/1907.04869"
+      },
+      {
+        "title": "Gaia GraL: Gaia DR2 Gravitational Lens Systems. VI. Spectroscopic Confirmation and Modeling of Quadruply Imaged Lensed Quasars",
+        "url": "https://arxiv.org/abs/2012.10051"
       }
     ],
     "image_credit": "Server-generated WCS panel from raw_lens_panels_wcs.",
-    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。"
+    "image_credit_zh": "服务器 raw_lens_panels_wcs 生成的 WCS 面板。",
+    "separation_arcsec": 2.5,
+    "separation_source": "Gaia GraL VI/STRIDES text describes WGD 2038-4008 as a quad with maximum separation 2.5 arcsec."
   },
   {
     "id": "at2016jka",

@@ -272,8 +272,8 @@ main {
 
 .qso-grid {
   fill: none;
-  stroke: rgba(255, 229, 173, 0.14);
-  stroke-width: 0.8;
+  stroke: rgba(255, 229, 173, 0.12);
+  stroke-width: 0.7;
 }
 
 .qso-map-point {

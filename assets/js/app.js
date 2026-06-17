@@ -290,17 +290,17 @@ function renderQsoSkyMap() {
     .map(s => ({ system: s, ra: parseRa(s.ra), dec: parseDec(s.dec) }))
     .filter(p => p.ra !== null && p.dec !== null);
   const grid = [];
-  for (let dec = -60; dec <= 60; dec += 30) {
+  for (let dec = -60; dec <= 60; dec += 15) {
     const pts = [];
-    for (let ra = 0; ra <= 360; ra += 4) {
+    for (let ra = -180; ra <= 180; ra += 2) {
       const p = aitoffXY(ra, dec, width, height);
       pts.push(`${p.x.toFixed(1)},${p.y.toFixed(1)}`);
     }
     grid.push(`<polyline class="qso-grid" points="${pts.join(" ")}"></polyline>`);
   }
-  for (let ra = 0; ra < 360; ra += 30) {
+  for (let ra = -150; ra <= 150; ra += 30) {
     const pts = [];
-    for (let dec = -75; dec <= 75; dec += 3) {
+    for (let dec = -90; dec <= 90; dec += 2) {
       const p = aitoffXY(ra, dec, width, height);
       pts.push(`${p.x.toFixed(1)},${p.y.toFixed(1)}`);
     }

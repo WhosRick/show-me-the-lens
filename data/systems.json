@@ -1140,7 +1140,7 @@
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1422.html",
     "most_qso_candidate": true,
     "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image and transit altitude >= 40 deg."
   },
   {
     "id": "b1555-375",
@@ -2512,7 +2512,7 @@
     "separation_source": "Gaia GraL VI Table 1 lists a 1.7 arcsec maximum separation; the previous -18:45 coordinate was a sign/name mismatch and has been corrected to the published +19:13 system.",
     "most_qso_candidate": true,
     "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image and transit altitude >= 40 deg."
   },
   {
     "id": "graL-j0607-2152",
@@ -2665,7 +2665,7 @@
     "separation_source": "Gaia GraL VI Table 1 lists a 10.1 arcsec maximum separation.",
     "most_qso_candidate": true,
     "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image and transit altitude >= 40 deg."
   },
   {
     "id": "h1413p117",
@@ -2971,8 +2971,7 @@
     "faintest_image_mag": 16.84,
     "faintest_image_mag_band": "i",
     "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
-    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0435.html",
-    "most_qso_candidate": true
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0435.html"
   },
   {
     "id": "he0047-1756",
@@ -3116,10 +3115,7 @@
     "faintest_image_mag": 18.0,
     "faintest_image_mag_band": "I",
     "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
-    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0230.html",
-    "most_qso_candidate": true,
-    "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0230.html"
   },
   {
     "id": "he0512-3329",
@@ -3263,8 +3259,7 @@
     "faintest_image_mag": 16.17,
     "faintest_image_mag_band": "I",
     "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
-    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE1104.html",
-    "most_qso_candidate": true
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE1104.html"
   },
   {
     "id": "he2149-2745",
@@ -4625,7 +4620,7 @@
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG0414.html",
     "most_qso_candidate": true,
     "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image and transit altitude >= 40 deg."
   },
   {
     "id": "mg0751-2716",
@@ -5671,7 +5666,7 @@
     "separation_source": "Maximum pairwise separation computed from the published A-D relative astrometry.",
     "most_qso_candidate": true,
     "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image and transit altitude >= 40 deg."
   },
   {
     "id": "pss2322-1944",
@@ -6479,7 +6474,7 @@
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ0911.html",
     "most_qso_candidate": true,
     "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image and transit altitude >= 40 deg."
   },
   {
     "id": "rxj0921-4529",
@@ -6655,8 +6650,7 @@
     "faintest_image_mag": 16.74,
     "faintest_image_mag_band": "I",
     "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
-    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ1131.html",
-    "most_qso_candidate": true
+    "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ1131.html"
   },
   {
     "id": "sbs0909-523",
@@ -6858,7 +6852,7 @@
     "separation_source": "CASTLES lists a 1.75 arcsec maximum image separation.",
     "most_qso_candidate": true,
     "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image and transit altitude >= 40 deg."
   },
   {
     "id": "sdss-j1004-4112",
@@ -8583,7 +8577,9 @@
     "faintest_image_mag_band": "I",
     "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1406.html",
-    "most_qso_candidate": true
+    "most_qso_candidate": true,
+    "most_qso_priority": true,
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image and transit altitude >= 40 deg."
   },
   {
     "id": "sdss1650-4251",

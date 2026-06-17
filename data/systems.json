@@ -9015,120 +9015,6 @@
     "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
   },
   {
-    "id": "at2023adsy",
-    "name": "AT 2023adsy",
-    "category": "Lensed SN",
-    "category_zh": "透镜超新星",
-    "subtype": "High-redshift lensed SN Ia",
-    "subtype_zh": "高红移透镜 Ia 型超新星",
-    "scale": "Cluster-scale",
-    "scale_zh": "星系团尺度",
-    "status": "Candidate",
-    "status_zh": "候选",
-    "images": "",
-    "lens_redshift": "z_l ≈ 0.39",
-    "source_redshift": "z_s ≈ 2.90",
-    "discovery_year": "2023",
-    "ra": "03:32:38.0",
-    "dec": "-27:47:00",
-    "mast_query": "03:32:38.0 -27:47:00",
-    "summary": "A red, high-velocity Type Ia SN candidate at z ≈ 2.9 in a JWST field, valuable for testing high-redshift SN classification in strongly magnified survey data.",
-    "summary_zh": "JWST 场中 z ≈ 2.9 的红色高速 Ia 型超新星候选体，可用于检验强放大巡天数据中的高红移超新星分类。",
-    "tags": [
-      "SN",
-      "cluster",
-      "JWST",
-      "candidate"
-    ],
-    "tags_zh": [
-      "超新星",
-      "星系团环境",
-      "JWST",
-      "候选"
-    ],
-    "thumbnail": "assets/img/thumbs/sn-h0pe.svg",
-    "references": [
-      {
-        "title": "Discovery of An Apparent Red, High-Velocity Type Ia Supernova at z = 2.9 with JWST",
-        "roles": [
-          "first",
-          "observation"
-        ],
-        "note": "SN 2023adsy discovery and classification; arXiv abstract",
-        "url": "https://arxiv.org/abs/2406.05089"
-      },
-      {
-        "title": "The JADES Transient Survey: Discovery and Classification of Supernovae in the JADES Deep Field",
-        "roles": [
-          "observation",
-          "review"
-        ],
-        "note": "JADES transient survey context for AT 2023adsy; arXiv abstract",
-        "url": "https://arxiv.org/abs/2406.05060"
-      }
-    ],
-    "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
-    "image_credit_zh": "真实叠加图请按 MAST/HST/JWST 数据发布页标注版权和致谢。"
-  },
-  {
-    "category": "Lensed SN",
-    "category_zh": "透镜超新星",
-    "thumbnail": "assets/img/thumbs/a370-c22.svg",
-    "image_credit": "Placeholder thumbnail; verify HST/JWST image credit before publication.",
-    "image_credit_zh": "占位缩略图；正式使用真实 HST/JWST 图像前请核对版权和致谢。",
-    "id": "a370-c22",
-    "name": "C22 / A370-C22",
-    "subtype": "H-rich core-collapse SN",
-    "subtype_zh": "富氢核塌缩超新星",
-    "scale": "Cluster-scale",
-    "scale_zh": "星系团尺度",
-    "status": "Candidate",
-    "status_zh": "候选",
-    "images": "",
-    "lens_redshift": "z_l ≈ 0.375",
-    "source_redshift": "z_s TBD",
-    "discovery_year": "2022",
-    "ra": "02:39:52.9",
-    "dec": "-01:34:36",
-    "mast_query": "Abell 370",
-    "summary": "A candidate multiply imaged, hydrogen-rich core-collapse event behind Abell 370, useful for testing cluster-lens magnification maps and high-redshift transient recovery.",
-    "summary_zh": "Abell 370 背景中的候选多重成像富氢核塌缩事件，可用于检验星系团透镜放大率图和高红移暂现源识别。",
-    "tags": [
-      "SN",
-      "cluster",
-      "core-collapse",
-      "high-redshift",
-      "candidate"
-    ],
-    "tags_zh": [
-      "超新星",
-      "星系团环境",
-      "核塌缩",
-      "高红移",
-      "候选"
-    ],
-    "references": [
-      {
-        "title": "Searching for supernovae in the multiply-imaged galaxies behind the gravitational telescope A370",
-        "roles": [
-          "observation",
-          "survey"
-        ],
-        "note": "Abell 370 lensed-supernova search context",
-        "url": "https://arxiv.org/abs/1802.10525"
-      },
-      {
-        "title": "Lens Modeling Abell 370: Crowning the Final Frontier Field with MUSE",
-        "roles": [
-          "modelling",
-          "cluster"
-        ],
-        "note": "Abell 370 strong-lensing model context",
-        "url": "https://arxiv.org/abs/1611.01513"
-      }
-    ]
-  },
-  {
     "id": "ps1-10afx",
     "name": "PS1-10afx",
     "category": "Lensed SN",
@@ -9459,15 +9345,6 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/2403.18954"
-      },
-      {
-        "title": "The JADES Transient Survey: Discovery and Classification of Supernovae in the JADES Deep Field",
-        "roles": [
-          "observation",
-          "review"
-        ],
-        "note": "JADES transient survey context for AT 2023adsy; arXiv abstract",
-        "url": "https://arxiv.org/abs/2406.05060"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
@@ -9526,15 +9403,6 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/1411.6443"
-      },
-      {
-        "title": "The JADES Transient Survey: Discovery and Classification of Supernovae in the JADES Deep Field",
-        "roles": [
-          "observation",
-          "review"
-        ],
-        "note": "JADES transient survey context for AT 2023adsy; arXiv abstract",
-        "url": "https://arxiv.org/abs/2406.05060"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",
@@ -9582,15 +9450,6 @@
         ],
         "note": "arXiv abstract",
         "url": "https://arxiv.org/abs/2211.03772"
-      },
-      {
-        "title": "The JADES Transient Survey: Discovery and Classification of Supernovae in the JADES Deep Field",
-        "roles": [
-          "observation",
-          "review"
-        ],
-        "note": "JADES transient survey context for AT 2023adsy; arXiv abstract",
-        "url": "https://arxiv.org/abs/2406.05060"
       }
     ],
     "image_credit": "Use MAST/HST/JWST release credit lines for any real stacked image.",

@@ -68,7 +68,7 @@
     "separation_arcsec": 0.38,
     "faintest_image_mag": 14.55,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/APM08279.html"
   },
   {
@@ -244,7 +244,7 @@
     "separation_arcsec": 0.34,
     "faintest_image_mag": 19.28,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0218.html"
   },
   {
@@ -334,7 +334,7 @@
     "separation_arcsec": 1.35,
     "faintest_image_mag": 22.8,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0445.html"
   },
   {
@@ -510,7 +510,7 @@
     "separation_arcsec": 1.46,
     "faintest_image_mag": 22.42,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0712.html"
   },
   {
@@ -600,7 +600,7 @@
     "separation_arcsec": 0.53,
     "faintest_image_mag": 25.25,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0739.html"
   },
   {
@@ -690,7 +690,7 @@
     "separation_arcsec": 0.68,
     "faintest_image_mag": 23.15,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B0850.html"
   },
   {
@@ -780,7 +780,7 @@
     "separation_arcsec": 1.65,
     "faintest_image_mag": 19.41,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1030.html",
     "most_qso_candidate": true
   },
@@ -871,7 +871,7 @@
     "separation_arcsec": 0.74,
     "faintest_image_mag": 25.62,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1127.html"
   },
   {
@@ -961,7 +961,7 @@
     "separation_arcsec": 1.59,
     "faintest_image_mag": 16.53,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1152.html"
   },
   {
@@ -1051,7 +1051,7 @@
     "separation_arcsec": 1.71,
     "faintest_image_mag": 22.62,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1359.html"
   },
   {
@@ -1136,9 +1136,11 @@
     "separation_arcsec": 1.68,
     "faintest_image_mag": 14.81,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1422.html",
-    "most_qso_candidate": true
+    "most_qso_candidate": true,
+    "most_qso_priority": true,
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
   },
   {
     "id": "b1555-375",
@@ -1227,7 +1229,7 @@
     "separation_arcsec": 0.42,
     "faintest_image_mag": 20.65,
     "faintest_image_mag_band": "H",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1555.html"
   },
   {
@@ -1317,7 +1319,7 @@
     "separation_arcsec": 1.4,
     "faintest_image_mag": 20.87,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B1600.html"
   },
   {
@@ -1697,7 +1699,7 @@
     "separation_arcsec": 2.74,
     "faintest_image_mag": 22.02,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B2045.html"
   },
   {
@@ -1787,7 +1789,7 @@
     "separation_arcsec": 4.57,
     "faintest_image_mag": 20.92,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/B2108.html",
     "most_qso_candidate": true
   },
@@ -2032,7 +2034,7 @@
     "separation_arcsec": 1.0,
     "faintest_image_mag": 18.27,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/BRI0952.html"
   },
   {
@@ -2316,7 +2318,7 @@
     "separation_arcsec": 1.11,
     "faintest_image_mag": 16.39,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/FBQ0951.html"
   },
   {
@@ -2388,7 +2390,7 @@
     "separation_arcsec": 0.75,
     "faintest_image_mag": 16.59,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/FBQ1633.html"
   },
   {
@@ -2508,7 +2510,9 @@
     "faintest_image_mag_band": "Gaia G",
     "faintest_image_mag_source": "Gaia GraL VI catalogue component photometry",
     "separation_source": "Gaia GraL VI Table 1 lists a 1.7 arcsec maximum separation; the previous -18:45 coordinate was a sign/name mismatch and has been corrected to the published +19:13 system.",
-    "most_qso_candidate": true
+    "most_qso_candidate": true,
+    "most_qso_priority": true,
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
   },
   {
     "id": "graL-j0607-2152",
@@ -2659,7 +2663,9 @@
     "faintest_image_mag_band": "Gaia G",
     "faintest_image_mag_source": "Gaia GraL VI catalogue component photometry",
     "separation_source": "Gaia GraL VI Table 1 lists a 10.1 arcsec maximum separation.",
-    "most_qso_candidate": true
+    "most_qso_candidate": true,
+    "most_qso_priority": true,
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
   },
   {
     "id": "h1413p117",
@@ -2721,7 +2727,7 @@
     "separation_arcsec": 1.35,
     "faintest_image_mag": 16.44,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/H1413.html"
   },
   {
@@ -2964,11 +2970,9 @@
     "separation_arcsec": 2.42,
     "faintest_image_mag": 16.84,
     "faintest_image_mag_band": "i",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0435.html",
-    "most_qso_candidate": true,
-    "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target; planning block 3 x 300 s in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_candidate": true
   },
   {
     "id": "he0047-1756",
@@ -3039,7 +3043,7 @@
     "separation_arcsec": 1.44,
     "faintest_image_mag": 16.53,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0047.html"
   },
   {
@@ -3111,9 +3115,11 @@
     "separation_arcsec": 2.05,
     "faintest_image_mag": 18.0,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0230.html",
-    "most_qso_candidate": true
+    "most_qso_candidate": true,
+    "most_qso_priority": true,
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
   },
   {
     "id": "he0512-3329",
@@ -3184,7 +3190,7 @@
     "separation_arcsec": 0.65,
     "faintest_image_mag": 16.27,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE0512.html"
   },
   {
@@ -3256,11 +3262,9 @@
     "separation_arcsec": 3.19,
     "faintest_image_mag": 16.17,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE1104.html",
-    "most_qso_candidate": true,
-    "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target; planning block 3 x 300 s in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_candidate": true
   },
   {
     "id": "he2149-2745",
@@ -3331,7 +3335,7 @@
     "separation_arcsec": 1.7,
     "faintest_image_mag": 16.29,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HE2149.html"
   },
   {
@@ -3403,7 +3407,7 @@
     "separation_arcsec": 0.96,
     "faintest_image_mag": 15.03,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HS0810.html"
   },
   {
@@ -3475,7 +3479,7 @@
     "separation_arcsec": 2.83,
     "faintest_image_mag": 18.54,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HS0818.html",
     "most_qso_candidate": true
   },
@@ -3548,7 +3552,7 @@
     "separation_arcsec": 2.2,
     "faintest_image_mag": 24.13,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST01247.html"
   },
   {
@@ -3756,7 +3760,7 @@
     "separation_arcsec": 1.23,
     "faintest_image_mag": 24.7,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST12531.html"
   },
   {
@@ -3828,7 +3832,7 @@
     "separation_arcsec": 1.8,
     "faintest_image_mag": 24.14,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14113.html"
   },
   {
@@ -3900,7 +3904,7 @@
     "separation_arcsec": 2.24,
     "faintest_image_mag": 22.75,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14164.html"
   },
   {
@@ -3972,7 +3976,7 @@
     "separation_arcsec": 2.83,
     "faintest_image_mag": 23.41,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/HST14176.html"
   },
   {
@@ -4316,7 +4320,7 @@
     "separation_arcsec": 3.64,
     "faintest_image_mag": -1.95,
     "faintest_image_mag_band": "V",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/J0332.html"
   },
   {
@@ -4388,7 +4392,7 @@
     "separation_arcsec": 1.54,
     "faintest_image_mag": 19.65,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/J1004.html"
   },
   {
@@ -4460,7 +4464,7 @@
     "separation_arcsec": 1.54,
     "faintest_image_mag": 17.8,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1009.html"
   },
   {
@@ -4532,7 +4536,7 @@
     "separation_arcsec": 1.63,
     "faintest_image_mag": 17.26,
     "faintest_image_mag_band": "i",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/LBQS1333.html"
   },
   {
@@ -4617,9 +4621,11 @@
     "separation_arcsec": 2.4,
     "faintest_image_mag": 19.62,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG0414.html",
-    "most_qso_candidate": true
+    "most_qso_candidate": true,
+    "most_qso_priority": true,
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
   },
   {
     "id": "mg0751-2716",
@@ -4880,7 +4886,7 @@
     "separation_arcsec": 1.7,
     "faintest_image_mag": 20.52,
     "faintest_image_mag_band": "H",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG1549.html",
     "most_qso_candidate": true
   },
@@ -4971,7 +4977,7 @@
     "separation_arcsec": 2.1,
     "faintest_image_mag": 20.18,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG1654.html",
     "most_qso_candidate": true
   },
@@ -5062,7 +5068,7 @@
     "separation_arcsec": 3.52,
     "faintest_image_mag": 21.51,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/MG2016.html"
   },
   {
@@ -5156,11 +5162,9 @@
     "separation_arcsec": 2.32,
     "faintest_image_mag": 15.62,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PG1115.html",
-    "most_qso_candidate": true,
-    "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target; planning block 3 x 300 s in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_candidate": true
   },
   {
     "id": "pks1830-211",
@@ -5249,7 +5253,7 @@
     "separation_arcsec": 0.99,
     "faintest_image_mag": 22.27,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PKS1830.html"
   },
   {
@@ -5339,7 +5343,7 @@
     "separation_arcsec": 0.73,
     "faintest_image_mag": 18.96,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN0134.html"
   },
   {
@@ -5429,7 +5433,7 @@
     "separation_arcsec": 1.47,
     "faintest_image_mag": 20.68,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN1632.html"
   },
   {
@@ -5519,7 +5523,7 @@
     "separation_arcsec": 0.99,
     "faintest_image_mag": 19.1,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN1838.html"
   },
   {
@@ -5609,7 +5613,7 @@
     "separation_arcsec": 1.18,
     "faintest_image_mag": 21.93,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PMN2004.html"
   },
   {
@@ -5667,7 +5671,7 @@
     "separation_source": "Maximum pairwise separation computed from the published A-D relative astrometry.",
     "most_qso_candidate": true,
     "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target; planning block 3 x 300 s in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
   },
   {
     "id": "pss2322-1944",
@@ -5738,7 +5742,7 @@
     "separation_arcsec": 1.49,
     "faintest_image_mag": 17.92,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/PSS2322.html"
   },
   {
@@ -5878,7 +5882,7 @@
     "separation_arcsec": 2.24,
     "faintest_image_mag": 16.47,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q0142.html",
     "most_qso_candidate": true
   },
@@ -5965,11 +5969,9 @@
     "separation_arcsec": 6.26,
     "faintest_image_mag": 15.99,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q0957.html",
-    "most_qso_candidate": true,
-    "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target; planning block 3 x 300 s in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_candidate": true
   },
   {
     "id": "q1017-207",
@@ -6040,7 +6042,7 @@
     "separation_arcsec": 0.85,
     "faintest_image_mag": 16.78,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1017.html"
   },
   {
@@ -6112,7 +6114,7 @@
     "separation_arcsec": 0.48,
     "faintest_image_mag": 16.96,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1208.html"
   },
   {
@@ -6184,7 +6186,7 @@
     "separation_arcsec": 1.23,
     "faintest_image_mag": 16.94,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q1355.html"
   },
   {
@@ -6256,7 +6258,7 @@
     "separation_arcsec": 4.42,
     "faintest_image_mag": 18.02,
     "faintest_image_mag_band": "J",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q2138.html"
   },
   {
@@ -6328,7 +6330,7 @@
     "separation_arcsec": 1.78,
     "faintest_image_mag": 15.16,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/Q2237.html",
     "most_qso_candidate": true
   },
@@ -6401,7 +6403,7 @@
     "separation_arcsec": 1.22,
     "faintest_image_mag": 17.39,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/CTQ414.html"
   },
   {
@@ -6473,9 +6475,11 @@
     "separation_arcsec": 2.47,
     "faintest_image_mag": 17.39,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ0911.html",
-    "most_qso_candidate": true
+    "most_qso_candidate": true,
+    "most_qso_priority": true,
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
   },
   {
     "id": "rxj0921-4529",
@@ -6546,7 +6550,7 @@
     "separation_arcsec": 6.97,
     "faintest_image_mag": 17.74,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ0921.html",
     "most_qso_candidate": true
   },
@@ -6650,11 +6654,9 @@
     "separation_arcsec": 3.8,
     "faintest_image_mag": 16.74,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/RXJ1131.html",
-    "most_qso_candidate": true,
-    "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target; planning block 3 x 300 s in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_candidate": true
   },
   {
     "id": "sbs0909-523",
@@ -6725,7 +6727,7 @@
     "separation_arcsec": 1.17,
     "faintest_image_mag": 15.65,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SBS0909.html"
   },
   {
@@ -6797,7 +6799,7 @@
     "separation_arcsec": 1.59,
     "faintest_image_mag": 17.61,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SBS1520.html"
   },
   {
@@ -6854,7 +6856,9 @@
     "faintest_image_mag_source": "CASTLES individual-system photometry",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0924.html",
     "separation_source": "CASTLES lists a 1.75 arcsec maximum image separation.",
-    "most_qso_candidate": true
+    "most_qso_candidate": true,
+    "most_qso_priority": true,
+    "most_qso_plan": "Priority MOST monitoring target: non-cluster-scale quad preferred for additional monitoring; planning block 300 s per epoch in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
   },
   {
     "id": "sdss-j1004-4112",
@@ -6926,9 +6930,7 @@
     "faintest_image_mag_band": "SDSS i",
     "faintest_image_mag_source": "SQLS final-catalog magnitude column",
     "separation_source": "SQLS final catalogue Table 5 lists theta_max = 14.72 arcsec.",
-    "most_qso_candidate": true,
-    "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target; planning block 3 x 300 s in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_candidate": true
   },
   {
     "id": "sdss-j1029-2623",
@@ -7065,9 +7067,7 @@
     "faintest_image_mag_band": "SDSS i",
     "faintest_image_mag_source": "SQLS final-catalog magnitude column",
     "separation_source": "H0LiCOW imaging paper quotes a 3.03 arcsec image separation; SQLS gives 2.90 arcsec in its catalogue table.",
-    "most_qso_candidate": true,
-    "most_qso_priority": true,
-    "most_qso_plan": "Priority MOST monitoring target; planning block 3 x 300 s in simultaneous channels, with S/N >= 10 required for the faintest monitored image."
+    "most_qso_candidate": true
   },
   {
     "id": "sdss-j2222-2745",
@@ -7198,7 +7198,7 @@
     "separation_arcsec": 1.19,
     "faintest_image_mag": 16.98,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0246.html"
   },
   {
@@ -7279,7 +7279,7 @@
     "separation_arcsec": 1.11,
     "faintest_image_mag": 18.34,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0746.html"
   },
   {
@@ -7360,7 +7360,7 @@
     "separation_arcsec": 1.4,
     "faintest_image_mag": 17.93,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0806.html"
   },
   {
@@ -7441,7 +7441,7 @@
     "separation_arcsec": 2.99,
     "faintest_image_mag": 18.51,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0903.html",
     "most_qso_candidate": true
   },
@@ -7523,7 +7523,7 @@
     "separation_arcsec": 1.75,
     "faintest_image_mag": 18.18,
     "faintest_image_mag_band": "i",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS0924.html",
     "most_qso_candidate": true
   },
@@ -7605,7 +7605,7 @@
     "separation_arcsec": 2.86,
     "faintest_image_mag": 16.64,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1001.html",
     "most_qso_candidate": true
   },
@@ -7704,7 +7704,7 @@
     "separation_arcsec": 15.99,
     "faintest_image_mag": 17.53,
     "faintest_image_mag_band": "i",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1004.html",
     "most_qso_candidate": true
   },
@@ -7786,7 +7786,7 @@
     "separation_arcsec": 3.67,
     "faintest_image_mag": 22.43,
     "faintest_image_mag_band": "UNKNOWN",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1011.html"
   },
   {
@@ -8021,7 +8021,7 @@
     "separation_arcsec": 1.34,
     "faintest_image_mag": 18.43,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1138.html"
   },
   {
@@ -8102,7 +8102,7 @@
     "separation_arcsec": 1.95,
     "faintest_image_mag": 17.67,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1155.html",
     "most_qso_candidate": true
   },
@@ -8261,7 +8261,7 @@
     "separation_arcsec": 1.26,
     "faintest_image_mag": 18.32,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1226.html"
   },
   {
@@ -8342,7 +8342,7 @@
     "separation_arcsec": 1.14,
     "faintest_image_mag": 18.7,
     "faintest_image_mag_band": "i",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1332.html"
   },
   {
@@ -8423,7 +8423,7 @@
     "separation_arcsec": 1.41,
     "faintest_image_mag": 16.44,
     "faintest_image_mag_band": "i",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1353.html"
   },
   {
@@ -8581,7 +8581,7 @@
     "separation_arcsec": 1.98,
     "faintest_image_mag": 18.88,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1406.html",
     "most_qso_candidate": true
   },
@@ -8663,7 +8663,7 @@
     "separation_arcsec": 1.23,
     "faintest_image_mag": 16.98,
     "faintest_image_mag_band": "I",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/SDSS1650.html"
   },
   {
@@ -8789,7 +8789,7 @@
     "separation_arcsec": 1.34,
     "faintest_image_mag": 16.18,
     "faintest_image_mag_band": "i",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/WFI2026.html"
   },
   {
@@ -8890,7 +8890,7 @@
     "separation_arcsec": 2.33,
     "faintest_image_mag": 17.59,
     "faintest_image_mag_band": "i",
-    "faintest_image_mag_source": "CASTLES summary m_s proxy",
+    "faintest_image_mag_source": "CASTLES summary m_s screening magnitude",
     "castles_url": "https://lweb.cfa.harvard.edu/castles/Individual/WFI2033.html"
   },
   {

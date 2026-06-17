@@ -60,14 +60,14 @@ const i18n = {
     detail: "details", data: "MAST", references: "References", subtype: "Source type", discovery: "Discovery year", coordinates: "Coordinates", image_credit: "Image credit",
     first: "discovery", observation: "observation", modelling: "modelling", followup: "follow-up", review: "review", catalog: "catalogue", candidate: "candidate",
     ref_source: "Source", ref_title: "Article / record", ref_roles: "Roles",
-    qso_map_eyebrow: "MOST planning", qso_map_title: "Lensed QSO sky map", qso_map_desc: "Hover over a point to inspect the lensed QSO position, separation, catalogue magnitude proxy, and MOST screening status.", qso_map_all: "All lensed QSOs", qso_map_candidate: "S/N + visibility screen", qso_map_priority: "Priority monitoring set"
+    qso_map_eyebrow: "MOST planning", qso_map_title: "Lensed QSO sky map", qso_map_desc: "Hover over a point to inspect the lensed QSO position, separation, catalogue screening magnitude, and MOST screening status.", qso_map_all: "All lensed QSOs", qso_map_candidate: "S/N + visibility screen", qso_map_priority: "Priority monitoring set"
   }
 };
 
 Object.assign(i18n.zh, {
   qso_map_eyebrow: "MOST planning",
   qso_map_title: "Lensed QSO sky map",
-  qso_map_desc: "Hover over a point to inspect the lensed QSO position, separation, catalogue magnitude proxy, and MOST screening status.",
+  qso_map_desc: "Hover over a point to inspect the lensed QSO position, separation, catalogue screening magnitude, and MOST screening status.",
   qso_map_all: "All lensed QSOs",
   qso_map_candidate: "S/N + visibility screen",
   qso_map_priority: "Priority monitoring set"
@@ -344,7 +344,7 @@ function showQsoTooltip(id, event) {
     <span>${escapeHtml(status)}</span>
     <small>RA/Dec: ${escapeHtml(system.ra || "")}, ${escapeHtml(system.dec || "")}</small>
     <small>Sep: ${escapeHtml(system.separation_arcsec || "n/a")} arcsec</small>
-    <small>Mag proxy: ${escapeHtml(system.faintest_image_mag || "n/a")} ${escapeHtml(system.faintest_image_mag_band || "")}</small>
+    <small>Screening mag: ${escapeHtml(system.faintest_image_mag || "n/a")} ${escapeHtml(system.faintest_image_mag_band || "")}</small>
   `;
   qsoMapTooltip.hidden = false;
   const host = qsoSkyMap.getBoundingClientRect();

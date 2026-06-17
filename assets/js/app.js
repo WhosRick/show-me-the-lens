@@ -9,6 +9,8 @@ const langButtons = Array.from(document.querySelectorAll(".lang-btn"));
 const pageSizeSelect = document.querySelector("#pageSize");
 const pagerTop = document.querySelector("#pagerTop");
 const pagerBottom = document.querySelector("#pagerBottom");
+const qsoSkyMap = document.querySelector("#qsoSkyMap");
+const qsoMapTooltip = document.querySelector("#qsoMapTooltip");
 
 let activeFilter = "has-thumbnail";
 let lang = localStorage.getItem("smtl-lang-v2") || "en";
@@ -57,9 +59,19 @@ const i18n = {
     name: "Source name", thumbnail: "Thumbnail", type: "Source type", status: "Certified", images: "Images", scale: "scale", lens_redshift: "lens redshift", source_redshift: "source redshift",
     detail: "details", data: "MAST", references: "References", subtype: "Source type", discovery: "Discovery year", coordinates: "Coordinates", image_credit: "Image credit",
     first: "discovery", observation: "observation", modelling: "modelling", followup: "follow-up", review: "review", catalog: "catalogue", candidate: "candidate",
-    ref_source: "Source", ref_title: "Article / record", ref_roles: "Roles"
+    ref_source: "Source", ref_title: "Article / record", ref_roles: "Roles",
+    qso_map_eyebrow: "MOST planning", qso_map_title: "Lensed QSO sky map", qso_map_desc: "Hover over a point to inspect the lensed QSO position, separation, catalogue magnitude proxy, and MOST screening status.", qso_map_all: "All lensed QSOs", qso_map_candidate: "S/N + visibility screen", qso_map_priority: "Priority monitoring set"
   }
 };
+
+Object.assign(i18n.zh, {
+  qso_map_eyebrow: "MOST planning",
+  qso_map_title: "Lensed QSO sky map",
+  qso_map_desc: "Hover over a point to inspect the lensed QSO position, separation, catalogue magnitude proxy, and MOST screening status.",
+  qso_map_all: "All lensed QSOs",
+  qso_map_candidate: "S/N + visibility screen",
+  qso_map_priority: "Priority monitoring set"
+});
 
 function t(key) { return (i18n[lang] && i18n[lang][key]) || key; }
 function pick(system, key) { return lang === "zh" ? (system[`${key}_zh`] || system[key]) : system[key]; }
@@ -81,6 +93,7 @@ function applyLanguage() {
   searchInput.placeholder = t("search_placeholder");
   langButtons.forEach(btn => btn.classList.toggle("active", btn.dataset.lang === lang));
   render();
+  renderQsoSkyMap();
 }
 
 function matchesFilter(system) {
@@ -236,6 +249,113 @@ function displayType(system) {
   if (/core-collapse/i.test(subtype)) return lang === "zh" ? "透镜核坍缩超新星" : "Lensed core-collapse SN";
   if (/candidate/i.test(subtype)) return lang === "zh" ? "透镜超新星候选体" : "Lensed SN candidate";
   return lang === "zh" ? "透镜超新星" : "Lensed SN";
+}
+
+function parseRa(value) {
+  if (!value) return null;
+  const text = String(value).trim();
+  if (/^[0-9.]+$/.test(text)) {
+    const v = Number(text);
+    return v > 24 ? v : v * 15;
+  }
+  const parts = text.replace("+", "").split(/[:hms\s]+/).filter(Boolean).map(Number);
+  if (parts.length < 3 || parts.some(Number.isNaN)) return null;
+  return (parts[0] + parts[1] / 60 + parts[2] / 3600) * 15;
+}
+
+function parseDec(value) {
+  if (!value) return null;
+  const text = String(value).trim();
+  const sign = text.startsWith("-") ? -1 : 1;
+  const parts = text.replace(/^[+-]/, "").split(/[:dms\s]+/).filter(Boolean).map(Number);
+  if (parts.length < 3 || parts.some(Number.isNaN)) return null;
+  return sign * (parts[0] + parts[1] / 60 + parts[2] / 3600);
+}
+
+function aitoffXY(raDeg, decDeg, width = 960, height = 480) {
+  const lambda = ((((raDeg + 180) % 360) - 180) * -1) * Math.PI / 180;
+  const phi = decDeg * Math.PI / 180;
+  const alpha = Math.acos(Math.cos(phi) * Math.cos(lambda / 2));
+  const sinc = Math.abs(alpha) < 1e-7 ? 1 : Math.sin(alpha) / alpha;
+  const x = 2 * Math.cos(phi) * Math.sin(lambda / 2) / sinc;
+  const y = Math.sin(phi) / sinc;
+  return { x: width / 2 + x * (width / 4.35), y: height / 2 - y * (height / 2.25) };
+}
+
+function qsoMapStatus(system) {
+  if (system.most_qso_priority) return "priority";
+  if (system.most_qso_candidate) return "candidate";
+  return "all";
+}
+
+function renderQsoSkyMap() {
+  if (!qsoSkyMap) return;
+  const width = 960;
+  const height = 480;
+  const qso = systems
+    .filter(s => s.category === "Lensed QSO")
+    .map(s => ({ system: s, ra: parseRa(s.ra), dec: parseDec(s.dec) }))
+    .filter(p => p.ra !== null && p.dec !== null);
+  const grid = [];
+  for (let dec = -60; dec <= 60; dec += 30) {
+    const pts = [];
+    for (let ra = 0; ra <= 360; ra += 4) {
+      const p = aitoffXY(ra, dec, width, height);
+      pts.push(`${p.x.toFixed(1)},${p.y.toFixed(1)}`);
+    }
+    grid.push(`<polyline class="qso-grid" points="${pts.join(" ")}"></polyline>`);
+  }
+  for (let ra = 0; ra < 360; ra += 30) {
+    const pts = [];
+    for (let dec = -75; dec <= 75; dec += 3) {
+      const p = aitoffXY(ra, dec, width, height);
+      pts.push(`${p.x.toFixed(1)},${p.y.toFixed(1)}`);
+    }
+    grid.push(`<polyline class="qso-grid" points="${pts.join(" ")}"></polyline>`);
+  }
+  qsoSkyMap.innerHTML = `
+    <ellipse class="qso-map-frame" cx="480" cy="240" rx="430" ry="205"></ellipse>
+    ${grid.join("")}
+    ${qso.map(({ system, ra, dec }) => {
+      const p = aitoffXY(ra, dec, width, height);
+      const status = qsoMapStatus(system);
+      const radius = status === "priority" ? 5.2 : status === "candidate" ? 4.1 : 2.8;
+      return `<circle class="qso-map-point ${status}" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${radius}"></circle>`;
+    }).join("")}
+  `;
+  qsoSkyMap.querySelectorAll(".qso-map-point").forEach(point => {
+    const show = event => showQsoTooltip(point.dataset.id, event);
+    point.addEventListener("mouseenter", show);
+    point.addEventListener("mousemove", show);
+    point.addEventListener("focus", show);
+    point.addEventListener("mouseleave", hideQsoTooltip);
+    point.addEventListener("blur", hideQsoTooltip);
+    point.addEventListener("click", () => openDetails(point.dataset.id));
+  });
+}
+
+function showQsoTooltip(id, event) {
+  if (!qsoMapTooltip) return;
+  const system = systems.find(s => s.id === id);
+  if (!system) return;
+  const status = system.most_qso_priority ? "Priority target" : system.most_qso_candidate ? "S/N + visibility screen" : "Catalogue QSO";
+  qsoMapTooltip.innerHTML = `
+    <strong>${escapeHtml(system.name)}</strong>
+    <span>${escapeHtml(status)}</span>
+    <small>RA/Dec: ${escapeHtml(system.ra || "")}, ${escapeHtml(system.dec || "")}</small>
+    <small>Sep: ${escapeHtml(system.separation_arcsec || "n/a")} arcsec</small>
+    <small>Mag proxy: ${escapeHtml(system.faintest_image_mag || "n/a")} ${escapeHtml(system.faintest_image_mag_band || "")}</small>
+  `;
+  qsoMapTooltip.hidden = false;
+  const host = qsoSkyMap.getBoundingClientRect();
+  const x = event.clientX ? event.clientX - host.left : Number(event.target.getAttribute("cx"));
+  const y = event.clientY ? event.clientY - host.top : Number(event.target.getAttribute("cy"));
+  qsoMapTooltip.style.left = `${Math.min(Math.max(x + 14, 10), host.width - 230)}px`;
+  qsoMapTooltip.style.top = `${Math.min(Math.max(y + 14, 10), host.height - 132)}px`;
+}
+
+function hideQsoTooltip() {
+  if (qsoMapTooltip) qsoMapTooltip.hidden = true;
 }
 
 function escapeHtml(value) {

@@ -236,6 +236,134 @@ main {
   margin-bottom: 28px;
 }
 
+.qso-map-panel {
+  position: relative;
+}
+
+.qso-map-shell {
+  position: relative;
+  margin-top: 18px;
+  border: 1px solid rgba(214, 168, 78, 0.24);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(3, 8, 12, 0.78), rgba(2, 2, 2, 0.72)),
+    radial-gradient(circle at 50% 50%, rgba(154, 215, 255, 0.08), transparent 58%);
+  overflow: hidden;
+}
+
+.qso-sky-map {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  min-height: 260px;
+}
+
+.qso-map-frame {
+  fill: rgba(2, 2, 2, 0.34);
+  stroke: rgba(255, 229, 173, 0.58);
+  stroke-width: 1.2;
+}
+
+.qso-grid {
+  fill: none;
+  stroke: rgba(255, 229, 173, 0.14);
+  stroke-width: 0.8;
+}
+
+.qso-map-point {
+  cursor: pointer;
+  stroke: rgba(2, 2, 2, 0.82);
+  stroke-width: 1;
+  transition: r 140ms ease, filter 140ms ease, opacity 140ms ease;
+}
+
+.qso-map-point.all {
+  fill: var(--cyan);
+  opacity: 0.72;
+}
+
+.qso-map-point.candidate {
+  fill: var(--gold);
+  opacity: 0.88;
+}
+
+.qso-map-point.priority {
+  fill: #ff5d55;
+  opacity: 0.98;
+  filter: drop-shadow(0 0 6px rgba(255, 93, 85, 0.55));
+}
+
+.qso-map-point:hover,
+.qso-map-point:focus {
+  r: 6.5;
+  opacity: 1;
+  outline: none;
+}
+
+.qso-map-tooltip {
+  position: absolute;
+  z-index: 5;
+  width: min(260px, calc(100% - 20px));
+  padding: 10px 12px;
+  border: 1px solid rgba(214, 168, 78, 0.46);
+  border-radius: 8px;
+  color: var(--text);
+  background: rgba(4, 7, 11, 0.96);
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.44), 0 0 22px rgba(214, 168, 78, 0.12);
+  pointer-events: none;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.35;
+}
+
+.qso-map-tooltip strong,
+.qso-map-tooltip span,
+.qso-map-tooltip small {
+  display: block;
+}
+
+.qso-map-tooltip strong {
+  color: var(--gold-bright);
+  font-size: 0.95rem;
+}
+
+.qso-map-tooltip span {
+  color: var(--gold);
+  font-size: 0.8rem;
+  margin: 2px 0 6px;
+}
+
+.qso-map-tooltip small {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.qso-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+}
+
+.qso-map-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-dot.qso-all { background: var(--cyan); }
+.legend-dot.qso-candidate { background: var(--gold); }
+.legend-dot.qso-priority { background: #ff5d55; }
+
 .section-heading {
   display: grid;
   grid-template-columns: 1fr;

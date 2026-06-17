@@ -278,7 +278,7 @@ function aitoffXY(raDeg, decDeg, width = 960, height = 480) {
   const sinc = Math.abs(alpha) < 1e-7 ? 1 : Math.sin(alpha) / alpha;
   const x = 2 * Math.cos(phi) * Math.sin(lambda / 2) / sinc;
   const y = Math.sin(phi) / sinc;
-  return { x: cx + x * (rx / 2), y: cy - y * ry };
+  return { x: cx + (x / Math.PI) * rx, y: cy - (y / (Math.PI / 2)) * ry };
 }
 
 function renderQsoSkyMap() {
@@ -307,20 +307,13 @@ function renderQsoSkyMap() {
     grid.push(`<polyline class="qso-grid" points="${pts.join(" ")}"></polyline>`);
   }
   qsoSkyMap.innerHTML = `
-    <defs>
-      <clipPath id="qsoSkyClip">
-        <ellipse cx="480" cy="240" rx="437" ry="206"></ellipse>
-      </clipPath>
-    </defs>
     <rect class="qso-map-outer" x="0" y="0" width="960" height="480"></rect>
     <ellipse class="qso-map-fill" cx="480" cy="240" rx="437" ry="206"></ellipse>
-    <g clip-path="url(#qsoSkyClip)">
-      ${grid.join("")}
-      ${qso.map(({ system, ra, dec }) => {
-        const p = aitoffXY(ra, dec, width, height);
-        return `<circle class="qso-map-point" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.1"></circle>`;
-      }).join("")}
-    </g>
+    ${grid.join("")}
+    ${qso.map(({ system, ra, dec }) => {
+      const p = aitoffXY(ra, dec, width, height);
+      return `<circle class="qso-map-point" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.1"></circle>`;
+    }).join("")}
     <ellipse class="qso-map-frame" cx="480" cy="240" rx="437" ry="206"></ellipse>
   `;
   qsoSkyMap.querySelectorAll(".qso-map-point").forEach(point => {

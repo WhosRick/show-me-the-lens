@@ -242,7 +242,7 @@ main {
 
 .qso-map-shell {
   position: relative;
-  margin-top: 18px;
+  margin-top: 10px;
   border: 1px solid rgba(214, 168, 78, 0.24);
   border-radius: 8px;
   background:
@@ -274,23 +274,9 @@ main {
   cursor: pointer;
   stroke: rgba(2, 2, 2, 0.82);
   stroke-width: 1;
-  transition: r 140ms ease, filter 140ms ease, opacity 140ms ease;
-}
-
-.qso-map-point.all {
   fill: var(--cyan);
-  opacity: 0.72;
-}
-
-.qso-map-point.candidate {
-  fill: var(--gold);
-  opacity: 0.88;
-}
-
-.qso-map-point.priority {
-  fill: #ff5d55;
-  opacity: 0.98;
-  filter: drop-shadow(0 0 6px rgba(255, 93, 85, 0.55));
+  opacity: 0.76;
+  transition: r 140ms ease, filter 140ms ease, opacity 140ms ease;
 }
 
 .qso-map-point:hover,
@@ -326,31 +312,9 @@ main {
   font-size: 0.95rem;
 }
 
-.qso-map-tooltip span {
-  color: var(--gold);
-  font-size: 0.8rem;
-  margin: 2px 0 6px;
-}
-
 .qso-map-tooltip small {
   color: var(--muted);
   font-size: 0.78rem;
-}
-
-.qso-map-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 12px;
-  color: var(--muted);
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.9rem;
-}
-
-.qso-map-legend span {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
 }
 
 .legend-dot {

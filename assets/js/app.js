@@ -60,17 +60,12 @@ const i18n = {
     detail: "details", data: "MAST", references: "References", subtype: "Source type", discovery: "Discovery year", coordinates: "Coordinates", image_credit: "Image credit",
     first: "discovery", observation: "observation", modelling: "modelling", followup: "follow-up", review: "review", catalog: "catalogue", candidate: "candidate",
     ref_source: "Source", ref_title: "Article / record", ref_roles: "Roles",
-    qso_map_eyebrow: "MOST planning", qso_map_title: "Lensed QSO sky map", qso_map_desc: "Hover over a point to inspect the lensed QSO position, separation, catalogue screening magnitude, and MOST screening status.", qso_map_all: "All lensed QSOs", qso_map_candidate: "S/N + visibility screen", qso_map_priority: "Priority monitoring set"
+    qso_map_title: "Lensed QSO sky map"
   }
 };
 
 Object.assign(i18n.zh, {
-  qso_map_eyebrow: "MOST planning",
-  qso_map_title: "Lensed QSO sky map",
-  qso_map_desc: "Hover over a point to inspect the lensed QSO position, separation, catalogue screening magnitude, and MOST screening status.",
-  qso_map_all: "All lensed QSOs",
-  qso_map_candidate: "S/N + visibility screen",
-  qso_map_priority: "Priority monitoring set"
+  qso_map_title: "Lensed QSO sky map"
 });
 
 function t(key) { return (i18n[lang] && i18n[lang][key]) || key; }
@@ -273,19 +268,17 @@ function parseDec(value) {
 }
 
 function aitoffXY(raDeg, decDeg, width = 960, height = 480) {
+  const cx = width / 2;
+  const cy = height / 2;
+  const rx = width * 0.465;
+  const ry = height * 0.46;
   const lambda = ((((raDeg + 180) % 360) - 180) * -1) * Math.PI / 180;
   const phi = decDeg * Math.PI / 180;
   const alpha = Math.acos(Math.cos(phi) * Math.cos(lambda / 2));
   const sinc = Math.abs(alpha) < 1e-7 ? 1 : Math.sin(alpha) / alpha;
   const x = 2 * Math.cos(phi) * Math.sin(lambda / 2) / sinc;
   const y = Math.sin(phi) / sinc;
-  return { x: width / 2 + x * (width / 4.35), y: height / 2 - y * (height / 2.25) };
-}
-
-function qsoMapStatus(system) {
-  if (system.most_qso_priority) return "priority";
-  if (system.most_qso_candidate) return "candidate";
-  return "all";
+  return { x: cx + x * (rx / 2), y: cy - y * ry };
 }
 
 function renderQsoSkyMap() {
@@ -314,13 +307,11 @@ function renderQsoSkyMap() {
     grid.push(`<polyline class="qso-grid" points="${pts.join(" ")}"></polyline>`);
   }
   qsoSkyMap.innerHTML = `
-    <ellipse class="qso-map-frame" cx="480" cy="240" rx="430" ry="205"></ellipse>
+    <ellipse class="qso-map-frame" cx="480" cy="240" rx="446" ry="221"></ellipse>
     ${grid.join("")}
     ${qso.map(({ system, ra, dec }) => {
       const p = aitoffXY(ra, dec, width, height);
-      const status = qsoMapStatus(system);
-      const radius = status === "priority" ? 5.2 : status === "candidate" ? 4.1 : 2.8;
-      return `<circle class="qso-map-point ${status}" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${radius}"></circle>`;
+      return `<circle class="qso-map-point" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.1"></circle>`;
     }).join("")}
   `;
   qsoSkyMap.querySelectorAll(".qso-map-point").forEach(point => {
@@ -338,10 +329,8 @@ function showQsoTooltip(id, event) {
   if (!qsoMapTooltip) return;
   const system = systems.find(s => s.id === id);
   if (!system) return;
-  const status = system.most_qso_priority ? "Priority target" : system.most_qso_candidate ? "S/N + visibility screen" : "Catalogue QSO";
   qsoMapTooltip.innerHTML = `
     <strong>${escapeHtml(system.name)}</strong>
-    <span>${escapeHtml(status)}</span>
     <small>RA/Dec: ${escapeHtml(system.ra || "")}, ${escapeHtml(system.dec || "")}</small>
     <small>Sep: ${escapeHtml(system.separation_arcsec || "n/a")} arcsec</small>
     <small>Screening mag: ${escapeHtml(system.faintest_image_mag || "n/a")} ${escapeHtml(system.faintest_image_mag_band || "")}</small>

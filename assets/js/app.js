@@ -270,8 +270,8 @@ function parseDec(value) {
 function aitoffXY(raDeg, decDeg, width = 960, height = 480) {
   const cx = width / 2;
   const cy = height / 2;
-  const rx = width * 0.465;
-  const ry = height * 0.46;
+  const rx = width * 0.455;
+  const ry = height * 0.43;
   const lambda = ((((raDeg + 180) % 360) - 180) * -1) * Math.PI / 180;
   const phi = decDeg * Math.PI / 180;
   const alpha = Math.acos(Math.cos(phi) * Math.cos(lambda / 2));
@@ -307,12 +307,21 @@ function renderQsoSkyMap() {
     grid.push(`<polyline class="qso-grid" points="${pts.join(" ")}"></polyline>`);
   }
   qsoSkyMap.innerHTML = `
-    <ellipse class="qso-map-frame" cx="480" cy="240" rx="446" ry="221"></ellipse>
-    ${grid.join("")}
-    ${qso.map(({ system, ra, dec }) => {
-      const p = aitoffXY(ra, dec, width, height);
-      return `<circle class="qso-map-point" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.1"></circle>`;
-    }).join("")}
+    <defs>
+      <clipPath id="qsoSkyClip">
+        <ellipse cx="480" cy="240" rx="437" ry="206"></ellipse>
+      </clipPath>
+    </defs>
+    <rect class="qso-map-outer" x="0" y="0" width="960" height="480"></rect>
+    <ellipse class="qso-map-fill" cx="480" cy="240" rx="437" ry="206"></ellipse>
+    <g clip-path="url(#qsoSkyClip)">
+      ${grid.join("")}
+      ${qso.map(({ system, ra, dec }) => {
+        const p = aitoffXY(ra, dec, width, height);
+        return `<circle class="qso-map-point" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.1"></circle>`;
+      }).join("")}
+    </g>
+    <ellipse class="qso-map-frame" cx="480" cy="240" rx="437" ry="206"></ellipse>
   `;
   qsoSkyMap.querySelectorAll(".qso-map-point").forEach(point => {
     const show = event => showQsoTooltip(point.dataset.id, event);

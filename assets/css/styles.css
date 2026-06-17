@@ -245,9 +245,7 @@ main {
   margin-top: 10px;
   border: 1px solid rgba(214, 168, 78, 0.24);
   border-radius: 8px;
-  background:
-    linear-gradient(180deg, rgba(3, 8, 12, 0.78), rgba(2, 2, 2, 0.72)),
-    radial-gradient(circle at 50% 50%, rgba(154, 215, 255, 0.08), transparent 58%);
+  background: #000;
   overflow: hidden;
 }
 
@@ -258,8 +256,16 @@ main {
   min-height: 260px;
 }
 
+.qso-map-outer {
+  fill: #000;
+}
+
+.qso-map-fill {
+  fill: rgba(3, 8, 12, 0.9);
+}
+
 .qso-map-frame {
-  fill: rgba(2, 2, 2, 0.34);
+  fill: none;
   stroke: rgba(255, 229, 173, 0.58);
   stroke-width: 1.2;
 }

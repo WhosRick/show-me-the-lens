@@ -10,7 +10,9 @@ const pageSizeSelect = document.querySelector("#pageSize");
 const pagerTop = document.querySelector("#pagerTop");
 const pagerBottom = document.querySelector("#pagerBottom");
 const qsoSkyMap = document.querySelector("#qsoSkyMap");
+const qsoSepMagPlot = document.querySelector("#qsoSepMagPlot");
 const qsoMapTooltip = document.querySelector("#qsoMapTooltip");
+const qsoRangeSummary = document.querySelector("#qsoRangeSummary");
 
 let activeFilter = "has-thumbnail";
 let lang = localStorage.getItem("smtl-lang-v2") || "en";
@@ -281,14 +283,37 @@ function aitoffXY(raDeg, decDeg, width = 960, height = 480) {
   return { x: cx + (x / Math.PI) * rx, y: cy - (y / (Math.PI / 2)) * ry };
 }
 
+function qsoPlotData() {
+  return systems
+    .filter(s => s.category === "Lensed QSO")
+    .map(s => ({
+      system: s,
+      ra: parseRa(s.ra),
+      dec: parseDec(s.dec),
+      sep: Number(s.separation_arcsec),
+      mag: Number(s.faintest_image_mag)
+    }))
+    .filter(p => p.ra !== null && p.dec !== null);
+}
+
+function qsoStats(qso) {
+  const seps = qso.map(p => p.sep).filter(Number.isFinite);
+  const mags = qso.map(p => p.mag).filter(Number.isFinite);
+  return {
+    sepMin: Math.min(...seps),
+    sepMax: Math.max(...seps),
+    magMin: Math.min(...mags),
+    magMax: Math.max(...mags),
+    nSepMag: qso.filter(p => Number.isFinite(p.sep) && Number.isFinite(p.mag)).length
+  };
+}
+
 function renderQsoSkyMap() {
   if (!qsoSkyMap) return;
   const width = 960;
   const height = 480;
-  const qso = systems
-    .filter(s => s.category === "Lensed QSO")
-    .map(s => ({ system: s, ra: parseRa(s.ra), dec: parseDec(s.dec) }))
-    .filter(p => p.ra !== null && p.dec !== null);
+  const qso = qsoPlotData();
+  const stats = qsoStats(qso);
   const grid = [];
   for (let dec = -60; dec <= 60; dec += 15) {
     const pts = [];
@@ -316,7 +341,49 @@ function renderQsoSkyMap() {
     }).join("")}
     <ellipse class="qso-map-frame" cx="480" cy="240" rx="437" ry="206"></ellipse>
   `;
-  qsoSkyMap.querySelectorAll(".qso-map-point").forEach(point => {
+  renderQsoSepMagPlot(qso, stats);
+  if (qsoRangeSummary && Number.isFinite(stats.sepMin) && Number.isFinite(stats.sepMax)) {
+    qsoRangeSummary.textContent = `${qso.length} lensed QSOs with sky positions; ${stats.nSepMag} have both separation and screening magnitude. Image separation range: ${stats.sepMin.toFixed(2)}-${stats.sepMax.toFixed(2)} arcsec.`;
+  }
+  bindQsoPoints();
+}
+
+function renderQsoSepMagPlot(qso, stats) {
+  if (!qsoSepMagPlot) return;
+  const width = 760;
+  const height = 480;
+  const pad = { left: 82, right: 34, top: 42, bottom: 70 };
+  const plotW = width - pad.left - pad.right;
+  const plotH = height - pad.top - pad.bottom;
+  const usable = qso.filter(p => Number.isFinite(p.sep) && Number.isFinite(p.mag));
+  const xMin = 0;
+  const xMax = Math.max(24, Math.ceil(stats.sepMax || 1));
+  const yMin = Math.floor(Math.max(12, (stats.magMin || 14) - 1));
+  const yMax = Math.ceil(Math.min(28, (stats.magMax || 24) + 1));
+  const x = value => pad.left + ((value - xMin) / (xMax - xMin)) * plotW;
+  const y = value => pad.top + ((value - yMin) / (yMax - yMin)) * plotH;
+  const xTicks = [0, 5, 10, 15, 20].filter(v => v <= xMax);
+  if (!xTicks.includes(xMax)) xTicks.push(xMax);
+  const yTicks = [];
+  for (let v = yMin; v <= yMax; v += 2) yTicks.push(v);
+  qsoSepMagPlot.innerHTML = `
+    <rect class="qso-map-outer" x="0" y="0" width="${width}" height="${height}"></rect>
+    <line class="qso-axis" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${pad.top + plotH}"></line>
+    <line class="qso-axis" x1="${pad.left}" y1="${pad.top + plotH}" x2="${pad.left + plotW}" y2="${pad.top + plotH}"></line>
+    ${xTicks.map(v => `<g><line class="qso-tick" x1="${x(v).toFixed(1)}" y1="${pad.top + plotH}" x2="${x(v).toFixed(1)}" y2="${pad.top + plotH + 7}"></line><text class="qso-tick-label" x="${x(v).toFixed(1)}" y="${pad.top + plotH + 30}" text-anchor="middle">${v}</text></g>`).join("")}
+    ${yTicks.map(v => `<g><line class="qso-tick" x1="${pad.left - 7}" y1="${y(v).toFixed(1)}" x2="${pad.left}" y2="${y(v).toFixed(1)}"></line><text class="qso-tick-label" x="${pad.left - 14}" y="${(y(v) + 6).toFixed(1)}" text-anchor="end">${v}</text></g>`).join("")}
+    <line class="qso-threshold" x1="${x(1.64).toFixed(1)}" y1="${pad.top}" x2="${x(1.64).toFixed(1)}" y2="${pad.top + plotH}"></line>
+    <line class="qso-threshold" x1="${pad.left}" y1="${y(21.5).toFixed(1)}" x2="${pad.left + plotW}" y2="${y(21.5).toFixed(1)}"></line>
+    <text class="qso-summary-label" x="${(x(1.64) + 8).toFixed(1)}" y="${pad.top + 20}">1.64 arcsec</text>
+    <text class="qso-summary-label" x="${pad.left + plotW - 96}" y="${(y(21.5) - 8).toFixed(1)}">m_cut=21.5</text>
+    <text class="qso-axis-label" x="${pad.left + plotW / 2}" y="${height - 22}" text-anchor="middle">maximum image separation (arcsec)</text>
+    <text class="qso-axis-label" transform="translate(25 ${pad.top + plotH / 2}) rotate(-90)" text-anchor="middle">screening magnitude</text>
+    ${usable.map(({ system, sep, mag }) => `<circle class="qso-sep-point" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${x(sep).toFixed(1)}" cy="${y(mag).toFixed(1)}" r="3.3"></circle>`).join("")}
+  `;
+}
+
+function bindQsoPoints() {
+  document.querySelectorAll(".qso-map-point, .qso-sep-point").forEach(point => {
     const show = event => showQsoTooltip(point.dataset.id, event);
     point.addEventListener("mouseenter", show);
     point.addEventListener("mousemove", show);
@@ -331,22 +398,33 @@ function showQsoTooltip(id, event) {
   if (!qsoMapTooltip) return;
   const system = systems.find(s => s.id === id);
   if (!system) return;
+  setQsoActive(id, true);
+  const allQso = qsoPlotData();
+  const stats = qsoStats(allQso);
   qsoMapTooltip.innerHTML = `
     <strong>${escapeHtml(system.name)}</strong>
     <small>RA/Dec: ${escapeHtml(system.ra || "")}, ${escapeHtml(system.dec || "")}</small>
-    <small>Sep: ${escapeHtml(system.separation_arcsec || "n/a")} arcsec</small>
+    <small>Image sep: ${escapeHtml(system.separation_arcsec || "n/a")} arcsec</small>
+    <small>Catalogue sep range: ${Number.isFinite(stats.sepMin) ? stats.sepMin.toFixed(2) : "n/a"}-${Number.isFinite(stats.sepMax) ? stats.sepMax.toFixed(2) : "n/a"} arcsec</small>
     <small>Screening mag: ${escapeHtml(system.faintest_image_mag || "n/a")} ${escapeHtml(system.faintest_image_mag_band || "")}</small>
   `;
   qsoMapTooltip.hidden = false;
-  const host = qsoSkyMap.getBoundingClientRect();
+  const host = document.querySelector(".qso-map-grid").getBoundingClientRect();
   const x = event.clientX ? event.clientX - host.left : Number(event.target.getAttribute("cx"));
   const y = event.clientY ? event.clientY - host.top : Number(event.target.getAttribute("cy"));
-  qsoMapTooltip.style.left = `${Math.min(Math.max(x + 14, 10), host.width - 230)}px`;
-  qsoMapTooltip.style.top = `${Math.min(Math.max(y + 14, 10), host.height - 132)}px`;
+  qsoMapTooltip.style.left = `${Math.min(Math.max(x + 14, 10), host.width - 270)}px`;
+  qsoMapTooltip.style.top = `${Math.min(Math.max(y + 14, 10), host.height - 148)}px`;
 }
 
 function hideQsoTooltip() {
+  setQsoActive(null, false);
   if (qsoMapTooltip) qsoMapTooltip.hidden = true;
+}
+
+function setQsoActive(id, active) {
+  document.querySelectorAll(".qso-map-point, .qso-sep-point").forEach(point => {
+    point.classList.toggle("is-active", active && point.dataset.id === id);
+  });
 }
 
 function escapeHtml(value) {

@@ -8,7 +8,7 @@
   <meta property="og:title" content="Show Me the Lens" />
   <meta property="og:description" content="Data catalogue of gravitationally lensed quasars and supernovae." />
   <meta property="og:type" content="website" />
-  <link rel="stylesheet" href="assets/css/styles.css?v=most-qso-map-20260618-6" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=most-qso-dual-20260620-1" />
 </head>
 <body>
   <div class="sky" aria-hidden="true"></div>
@@ -92,10 +92,16 @@
       <div class="section-heading">
         <h2 data-i18n="qso_map_title">Lensed QSO sky map</h2>
       </div>
-      <div class="qso-map-shell">
-        <svg id="qsoSkyMap" class="qso-sky-map" viewBox="0 0 960 480" role="img" aria-label="Interactive lensed QSO sky map"></svg>
+      <div class="qso-map-grid">
+        <div class="qso-map-shell">
+          <svg id="qsoSkyMap" class="qso-sky-map" viewBox="0 0 960 480" role="img" aria-label="Interactive lensed QSO sky map"></svg>
+        </div>
+        <div class="qso-map-shell">
+          <svg id="qsoSepMagPlot" class="qso-sep-mag-plot" viewBox="0 0 760 480" role="img" aria-label="Interactive lensed QSO separation and magnitude plot"></svg>
+        </div>
         <div id="qsoMapTooltip" class="qso-map-tooltip" hidden></div>
       </div>
+      <p id="qsoRangeSummary" class="qso-range-summary"></p>
     </section>
 
     <section class="panel split" id="sources">
@@ -130,7 +136,7 @@
     <p data-i18n="disclaimer">Disclaimer: this site is a research catalogue prototype. Redshifts, classifications, reference roles, and image rights should be checked against original papers, MAST metadata, and data-release pages.</p>
   </footer>
 
-  <script src="assets/js/data.js?v=most-qso-map-20260618-6"></script>
-  <script src="assets/js/app.js?v=most-qso-map-20260618-6"></script>
+  <script src="assets/js/data.js?v=most-qso-dual-20260620-1"></script>
+  <script src="assets/js/app.js?v=most-qso-dual-20260620-1"></script>
 </body>
 </html>

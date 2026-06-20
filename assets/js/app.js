@@ -372,10 +372,6 @@ function renderQsoSepMagPlot(qso, stats) {
     <line class="qso-axis" x1="${pad.left}" y1="${pad.top + plotH}" x2="${pad.left + plotW}" y2="${pad.top + plotH}"></line>
     ${xTicks.map(v => `<g><line class="qso-tick" x1="${x(v).toFixed(1)}" y1="${pad.top + plotH}" x2="${x(v).toFixed(1)}" y2="${pad.top + plotH + 7}"></line><text class="qso-tick-label" x="${x(v).toFixed(1)}" y="${pad.top + plotH + 30}" text-anchor="middle">${v}</text></g>`).join("")}
     ${yTicks.map(v => `<g><line class="qso-tick" x1="${pad.left - 7}" y1="${y(v).toFixed(1)}" x2="${pad.left}" y2="${y(v).toFixed(1)}"></line><text class="qso-tick-label" x="${pad.left - 14}" y="${(y(v) + 6).toFixed(1)}" text-anchor="end">${v}</text></g>`).join("")}
-    <line class="qso-threshold" x1="${x(1.64).toFixed(1)}" y1="${pad.top}" x2="${x(1.64).toFixed(1)}" y2="${pad.top + plotH}"></line>
-    <line class="qso-threshold" x1="${pad.left}" y1="${y(21.5).toFixed(1)}" x2="${pad.left + plotW}" y2="${y(21.5).toFixed(1)}"></line>
-    <text class="qso-summary-label" x="${(x(1.64) + 8).toFixed(1)}" y="${pad.top + 20}">1.64 arcsec</text>
-    <text class="qso-summary-label" x="${pad.left + plotW - 96}" y="${(y(21.5) - 8).toFixed(1)}">m_cut=21.5</text>
     <text class="qso-axis-label" x="${pad.left + plotW / 2}" y="${height - 22}" text-anchor="middle">maximum image separation (arcsec)</text>
     <text class="qso-axis-label" transform="translate(25 ${pad.top + plotH / 2}) rotate(-90)" text-anchor="middle">screening magnitude</text>
     ${usable.map(({ system, sep, mag }) => `<circle class="qso-sep-point" tabindex="0" data-id="${escapeAttr(system.id)}" cx="${x(sep).toFixed(1)}" cy="${y(mag).toFixed(1)}" r="3.3"></circle>`).join("")}
